@@ -3,13 +3,13 @@
 <suite name="MaaS_Regression_Suite" allow-return-values="true">
   <test verbose="2" name="MaaS_Regression_Test" preserve-order="true">
     <classes> 
-    	<class name="com.phunware.test.Login" ></class> 
+    <!--	<class name="com.phunware.test.Login" ></class> 
     	<class name="com.phunware.test.PhunwareClients" ></class>
     	<class name="com.phunware.test.Analytics" ></class>    	    	  	
       	<class name="com.phunware.test.AlertsAndNotifications" ></class>
       	<class name="com.phunware.test.ContentManagement" ></class>
       	<class name="com.phunware.test.Advertising" ></class>
-		<class name="com.phunware.test.Location" ></class> 		
+		<class name="com.phunware.test.Location" ></class> -->		
     </classes>
   </test> <!-- Default test -->
 </suite> <!-- Default suite -->
