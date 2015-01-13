@@ -31,8 +31,8 @@ import atu.testng.reports.listeners.MethodListener;
  * 
  */
 
-@Listeners({ ATUReportsListener.class, ConfigurationListener.class,
-		MethodListener.class })
+//@Listeners({ ATUReportsListener.class, ConfigurationListener.class,
+	//	MethodListener.class })
 public class Login extends Suite {
 	private static Logger logger = Logger.getLogger(Login.class);
 	private static String childSuite = "login";
