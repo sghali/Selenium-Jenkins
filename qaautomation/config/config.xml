@@ -2,7 +2,7 @@
 <!-- browser IE/CHROME/FIREFOX/SAFARI -->
 <config>
 	<environment name="mass-stage" runmode="Y">	
-	<browser>SAFARI</browser>	
+	<browser>FIREFOX</browser>	
 	<url>https://maas-stage.phunware.com/login</url>
 	</environment>	
 	<environment name="mass-dev" runmode="N">	
