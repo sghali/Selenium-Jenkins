@@ -51,11 +51,11 @@ public class Login extends Suite {
 	@BeforeClass
 	public void setUp() {
 		// Initialize SoftAssert Object
-		m_assert = new SoftAssert();
+	//	m_assert = new SoftAssert();
 		// Set Index Page Description for Results
-		ReportUtils.setIndexPageDescription();
+	//	ReportUtils.setIndexPageDescription();
 		// Set Author Reports
-		ReportUtils.setAuthorInfoForReports();
+	//	ReportUtils.setAuthorInfoForReports();
 		// Check the Test suite is added for execution
 		for (String testSuite : scenarioslist) {
 			if (childSuite.equalsIgnoreCase(testSuite)) {
@@ -197,7 +197,7 @@ public class Login extends Suite {
 		// Compare the texts
 		if (configproperties.get(0).equalsIgnoreCase("IE")) {
 			isTextMatching = SeleniumUtils.assertEqual(
-					ActualErrorTextForInvalidLogin, "× Invalid credentials.");
+					ActualErrorTextForInvalidLogin, "Ã— Invalid credentials.");
 		} else {
 			isTextMatching = SeleniumUtils.assertEqual(
 					ActualErrorTextForInvalidLogin,
