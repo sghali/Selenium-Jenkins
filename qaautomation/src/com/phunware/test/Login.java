@@ -31,8 +31,8 @@ import atu.testng.reports.listeners.MethodListener;
  * 
  */
 
-//@Listeners({ ATUReportsListener.class, ConfigurationListener.class,
-//		MethodListener.class })
+@Listeners({ ATUReportsListener.class, ConfigurationListener.class,
+		MethodListener.class })
 public class Login extends Suite {
 	private static Logger logger = Logger.getLogger(Login.class);
 	private static String childSuite = "login";
@@ -51,11 +51,11 @@ public class Login extends Suite {
 	@BeforeClass
 	public void setUp() {
 		// Initialize SoftAssert Object
-	//	m_assert = new SoftAssert();
+		m_assert = new SoftAssert();
 		// Set Index Page Description for Results
-	//	ReportUtils.setIndexPageDescription();
+	      ReportUtils.setIndexPageDescription();
 		// Set Author Reports
-	//	ReportUtils.setAuthorInfoForReports();
+		ReportUtils.setAuthorInfoForReports();
 		// Check the Test suite is added for execution
 		for (String testSuite : scenarioslist) {
 			if (childSuite.equalsIgnoreCase(testSuite)) {
