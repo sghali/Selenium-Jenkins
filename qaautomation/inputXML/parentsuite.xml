@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<parentsuite>
+	<testsuite name="login" runmode="Y"/>
+	<testsuite name="phunwareClients" runmode="Y"/>
+	<testsuite name="analytics" runmode="Y"/>
+	<testsuite name="alertsAndnotifications" runmode="Y"/>
+	<testsuite name="contentmanagement" runmode="Y"/>
+	<testsuite name="advertising" runmode="Y"/>
+	<testsuite name="location" runmode="Y"/>
+	<testsuite name="commonscenarios" runmode="Y"/>
+</parentsuite>
+
+
+	

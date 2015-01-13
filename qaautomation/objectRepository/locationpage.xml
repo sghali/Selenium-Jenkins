@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OR>
+	<!--Phunware - all Elements in Location tab -->
+	<element name="LocationTab" locatortype="xpath"
+		locatorvalue=".//a[@href='/lbs/configure/mse/venues']" exptext="LOCATION" />
+	<element name="LocationConfigure" locatortype="xpath"
+		locatorvalue=".//li[@class='sub-nav-menu-item sub-nav-menu-item-selected']/a"
+		exptext="Configure" />
+	<element name="LocationHeader" locatortype="xpath"
+		locatorvalue=".//header[@class='dashboard-main-content-msg']/h1"
+		exptext="CONFIGURE MSE" />
+	<element name="LocationNewVenueBtn" locatortype="xpath"
+		locatorvalue=".//a[@id='btn-add-venue']" exptext="New Venue" />
+	<element name="LocationMapEditor" locatortype="xpath"
+		locatorvalue=".//li[@class='sub-nav-menu-item-map-editor']/button"
+		exptext="MAP EDITOR" />
+	<element name="LocationAddVenuesHeader" locatortype="xpath"
+		locatorvalue=".//header[@class='dashboard-main-content-msg']/h1"
+		exptext="Add New Venue" />
+	<element name="LocationAddVenueSubHeaderVenueInformation"
+		locatortype="xpath" locatorvalue=".//form[@class='form-horizontal']/div[1]/h2"
+		exptext="Venue Information" />
+	<element name="LocationSupportTab" locatortype="xpath"
+		locatorvalue=".//a[@href='http://phunware.zendesk.com']" exptext=" Support" />
+	<element name="ConfigureTable" locatortype="xpath"
+		locatorvalue=".//div[@id='container-item-list']" />
+	<!--Phunware - Elements in AddVenue Page tab -->
+	<element name="LocationAddVenueSubHeaderPerimeterNotification"
+		locatortype="xpath" locatorvalue=".//form[@class='form-horizontal']/div[3]/h2"
+		exptext="Perimeter Notifications" />
+	<element name="LocationAddVenueSubHeaderApplicationAvailability"
+		locatortype="xpath" locatorvalue=".//form[@class='form-horizontal']/div[5]/h2"
+		exptext="Application Availability" />
+	<element name="LocationAddVenueNameInput" locatortype="xpath"
+		locatorvalue=".//input[@id='venue_save_name']" exptext="" />
+	<element name="LocationAddVenueOnEntry" locatortype="xpath"
+		locatorvalue=".//textarea[@id='venue_save_zoneHandlers_0_actionDataMessage']"
+		exptext="" />
+	<element name="LocationAddVenueHours" locatortype="xpath"
+		locatorvalue=".//select[@id='zone-cooldown-hours']" exptext="" />
+	<element name="LocationAddVenueHoursMin" locatortype="xpath"
+		locatorvalue=".//select[@id='zone-cooldown-mins']" exptext="" />
+	<element name="L_AddVenue_AppList" locatortype="xpath"
+		locatorvalue=".//div[@id='applicationList']/div/div" exptext="" />
+	<!--Phunware - Cancel and Save Buttons in AddVenue Page tab -->
+	<element name="LocationAddVenueCancel" locatortype="xpath"
+		locatorvalue=".//a[@class='button-white-bg button-cancel-small']"
+		exptext="Cancel" />
+	<element name="LocationAddVenueSave" locatortype="xpath"
+		locatorvalue=".//button[@class='button-white-bg button-send-now']"
+		exptext="Save" />
+	<!--Phunware - some dropdown options in addvenueCheckBox pane tab -->
+	<element name="LocationAddVenueCheckBoxPane" locatortype="xpath"
+		locatorvalue=".//div[@class='row-fluid inner-padding']" exptext="" />
+	<element name="LocationAddVenueCheckBox1" locatortype="xpath"
+		locatorvalue=".//label[@for='venue_save_clients_0']"
+		exptext="                 Alerts Sample (ios)                                  " />
+	<element name="LocationAddVenueCheckBox2" locatortype="xpath"
+		locatorvalue=".//label[@for='venue_save_clients_1']"
+		exptext="                 Alerts Sample (Stage) (android)                                  " />
+	<element name="LocationAddVenueCheckBox3" locatortype="xpath"
+		locatorvalue=".//label[@for='venue_save_clients_2']"
+		exptext="                 Allen Test (android)                                  " />
+	<element name="LocationAddVenueCheckBox4" locatortype="xpath"
+		locatorvalue=".//label[@for='venue_save_clients_3']"
+		exptext="                 Analytics Sample (Stage) (android)                                  " />
+	<!--Phunware - elements in mapeditor tab -->
+	<element name="LocationMapEditorVenueSelectDD" locatortype="xpath"
+		locatorvalue=".//select[@id='venue-select']" exptext="" />
+	<element name="LocationMapEditorBuildingSelectDD" locatortype="xpath"
+		locatorvalue=".//select[@id='building-select']" exptext="" />
+	<element name="LocationMapEditorLevelSelectDD" locatortype="xpath"
+		locatorvalue=".//select[@id='level-select']" exptext="" />
+	<element name="LocationMapEditorLevelSelectDD" locatortype="xpath"
+		locatorvalue=".//select[@id='level-select']" exptext="" />
+	<!--Phunware - elements inSide Map tab -->
+	<element name="LocationMapEditorZoomIn" locatortype="xpath"
+		locatorvalue=".//a[@class='leaflet-control-zoom-in']" exptext="" />
+	<element name="LocationMapEditorZoomOut" locatortype="xpath"
+		locatorvalue=".//a[@class='leaflet-control-zoom-out leaflet-disabled']"
+		exptext="" />
+	<element name="LocationMapEditorZoomOutDynamic" locatortype="xpath"
+		locatorvalue=".//a[@class='leaflet-control-zoom-out']" exptext="" />
+	<element name="LocationMapEditorDDMarker" locatortype="xpath"
+		locatorvalue=".//a[@class='leaflet-draw-draw-marker']" exptext="" />
+	<element name="LocationMapEditorDDPoint" locatortype="xpath"
+		locatorvalue=".//a[@class='leaflet-draw-draw-point']" exptext="" />
+	<element name="LocationMapEditorDDPolyline" locatortype="xpath"
+		locatorvalue=".//a[@class='leaflet-draw-draw-polyline']" exptext="" />
+	<element name="LocationMapEditorDDCircle" locatortype="xpath"
+		locatorvalue=".//a[@class='leaflet-draw-draw-circle']" exptext="" />
+	<element name="LocationMapEditorDDEditEdit" locatortype="xpath"
+		locatorvalue=".//a[@class='leaflet-draw-edit-edit']" exptext="" />
+	<element name="LocationMapEditorDDEditEditEnabled" locatortype="xpath"
+		locatorvalue=".//a[@class='leaflet-draw-edit-edit leaflet-draw-toolbar-button-enabled']"
+		exptext="" />
+	<element name="LocationMapEditorDDEditRemove" locatortype="xpath"
+		locatorvalue=".//a[@class='leaflet-draw-edit-remove']" exptext="" />
+	<element name="LocationMapEditorDDEditRemoveEnabled"
+		locatortype="xpath"
+		locatorvalue=".//a[@class='leaflet-draw-edit-remove leaflet-draw-toolbar-button-enabled']"
+		exptext="" />
+	<element name="LocationMapEditorLink" locatortype="xpath"
+		locatorvalue=".//a[@class='leaflet-draw-draw-polyline leaflet-draw-toolbar-button-enabled']"
+		exptext="" />
+	<element name="LocationMapEdiorToggleSegment" locatortype="xpath"
+		locatorvalue=".//label[@for='toggle-segments']" exptext="Segments" />
+	<element name="LocationMapEdiorToggleRoutes" locatortype="xpath"
+		locatorvalue=".//label[@for='toggleRoutes']" exptext="Routes" />
+	<element name="LocationMapEdiorToggleZones" locatortype="xpath"
+		locatorvalue=".//label[@for='toggle-zones']" exptext="Zones" />
+	<element name="LocationMapEdiorPullTab" locatortype="xpath"
+		locatorvalue=".//div[@id='pull-tab']" exptext="" />
+	<element name="LocationMapEdiorPullTab_Right" locatortype="xpath"
+		locatorvalue=".//i[@class='icon-chevron-right']" exptext="" />
+	<!--Phunware - elements in map -->
+	<element name="mapElement" locatortype="xpath"
+		locatorvalue=".//svg[@class='leaflet-zoom-animated']" exptext="" />
+	<element name="pointOfInterest" locatortype="xpath"
+		locatorvalue=".//img[@class='margin-left: -8px; margin-top: -8px; width: 16px; height: 16px; transform: translate(632px, 338px); z-index: 338;']"
+		exptext="" />
+	<!--Adding Values to the Zone Trigger -->
+	<element name="ZoneName" locatortype="xpath"
+		locatorvalue=".//input[@id='zone_save_name']" exptext="" />
+	<element name="ZoneMessage" locatortype="xpath"
+		locatorvalue=".//textarea[@id='zone_save_alertHandler_actionDataMessage']"
+		exptext="" />
+	<element name="ZoneCoolDownHours" locatortype="xpath"
+		locatorvalue=".//div[@id='zone-edit-form']/div[5]/div[1]/div[@class='selectbox']/label/select[@id='zone-cooldown-hours']"
+		exptext="" />
+	<element name="ZoneCoolDownMnts" locatortype="xpath"
+		locatorvalue=".//div[@id='zone-edit-form']/div[5]/div[2]/div[@class='selectbox']/label/select[@id='zone-cooldown-mins']"
+		exptext="" />
+	<element name="ZoneCancelBtn" locatortype="xpath"
+		locatorvalue=".//a[@id='add-zone-cancel-btn']" exptext="Cancel" />
+	<element name="ZoneSaveBtn" locatortype="xpath"
+		locatorvalue=".//button[@id='add-zone-save-btn']" exptext="Save" />
+	<!--Adding Values POI -->
+	<element name="POIName" locatortype="xpath"
+		locatorvalue=".//div[@class='span12']/input[@id='point_save_name']"
+		exptext="" />
+	<element name="AddingPOIName" locatortype="xpath"
+		locatorvalue=".//div[@id='point-edit-form']/div[2]/div[@class='span12']/input[@id='point_save_name']"
+		exptext="" />
+	<element name="POIName1" locatortype="xpath"
+		locatorvalue=".//input[@id='point_save_name']" exptext="" />
+	<element name="POIType" locatortype="xpath"
+		locatorvalue=".//select[@id='point_save_poiType']" exptext="" />
+	<element name="POICustomIconImage" locatortype="xpath"
+		locatorvalue=".//select[@id='point_save_customIconImageUrl']" exptext="" />
+	<element name="POIPortalId" locatortype="xpath"
+		locatorvalue=".//input[@id='point_save_portalId']" exptext="" />
+	<element name="POIZoomLevel" locatortype="xpath"
+		locatorvalue=".//select[@id='point_save_zoomLevel']" exptext="" />
+	<element name="POIMaximumZoomLevel" locatortype="xpath"
+		locatorvalue=".//select[@id='point_save_maxZoomLevel']" exptext="" />
+	<element name="POIDescription" locatortype="xpath"
+		locatorvalue=".//textarea[@id='point_save_description']" exptext="" />
+	<element name="POIIsActive" locatortype="xpath"
+		locatorvalue=".//label[@for='point_save_isActive']" exptext="" />
+	<element name="POIIsExit" locatortype="xpath"
+		locatorvalue=".//label[@for='point_save_isExit']" exptext="" />
+	<element name="POISave" locatortype="xpath"
+		locatorvalue=".//button[@id='add-point-save-btn']" exptext="" />
+	<element name="POICancel" locatortype="xpath"
+		locatorvalue=".//a[@id='add-point-cancel-btn']" exptext="" />
+	<element name="cancelDrawing" locatortype="xpath"
+		locatorvalue=".//a[@title='Cancel drawing']" exptext="" />
+	<element name="wayPoint1" locatortype="xpath"
+		locatorvalue=".//div[@class='leaflet-marker-pane']/img/following-sibling::*[2]"
+		exptext="" />
+	<element name="wayPoint1AfterEditing" locatortype="xpath"
+		locatorvalue=".//div[@class='leaflet-marker-pane']/img/following-sibling::*[2]"
+		exptext="" />
+	<element name="wayPoint2" locatortype="xpath"
+		locatorvalue=".//div[@class='leaflet-marker-pane']/img/following-sibling::*[3]"
+		exptext="" />
+	<element name="wayPoint3" locatortype="xpath"
+		locatorvalue=".//div[@class='leaflet-marker-pane']/img/following-sibling::*[4]"
+		exptext="" />
+	<element name="wayPoint4" locatortype="xpath"
+		locatorvalue=".//div[@class='leaflet-marker-pane']/img/following-sibling::*[5]"
+		exptext="" />
+	<element name="poiOne" locatortype="cssSelector"
+		locatorvalue="div.leaflet-marker-pane > img:nth-child(1)" exptext="" />
+	<element name="poiOneDelete" locatortype="cssSelector"
+		locatorvalue="div.leaflet-marker-pane > img:nth-child(1)" exptext="" />
+	<element name="poiTwo" locatortype="cssSelector"
+		locatorvalue="div.leaflet-marker-pane > img:nth-child(2)" exptext="" />
+	<element name="moveZone1Point" locatortype="xpath"
+		locatorvalue=".//div[@class='leaflet-marker-pane']/div[1]" exptext="" />
+	<element name="wayPoint1_firefox" locatortype="cssSelector"
+		locatorvalue="div.leaflet-marker-pane > img:nth-child(3)" exptext="" />
+	<element name="wayPoint1AfterEditing_firefox" locatortype="cssSelector"
+		locatorvalue="div.leaflet-marker-pane > img:nth-child(3)" exptext="" />
+	<element name="wayPoint2_firefox" locatortype="xpath"
+		locatorvalue=".//div[@class='leaflet-marker-pane']/img/following-sibling::*[3]"
+		exptext="" />
+	<element name="wayPoint3_firefox" locatortype="xpath"
+		locatorvalue=".//div[@class='leaflet-marker-pane']/img/following-sibling::*[4]"
+		exptext="" />
+	<element name="wayPoint4_firefox" locatortype="xpath"
+		locatorvalue=".//div[@class='leaflet-marker-pane']/img/following-sibling::*[5]"
+		exptext="" />
+	<element name="poiOne_firefox" locatortype="cssSelector"
+		locatorvalue="div.leaflet-marker-pane > img:nth-child(1)" exptext="" />
+	<element name="poiOneDelete_firefox" locatortype="cssSelector"
+		locatorvalue="div.leaflet-marker-pane > img:nth-child(1)" exptext="" />
+	<element name="poiTwo_firefox" locatortype="cssSelector"
+		locatorvalue="div.leaflet-marker-pane > img:nth-child(2)" exptext="" />
+	<element name="moveZone1Point_firefox" locatortype="xpath"
+		locatorvalue=".//div[@class='leaflet-marker-pane']/div[1]" exptext="" />
+	<element name="saveChanges" locatortype="xpath"
+		locatorvalue=".//a[@title='Save changes.']" exptext="" />
+	<element name="wayPoint1_old" locatortype="xpath"
+		locatorvalue=".//img[contains(@style,'translate3d(326px, 392px, 0)')]"
+		exptext="" />
+	<element name="wayPoint1AfterEditing_old" locatortype="xpath"
+		locatorvalue=".//img[contains(@style,'translate3d(326px, 292px, 0)')]"
+		exptext="" />
+	<element name="wayPoint2_old" locatortype="xpath"
+		locatorvalue=".//img[contains(@style,'translate3d(387px, 392px, 0)')]"
+		exptext="" />
+	<element name="wayPoint3_old" locatortype="xpath"
+		locatorvalue=".//img[contains(@style,'translate3d(388px, 282px, 0)')]"
+		exptext="" />
+	<element name="wayPoint4_old" locatortype="xpath"
+		locatorvalue=".//img[contains(@style,'translate3d(456px, 275px, 0)')]"
+		exptext="" />
+	<element name="wayPoint5_old" locatortype="xpath"
+		locatorvalue=".//img[contains(@style,'translate3d(529px, 279px, 0)')]"
+		exptext="" />
+	<element name="poiOne_old" locatortype="xpath"
+		locatorvalue=".//img[contains(@style,'translate3d')]" exptext="" />
+	<element name="poiOneDelete_old" locatortype="xpath"
+		locatorvalue=".//img[contains(@style,'translate3d(223px, 286px, 0)')]"
+		exptext="" />
+	<element name="poiTwo_old" locatortype="xpath"
+		locatorvalue=".//img[contains(@style,'translate3d(423px, 286px, 0)')]"
+		exptext="" />
+	<element name="moveZone1Point_old" locatortype="xpath"
+		locatorvalue=".//div[contains(@style,'translate3d(223px, 417px, 0)')]"
+		exptext="" />
+	<element name="moveZone1Point_Firefox_old" locatortype="xpath"
+		locatorvalue=".//div[contains(@style,'translate(223px, 417px)')]"
+		exptext="" />
+	<element name="enlargeZone1Point" locatortype="xpath"
+		locatorvalue=".//div[contains(@style,'translate3d(272px, 418px, 0)')]"
+		exptext="" />
+	<element name="ZoneOneAfterEdit" locatortype="xpath"
+		locatorvalue=".//path[contains(@d,'M23,135A69,69,0,1,1,22.9,135 z')]"
+		exptext="" />
+	<element name="ZoneOneAfterEditOne" locatortype="xpath"
+		locatorvalue=".//svg[@class=' leaflet-zoom-animated')]/g[4]" exptext="" />
+	<element name="ZoneOneAfterEditTwo" locatortype="xpath"
+		locatorvalue=".//svg[contains(@style,'translate3d(-477px, -253px, 0)')]/g[4]"
+		exptext="" />
+	<element name="wayPoint1_firefox_old" locatortype="xpath"
+		locatorvalue=".//img[contains(@style,'translate(326px, 392px)')]"
+		exptext="" />
+	<element name="wayPoint1AfterEditing_firefox_old" locatortype="xpath"
+		locatorvalue=".//img[contains(@style,'translate(326px, 297px)')]"
+		exptext="" />
+	<element name="wayPoint2_firefox_old" locatortype="xpath"
+		locatorvalue=".//img[contains(@style,'translate(387px, 392px)')]"
+		exptext="" />
+	<element name="wayPoint3_firefox_old" locatortype="xpath"
+		locatorvalue=".//img[contains(@style,'translate(388px, 282px)')]"
+		exptext="" />
+	<element name="wayPoint4_firefox_old" locatortype="xpath"
+		locatorvalue=".//img[contains(@style,'translate(456px, 275px)')]"
+		exptext="" />
+	<element name="poiOne_firefox_old" locatortype="xpath"
+		locatorvalue=".//img[contains(@style,'translate(223px, 386px)')]"
+		exptext="" />
+	<element name="poiOneDelete_firefox_old" locatortype="xpath"
+		locatorvalue=".//img[contains(@style,'translate(223px, 291px)')]"
+		exptext="" />
+	<element name="poiTwo_firefox_old" locatortype="xpath"
+		locatorvalue=".//img[contains(@style,'translate(423px, 286px)')]"
+		exptext="" />
+	<!-- Elements in MAP EDITOR after editing -->
+	<element name="POI_One_After_Edit" locatortype="xpath"
+		locatorvalue=".//img[contains(@style,'translate(223px, 286px)')]"
+		exptext="" />
+	<element name="ZONE_One_After_Edit" locatortype="xpath"
+		locatorvalue=".//svg[@class=' leaflet-zoom-animated')]/g[8]" exptext="" />
+	<element name="ZONE_Two_After_Edit" locatortype="xpath"
+		locatorvalue=".//svg[@class=' leaflet-zoom-animated')]/g[9]" exptext="" />
+	<element name="LBS_Map_PageLoading" locatortype="xpath"
+		locatorvalue=".//div[@id='ajaxstatus')]" exptext="" />
+</OR>

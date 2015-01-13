@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testcase name="location">
+	<case name="loginAs" runmode="Y">
+		<param id="username">bhargavas@cybage.com</param>
+		<param id="password">password</param>
+		<param id="organization">cybage</param>
+	</case>
+	<case name="clickAndVerifyLocationTab" runmode="Y"></case>
+	<case name="verifyLocationTabLayout" runmode="Y"></case>
+	<case name="verifyConfigureTabLayout" runmode="Y"></case>
+	<case name="verifyNewVenueTabLayout" runmode="Y"></case>
+	<case name="validatingAddingNewVenue" runmode="Y"></case>
+	<case name="createNewVenue" runmode="N">
+		<param id="venueName">CYB_TOWERS_2</param>
+		<param id="onEntry">Welcome To CYBAGE TOWERS BUILDING NO 2</param>
+		<param id="hours">15</param>
+		<param id="minutes">45</param>
+		<param id="appSelection1">Cybage Test iOS App (ios)</param>
+		<param id="appSelection2">Cybage Test Android App (android)</param>
+	</case>
+	<case name="verifyMappingLayout" runmode="Y"></case>
+	<case name="creatingZone_One" runmode="Y">
+		<param id="venueName">Phunware Native Mapping</param>
+		<param id="Name">conference room1</param>
+		<param id="Message">Welcome to conference room1</param>
+		<param id="zoneHours">15</param>
+		<param id="zoneMin">45</param>
+	</case>
+	<case name="creatingPointOfInterest_One" runmode="Y">
+		<param id="Name">conference room1</param>
+		<param id="Type">Banquet Hall</param>
+		<param id="CustomIconImage"></param>
+		<param id="portalId">BH1</param>
+		<param id="zoomLevel">-1</param>
+		<param id="maxZoomLevel">-1</param>
+		<param id="description">This is Banquet Hall1</param>
+		<param id="venueName">Phunware Native Mapping</param>
+	</case>
+	<case name="creatingZone_two" runmode="Y">
+		<param id="Name">CEO Chamber</param>
+		<param id="Message">Welcome to CEO Chamber</param>
+		<param id="zoneHours">15</param>
+		<param id="zoneMin">45</param>
+	</case>
+	<case name="creatingPointOfInterest_Two" runmode="Y">
+		<param id="Name">CEO Chamber</param>
+		<param id="Type">Business Facility</param>
+		<param id="portalId">Business Facility</param>
+		<param id="zoomLevel">-1</param>
+		<param id="maxZoomLevel">-1</param>
+		<param id="description">This is Business Facility Hall</param>
+		<param id="venueName">Phunware Native Mapping</param>
+	</case>
+	<case name="creatingSegments" runmode="Y"></case>
+	<case name="editingElementsOnMapEditor" runmode="Y"></case>
+	<case name="removingElementsOnMapEditor" runmode="Y"></case>
+	<case name="logOut" runmode="Y"></case>
+</testcase>

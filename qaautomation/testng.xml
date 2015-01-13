@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="MaaS_Regression">
+	<!-- <listeners> <listener class-name="org.uncommons.reportng.HTMLReporter" 
+		/> <listener class-name="org.uncommons.reportng.JUnitXMLReporter" /> </listeners> -->
+
+	<suite-files>
+		<suite-file path="./src/TestSuite.xml" />
+	</suite-files>
+</suite>
+
+

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testcase name="commonscenarios">
+
+	<!--loginWithGoogleAccount - To Login into the application with Google Account -->
+	<case name="loginWithGoogleAccount" runmode="Y">
+		<param id="gmailusername">maasbhargavas@gmail.com</param>
+		<param id="gmailpassword">maaspassword</param>
+		<param id="organization">Cybage</param>
+	</case>
+	
+	<!--validateInActiveUser - To Login into the application -->
+	<case name="validateInActiveUser" runmode="Y">
+		<param id="username">bhargavas@cybage.com</param>
+		<param id="password">password</param>
+		<param id="organization">Cybage</param>
+		<param id="firstName">active</param>
+		<param id="lastName">Inactive</param>
+		<param id="email">activeInactive@cybage.com</param>		
+	</case>
+
+	<!--loginAs - To Login into the application -->
+	<case name="loginAs" runmode="Y">
+		<param id="username">bhargavas@cybage.com</param>
+		<param id="password">password</param>
+		<param id="organization">Cybage</param>
+	</case>
+
+	<!--verify_ForGotPassword_Functionality - To Verify ForGot Password functionality -->
+	<case name="verify_ForGotPassword_Functionality" runmode="Y">
+		<param id="firstName">bhargava</param>
+		<param id="lastName">s</param>
+		<param id="email">maasbhargavas@gmail.com</param>
+		<param id="password">password</param>
+		<param id="forgotpassword_url">https://maas-stage.phunware.com/forgot-password</param>
+		<param id="gmailusername">maasbhargavas@gmail.com</param>
+		<param id="gmailpassword">maaspassword</param>
+		<param id="newpassword">password1</param>
+	</case>
+
+
+
+
+
+
+
+
+
+</testcase>

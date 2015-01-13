@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testcase name="advertising">
+	<!--loginAs - To Login into the application -->
+	<case name="loginAs" runmode="Y">
+		<param id="organization">cybage</param>
+		<param id="username">bhargavas@cybage.com</param>
+		<param id="password">password</param>
+	</case>
+	<!--verifyAdvertisingInitialLayout - To Verify Initial Layout of the Advertising 
+		tab -->
+	<case name="verifyAdvertisingInitialLayout" runmode="Y">
+	</case>
+	<!--verifyAdvertisingCampaignBuilderLayout - To Verify Campaign Builder 
+		tab -->
+	<case name="verifyAdvertisingCampaignBuilderLayout" runmode="Y">
+	</case>
+	<!--validationsInCreateCampaignBuilder - To validate Create new Campaign -->
+	<case name="validationsInCreateCampaignBuilder" runmode="Y">
+		<param id="campaignName">Cybage Automation Campaign</param>
+		<param id="platformDeviceType">Specific Platforms</param>
+		<param id="platformDeviceType">Handsets</param>
+		<param id="OSType">iOS</param>
+		<param id="accuracy">Country</param>
+		<param id="country">India</param>
+	</case>
+	<!--validateCampaignBuilderWithWhiteSpaces - To Validate Campaign Builder 
+		with white spaces in text boxes -->
+	<case name="validateCampaignBuilderWithWhiteSpaces" runmode="Y">
+		<param id="country">India</param>
+		<param id="clickurl">http://www.google.com</param>
+	</case>
+	<!--createCampaignBuilder - To Create new Campaign Builder -->
+	<case name="createCampaignBuilder" runmode="Y">
+		<param id="campaignName">Cybage Automation Campaign</param>
+		<param id="category">Communications</param>
+		<param id="platformDeviceType">Handsets</param>
+		<param id="OSType">iOS</param>
+		<param id="accuracy">Country</param>
+		<param id="country">India</param>
+		<param id="states">Alabama</param>
+		<param id="source">All Traffic</param>
+		<param id="phonead">Full Interstitial (320 x 480)</param>
+		<param id="clickurl">http://www.google.com</param>
+	</case>
+	<!--verifyAdvertisingDashboardLayout - To Verify Dashboard tab Layout -->
+	<case name="verifyAdvertisingDashboardLayout" runmode="Y">
+	</case>
+	<!--verifyDashboardData - To Verify data fir the Dashboard tab -->
+	<case name="verifyDashboardData" runmode="Y">
+		<param id="application">All Applications</param>
+		<param id="time">Year To-Date</param>
+	</case>
+	<!--verifyAdvertisingCampaignsLayout - To Verify Campaigns tab -->
+	<case name="verifyAdvertisingCampaignsLayout" runmode="Y">
+	</case>
+	<!--editCampaign - To edit campaign -->
+	<case name="editCampaign" runmode="Y">
+		<param id="campaignName">Cybage Automation Campaign</param>
+		<param id="campaignNameEdit">Cybage Automation Campaign Edit</param>
+		<param id="category">Tools and Utilities</param>
+		<param id="platformDeviceType">Handsets</param>
+		<param id="OSType">Android</param>
+		<param id="accuracy">State</param>
+		<param id="country">India</param>
+		<param id="states">Alabama</param>
+		<param id="zipcode">35004</param>
+		<param id="zipcodeMulti1">35004</param>
+		<param id="zipcodeMulti2">35005</param>
+		<param id="source">All Carriers</param>
+		<param id="phonead">Full Interstitial (320 x 480)</param>
+		<param id="clickurl">http://www.google.com</param>
+	</case>
+	<!--verifySitesLayout - To Verify Sites tab Layout -->
+	<case name="verifySitesLayout" runmode="Y">
+		<param id="application">Cybage MaasAutomation Test111</param>
+	</case>
+	<!--verifyConfiguration - To Verify Configuration -->
+	<case name="verifyConfiguration" runmode="Y">
+		<param id="application">Cybage MaasAutomation Test111</param>
+		<param id="channel">Automotive</param>
+		<param id="maleGenderSelect">10</param>
+		<param id="ageLower">20</param>
+		<param id="ageUpper">30</param>
+		<param id="ageUpper">30</param>
+		<param id="MinimumCPI">5.00</param>
+		<param id="MinimumCPC">5.00</param>
+		<param id="MinimumCPM">5.00</param>
+	</case>
+	<!--verifyAdPlacements - To Verify Ad Placements -->
+	<case name="verifyAdPlacements" runmode="Y">
+		<param id="application">Cybage MaasAutomation Test111</param>
+		<param id="AdPlacementsSearchText">34529</param>
+	</case>
+	<!--createNewAdInAdPlacements - To Create new ad in Ad Placements -->
+	<case name="createNewAdInAdPlacements" runmode="Y">
+		<param id="application">Cybage MaasAutomation Test111</param>
+		<param id="DeviceSelection">Phone</param>
+		<param id="DeviceType">Video</param>
+	</case>
+	<!--editAdInAdPlacements - To Edit existing ad in Ad Placements -->
+	<case name="editAdInAdPlacements" runmode="Y">
+		<param id="application">Cybage MaasAutomation Test111</param>
+		<param id="DeviceName">Phone - Video</param>
+		<param id="DeviceSelection">Tablet</param>
+		<param id="DeviceType">Video</param>
+	</case>
+	<!--deleteAdInAdPlacements - To delete existing ad in Ad Placements -->
+	<case name="deleteAdInAdPlacements" runmode="Y">
+		<param id="application">Cybage MaasAutomation Test111</param>
+		<param id="DeviceName">Phone - Video</param>
+	</case>
+	<!--verifyViewStats - To Verify View Stats link -->
+	<case name="verifyViewStats" runmode="Y">
+		<param id="application">Cybage MaasAutomation Test111</param>
+		<param id="DeviceName">Phone - Video</param>
+	</case>
+	<!--deleteAdInAdPlacements - To Verify Get the Sdk link -->
+	<case name="verifyGetTheSDK" runmode="Y">
+		<param id="application">Cybage MaasAutomation Test111</param>
+	</case>
+	<!--verifyReports - To Verify data fir the Reports tab -->
+	<case name="verifyReports" runmode="Y">
+		<param id="application">All Applications</param>
+		<param id="time">Year To-Date</param>
+		<param id="ReportFilter1">Site</param>
+		<param id="ReportFilter2">Zone</param>
+		<param id="ReportFilter3">Country</param>
+	</case>
+	<case name="verifyDownloads" runmode="Y">
+	</case>
+	<case name="verifyPayments" runmode="Y">
+	</case>
+	<case name="verify_Advertising_Payments_ACHWIRE" runmode="Y">
+	</case>
+	<case name="validate_Advertising_Payments_ACHWIRE" runmode="Y">
+	</case>
+	<case name="verify_And_Validate_Advertising_Payments_PayPal"
+		runmode="Y">
+	</case>
+	<case name="verifyAccount" runmode="Y">
+	</case>
+	<!--logOut - To Logout from the application -->
+	<case name="logOut" runmode="Y">
+	</case>
+</testcase>

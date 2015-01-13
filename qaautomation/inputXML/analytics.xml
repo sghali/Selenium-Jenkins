@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<testcase name="analytics">
+
+	<!--loginAs - To Login into the application -->
+	<case name="loginAs" runmode="Y">
+		<param id="username">bhargavas@cybage.com</param>
+		<param id="password">password</param>
+		<param id="organization">cybage</param>
+	</case>
+
+	<!--verifyOverviewLayout - Verify the Overview tab layout -->
+	<case name="verifyOverviewLayout" runmode="Y">
+	</case>
+
+	<!--verifyOverviewData - Verify the Overview data -->
+	<case name="verifyOverviewData" runmode="Y">
+		<param id="application">Cybage Test Android App (android)</param>
+	</case>
+
+	<!--verifyEventsLayout - Verify the Events tab layout -->
+	<case name="verifyEventsLayout" runmode="Y">
+	</case>
+
+	<!--verifyEventsData - Verify the Events data -->
+	<case name="verifyEventsData" runmode="Y">
+		<param id="application">Cybage Test Android App (android)</param>
+	</case>
+
+	<!--logOut - To Logout from the application -->
+	<case name="logOut" runmode="Y">
+	</case>
+
+</testcase>

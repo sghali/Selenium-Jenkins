@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OR>
+	<!--Phunware - INITIAL SWITCH TO STAAGE -->
+	<element name="SwitchBtn" locatortype="xpath"
+		locatorvalue=".//a[@class='btn btn-mini switch']" />
+	<element name="SwitcBtnOrganizationTextbox" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-sub-nav-container']/div/div/form/input" />
+	<element name="SwitcBtnOrganizationDropdown" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-sub-nav-container']/div/div/form/ul" />
+	<!--Phunware - ALERTS NOTIFICATIONS TAB TEXT -->
+	<element name="AlertsNotificationsTabText" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-nav-container']/nav/ul/li[2]/a"
+		exptext="ALERTS &amp; NOTIFICATIONS" />
+	<!--Phunware - ALERTS NOTIFICATIONS OVERVIEW TAB -->
+	<element name="AlertsNotificationsOverviewTabText" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-sub-nav-container']/div/nav/ul/li[2]/a"
+		exptext="Overview" />
+	<element name="AlertsNotificationsOverviewTabHeaderText"
+		locatortype="xpath" locatorvalue=".//header[@class='dashboard-main-content-msg']/h1"
+		exptext="OVERVIEW" />
+	<element name="AlertsNotificationsOverviewTabApplicationDropdown"
+		locatortype="xpath" locatorvalue=".//select[@id='app-select']" />
+	<element name="AlertsNotificationsOverviewTabCalandarDropdown"
+		locatortype="xpath" locatorvalue=".//select[@id='report-type-select']" />
+	<!--Phunware - ALERTS NOTIFICATIONS OVERVIEW TAB FIELDS & DATA -->
+	<element name="AlertsOverviewTabActiveUsersField" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div[2]/section[1]/div/ul/li[1]"
+		exptext="Active Users" />
+	<element name="AlertsOverviewTabActiveUsersData" locatortype="xpath"
+		locatorvalue=".//section[@id='push-statistics']/div[1]/ul/li[1]/span" />
+	<element name="AlertsOverviewTabPushEnabledField" locatortype="xpath"
+		locatorvalue=".//section[@id='push-statistics']/div/ul/li[1]" exptext="Push Enabled" />
+	<element name="AlertsOverviewTabPushEnabledData" locatortype="xpath"
+		locatorvalue=".//section[@id='push-statistics']/div/ul/li[1]/span" />
+	<element name="AlertsOverviewTabReachField" locatortype="xpath"
+		locatorvalue=".//section[@id='push-statistics']/div[1]/ul/li[2]"
+		exptext="Reach" />
+	<element name="AlertsOverviewTabReachData" locatortype="xpath"
+		locatorvalue=".//section[@id='push-statistics']/div[1]/ul/li[2]/span" />
+	<element name="AlertsOverviewTabTotalPushesSentField"
+		locatortype="xpath" locatorvalue=".//section[@id='push-statistics']/div/ul/li[2]"
+		exptext="Total Pushes Sent" />
+	<element name="AlertsOverviewTabTotalPushesSentData"
+		locatortype="xpath" locatorvalue=".//section[@id='push-statistics']/div/ul/li[2]/span" />
+	<element name="AlertsOverviewTabTotalPushesOpenedField"
+		locatortype="xpath" locatorvalue=".//section[@id='push-statistics']/div/ul/li[3]"
+		exptext="Total Pushes Opened" />
+	<element name="AlertsOverviewTabTotalPushesOpenedData"
+		locatortype="xpath" locatorvalue=".//section[@id='push-statistics']/div/ul/li[3]/span" />
+	<!--Phunware - ALERTS NOTIFICATIONS - COMPOSE TAB -->
+	<element name="ComposeButtonTab" locatortype="xpath"
+		locatorvalue=".//button[@class='button button-compose']" />
+	<element name="AlertsNotificationsComposeTabHeaderText"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-compose-container']/div/header/h1"
+		exptext="CREATE A NEW MESSAGE" />
+	<element name="AlertsNotificationsComposeTabSelectAppFieldText"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-compose-container']/div/div/form/div[1]/h2"
+		exptext="Select an application" />
+	<element name="AlertsNotificationsComposeTabAppDropdown"
+		locatortype="xpath" locatorvalue=".//select[@id='compose-msg-app']" />
+	<element name="AlertsNotificationsComposeTabSelectMsgTypeFieldText"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-compose-container']/div/div/form/div[3]/h2"
+		exptext="Select Message Type" />
+	<element name="AlertsNotificationsComposeTabSelectMsgTypeManualField"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-compose-container']/div/div/form/div[4]/div/div/div/div/div[1]/label[1]"
+		exptext="Now" />
+	<element name="AlertsNotificationsComposeTabSelectMsgTypeManualradioBtn"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-compose-container']/div/div/form/div[4]/div/div/div/div/div[1]/label[1]/input" />
+	<element name="AlertsNotificationsComposeTabSelectMsgTypeScheduledField"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-compose-container']/div/div/form/div[4]/div/div/div/div/div[1]/label[2]"
+		exptext="Scheduled" />
+	<element name="AlertsNotificationsComposeTabSelectMsgTypeScheduledradioBtn"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-compose-container']/div/div/form/div[4]/div/div/div/div/div[1]/label[2]/input" />
+	<element name="AlertsNotificationsComposeTabSelectSegmentsField"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-compose-container']/div/div/form/div[5]/h2"
+		exptext="Select Segments" />
+	<element name="AlertsNotificationsComposeTabSelectSegmentsDropdown"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-compose-container']/div/div/form/div[6]/div/div/div[1]/select" />
+	<element name="AlertsNotificationsComposeTabEnterMessageField"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-compose-container']/div/div/form/div[7]/h2"
+		exptext="Enter Message" />
+	<element name="AlertsNotificationsComposeTabMsgTextArea"
+		locatortype="xpath" locatorvalue=".//textarea[@id='compose-msg-text']" />
+	<element name="AlertsNotificationsComposeTabCancelBtn"
+		locatortype="xpath" locatorvalue=".//button[@id='compose-msg-cancel-btn']" />
+	<element name="AlertsNotificationsComposeTabSendNowBtn"
+		locatortype="xpath" locatorvalue=".//button[@id='compose-msg-send-btn']" />
+	<element name="AlertsNotificationsComposeTabOptionalDataText"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-compose-container']/div/div/form/div[9]/h2"
+		exptext="Optional Data" />
+	<element name="AlertsNotificationsComposeTabOptionalDataKeyValuePair"
+		locatortype="xpath" locatorvalue=".//a[@id='add-alert-metadata-pair']" />
+	<element name="ANComposeSuccessMsg" locatortype="xpath"
+		locatorvalue=".//div[@class='alert alert-success']" exptext="Your message has been sent" />
+	<!--Phunware - ALERTS NOTIFICATIONS - COMPOSE TAB SCHEDULED MESSAGE -->
+	<element name="AlertsNotificationsComposeTabScheduledTotalDateContainer"
+		locatortype="xpath" locatorvalue=".//div[@id='compose-msg-date-container']" />
+	<element name="AlertsNotificationsComposeTabScheduledCalandarIcon"
+		locatortype="xpath" locatorvalue=".//div[@id='compose-msg-date-container']/span/span" />
+	<element name="AlertsNotificationsComposeTabScheduledCalandarTable"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='datepicker datepicker-dropdown dropdown-menu']/div[1]/table" />
+	<element name="AlertsNotificationsComposeTabScheduledTodayDate"
+		locatortype="xpath" locatorvalue=".//td[@class='day active']" />
+	<element name="AlertsNotificationsComposeTabScheduledHrsDropdown"
+		locatortype="xpath" locatorvalue=".//select[@id='compose-msg-time-hours']" />
+	<element name="AlertsNotificationsComposeTabScheduledMinsDropdown"
+		locatortype="xpath" locatorvalue=".//select[@id='compose-msg-time-mins']" />
+	<element name="AlertsNotificationsComposeTabNotificationText"
+		locatortype="xpath" locatorvalue=".//div[@class='notification message']/span[2]/span[2]" />
+	<!--Phunware - ALERTS NOTIFICATIONS - Messages TAB -->
+	<element name="AlertsNotificationsMessagesTab" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-sub-nav-container']/div/nav/ul/li[3]/a"
+		exptext="Messages" />
+	<element name="AlertsNotificationsMessagesTabHeaderText"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/header/h1"
+		exptext="MESSAGES" />
+	<element name="AlertsNotificationsMessagesTabMessagesTable"
+		locatortype="xpath" locatorvalue=".//table[@id='messages-overview']/tbody" />
+	<element
+		name="AlertsNotificationsMessagesTabMessagesTableHeaderRowDateFilter"
+		locatortype="xpath" locatorvalue=".//table[@id='messages-overview']/thead/tr/th[1]" />
+	<element
+		name="AlertsNotificationsMessagesTabMessagesTableHeaderRowMessageFilter"
+		locatortype="xpath" locatorvalue=".//table[@id='messages-overview']/thead/tr/th[3]" />
+	<element name="AlertsNotificationsMsgTabMsgTableFirstRowMsgData"
+		locatortype="xpath" locatorvalue=".//table[@id='messages-overview']/tbody/tr[1]/td[3]/a" />
+	<element name="AlertsNotificationsMessagesTabScheduledMsgTable"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div[4]/div/div/table/tbody" />
+	<element name="AlertsNotificationsMessagesTabMessagesLengthDropdown"
+		locatortype="xpath" locatorvalue=".//select[@name='messages-overview_length']" />
+	<element name="AlertsNotificationsMessagesTabMessagesNextLink"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='dataTables_paginate paging_bootstrap pagination']/ul/li[@class='next']/a" />
+	<element name="AlertsNotificationsMessagesTabMessagesFirstLink"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='dataTables_paginate paging_bootstrap pagination']/ul/li[1]/a" />
+	<element name="AlertsNotificationsMessagesTabAppDropdown"
+		locatortype="xpath" locatorvalue=".//select[@id='app-select']" />
+	<element name="AlertsNotificationsMessagesTabScheduledText"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div[3]/h2"
+		exptext="Scheduled" />
+	<element name="AlertsNotificationsMessagesTabHistoryText"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div[5]/h2"
+		exptext="History" />
+	<element name="AlertsNotificationsMessagesTabSearchTextbox"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div[6]/div/div/div/div[1]/div[2]/div/label/input" />
+	<!--Phunware - ALERTS NOTIFICATIONS - Messages DETAILS -->
+	<element name="AlertsNotificationsMessagesTabMsgDetailText"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div/header/h1"
+		exptext="MESSAGE DETAIL" />
+	<element name="AlertsNotificationsMessagesTabMsgDetailMsg"
+		locatortype="xpath" locatorvalue=".//section[@id='msg-details-info']/div/div[1]/span" />
+	<!--Phunware - ALERTS NOTIFICATIONS SEGMENTS TAB -->
+	<element name="AlertsNotificationsSegmentsTabText" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-sub-nav-container']/div/nav/ul/li[4]/a"
+		exptext="Segments" />
+	<element name="AlertsNotificationsSegmentsTabHeaderText"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/header/h1"
+		exptext="SEGMENTS" />
+	<element name="AlertsNotificationsSegmentsTabApplicationDropdown"
+		locatortype="xpath" locatorvalue=".//select[@id='app-select']" />
+	<element name="AlertsNotificationsSegmentsTabNewSegmentBtn"
+		locatortype="xpath" locatorvalue=".//a[@id='create-new-group']" />
+	<element name="AlertsNotificationsSegmentsTabSegmentsTable"
+		locatortype="xpath" locatorvalue=".//div[@id='segments-table']" />
+	<element name="AlertsNotificationsSegmentsTabNewSegmentTextbox"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='segments-table']/div[@id='add-group-row']/form/input[@class='group-name']" />
+	<element name="AlertsNotificationsSegmentsTabNewSegmentDoneBtn"
+		locatortype="xpath" locatorvalue=".//div[@id='add-group-row']/form/button[1]" />
+	<element name="AlertsNotificationsSegmentsTabNewSegmentCancelBtn"
+		locatortype="xpath" locatorvalue=".//div[@id='add-group-row']/form/button[2]" />
+	<element name="AlertsNotificationsSegmentsTabSegmentCreatedSuccess"
+		locatortype="xpath" locatorvalue=".//div[@class='alert alert-success']"
+		exptext="The segment has been saved." />
+	<!--Phunware - ALERTS NOTIFICATIONS FEEDS TAB -->
+	<element name="AlertsNotificationsFeedsTabText" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-sub-nav-container']/div/nav/ul/li[5]/a"
+		exptext="Feeds" />
+	<element name="AlertsFeedsPageHeaderElement" locatortype="xpath"
+		locatorvalue=".//header[@class='dashboard-main-content-msg']/h1"
+		exptext="FEEDS" />
+	<element name="AlertsFeedsPageNewFeedBtn" locatortype="xpath"
+		locatorvalue=".//a[@id='create-new-feed']" />
+	<element name="ANS_Feeds_NewFeed_HeaderElement" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div/header/h1"
+		exptext="NEW FEED" />
+	<!--Phunware - NEW FEED PAGE ELEMENTS -->
+	<element name="ANS_Feeds_NewFeed_SelectApp_HeaderElement"
+		locatortype="xpath" locatorvalue=".//form[@id='new-feed']/div[1]/h2"
+		exptext="Select an application" />
+	<element name="ANS_Feeds_NewFeed_SelectApp_dropdown"
+		locatortype="xpath" locatorvalue=".//select[@id='new-feed-app']" />
+	<element name="ANS_Feeds_NewFeed_StartAndEndDate_HeaderElement"
+		locatortype="xpath" locatorvalue=".//form[@id='new-feed']/div[3]/h2"
+		exptext="Start Date &amp; End Date" />
+	<element name="ANS_Feeds_NewFeed_StartDate" locatortype="xpath"
+		locatorvalue=".//span[@id='startDateDatepicker']/input" exptext="" />
+	<element name="ANS_Feeds_NewFeed_EndDate" locatortype="xpath"
+		locatorvalue=".//span[@id='endDateDatepicker']/input" exptext="" />
+	<element name="ANS_Feeds_NewFeed_DailyTimeRange_HeaderElement"
+		locatortype="xpath" locatorvalue=".//form[@id='new-feed']/div[5]/h2"
+		exptext="Daily time range" />
+	<element name="ANS_Feeds_NewFeed_DailyTimeRange_Start_AM_radioBtn"
+		locatortype="xpath"
+		locatorvalue=".//form[@id='new-feed']/div[6]/div/div/div/div/div[1]/label[1]"
+		exptext="" />
+	<element name="ANS_Feeds_NewFeed_DailyTimeRange_End_AM_radioBtn"
+		locatortype="xpath"
+		locatorvalue=".//form[@id='new-feed']/div[6]/div/div/div/div/div[2]/label[1]"
+		exptext="" />
+	<element name="ANS_Feeds_NewFeed_Interval_HeaderElement"
+		locatortype="xpath" locatorvalue=".//form[@id='new-feed']/div[7]/h2"
+		exptext="Interval (in minutes)" />
+	<element name="ANS_Feeds_NewFeed_Interval_textbox" locatortype="xpath"
+		locatorvalue=".//form[@id='new-feed']/div[8]/div/div/div/div/div/input"
+		exptext="" />
+	<element name="ANS_Feeds_NewFeed_DailyLimit_HeaderElement"
+		locatortype="xpath" locatorvalue=".//form[@id='new-feed']/div[9]/h2"
+		exptext="Daily Limit" />
+	<element name="ANS_Feeds_NewFeed_DailyLimit_textbox"
+		locatortype="xpath"
+		locatorvalue=".//form[@id='new-feed']/div[10]/div/div/div/div/div/input"
+		exptext="" />
+	<element name="ANS_Feeds_NewFeed_FeedURL_HeaderElement"
+		locatortype="xpath"
+		locatorvalue=".//form[@id='new-feed']/div[12]/div[1]/div/div/div/div/label"
+		exptext="Feed Url" />
+	<element name="ANS_Feeds_NewFeed_FeedURL_textbox" locatortype="xpath"
+		locatorvalue=".//form[@id='new-feed']/div[12]/div[1]/div/div/div/div/input"
+		exptext="" />
+	<element name="ANS_Feeds_NewFeed_FeedItemXPATH_HeaderElement"
+		locatortype="xpath"
+		locatorvalue=".//form[@id='new-feed']/div[12]/div[2]/div/div/div/div/label"
+		exptext="Feed Item XPath" />
+	<element name="ANS_Feeds_NewFeed_FeedItemXPATH_textbox"
+		locatortype="xpath"
+		locatorvalue=".//form[@id='new-feed']/div[12]/div[2]/div/div/div/div/input"
+		exptext="" />
+	<element name="ANS_Feeds_NewFeed_FeedItemTitleXPATH_HeaderElement"
+		locatortype="xpath"
+		locatorvalue=".//form[@id='new-feed']/div[12]/div[3]/div/div/div/div/label"
+		exptext="Feed Item Title XPath" />
+	<element name="ANS_Feeds_NewFeed_FeedItemTitleXPATH_textbox"
+		locatortype="xpath"
+		locatorvalue=".//form[@id='new-feed']/div[12]/div[3]/div/div/div/div/input"
+		exptext="" />
+	<element name="ANS_Feeds_NewFeed_FeedItemDescXPATH_HeaderElement"
+		locatortype="xpath"
+		locatorvalue=".//form[@id='new-feed']/div[12]/div[4]/div/div/div/div/label"
+		exptext="Feed Item Description XPath" />
+	<element name="ANS_Feeds_NewFeed_FeedItemDescXPATH_textbox"
+		locatortype="xpath"
+		locatorvalue=".//form[@id='new-feed']/div[12]/div[4]/div/div/div/div/input"
+		exptext="" />
+	<element name="ANS_Feeds_NewFeed_FeedItemLinkXPATH_HeaderElement"
+		locatortype="xpath"
+		locatorvalue=".//form[@id='new-feed']/div[12]/div[5]/div/div/div/div/label"
+		exptext="Feed Item Link XPath" />
+	<element name="ANS_Feeds_NewFeed_FeedItemLinkXPATH_textbox"
+		locatortype="xpath"
+		locatorvalue=".//form[@id='new-feed']/div[12]/div[5]/div/div/div/div/input"
+		exptext="" />
+	<element name="ANS_Feeds_NewFeed_FeedItemTimeStampXPATH_HeaderElement"
+		locatortype="xpath"
+		locatorvalue=".//form[@id='new-feed']/div[12]/div[6]/div/div/div/div/label"
+		exptext="Feed Item Timestamp XPath" />
+	<element name="ANS_Feeds_NewFeed_FeedItemTimeStampXPATH_textbox"
+		locatortype="xpath"
+		locatorvalue=".//form[@id='new-feed']/div[12]/div[6]/div/div/div/div/input"
+		exptext="" />
+	<element name="ANS_Feeds_NewFeed_EnterMessage_textbox"
+		locatortype="xpath" locatorvalue=".//textarea[@id='new-feed-text']"
+		exptext="" />
+	<element name="ANS_Feeds_NewFeed_Save_Btn" locatortype="xpath"
+		locatorvalue=".//button[@id='new-feed-send-btn']" exptext="" />
+	<element name="ANS_Feeds_List_Table" locatortype="xpath"
+		locatorvalue=".//table[@id='user-feeds']/tbody" exptext="" />
+	<element name="ANS_Feeds_Delete_Btn" locatortype="xpath"
+		locatorvalue=".//button[@id='new-feed-delete-btn']" exptext="" />
+
+	<!--Phunware - ALERTS NOTIFICATIONS CONFIGURE TAB -->
+	<element name="AlertsNotificationsConfigureTabText"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-sub-nav-container']/div/nav/ul/li[7]/a"
+		exptext="Configure" />
+	<element name="AlertsNotificationsConfigureTabHeaderText"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/header/h1"
+		exptext="CONFIGURE APPLICATIONS" />
+	<element name="AlertsNotificationsConfigureTabAppList"
+		locatortype="xpath" locatorvalue=".//ul[@id='app-list']" />
+	<!--Phunware - ALERTS NOTIFICATIONS BACKGROUND TAB -->
+	<element name="AlertsNotificationsBackgroundTabText"
+		locatortype="xpath" locatorvalue=".//a[@href='/alerts/messages/background']"
+		exptext="Background" />
+	<element name="AlertsNotificationsBackgroundTabHeaderText"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/header/h1"
+		exptext="Background Updates" />
+	<element name="AlertsNotificationsBackgroundTabAppList"
+		locatortype="xpath" locatorvalue=".//select[@id='app-select']" />
+	<element name="AlertsNotificationsBackgroundTabNewbutton"
+		locatortype="xpath" locatorvalue=".//a[@id='create-new']" />
+	<element name="ANCreateBackgroundPageHeaderText" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/header/h1"
+		exptext="CREATE A NEW BACKGROUND UPDATE" />
+	<element name="ANCreateBackgroundPageSelectApplicationText"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='background-updates-container']/form/div[1]/h2"
+		exptext="Select an application" />
+	<element name="ANCreateBackgroundPageAppList" locatortype="xpath"
+		locatorvalue=".//select[@id='background-msg-app']" />
+	<element name="ANCreateBackgroundPageSelectMsgTypeText"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='background-updates-container']/form/div[3]/h2"
+		exptext="Select Message Type" />
+	<element name="ANCreateBackgroundPageSelectSegmentsText"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='background-updates-container']/form/div[6]/h2"
+		exptext="Select Segments" />
+	<element name="ANCreateBackgroundPageSegmentsList" locatortype="xpath"
+		locatorvalue=".//select[@id='background-msg-groups']" />
+	<element name="ANCreateBackgroundPageMetaDataText" locatortype="xpath"
+		locatorvalue=".//div[@id='background-updates-container']/form/div[8]/h2"
+		exptext="Metadata" />
+	<element name="ANCreateBackgroundPageMetadataKeyValuePair"
+		locatortype="xpath" locatorvalue=".//a[@id='add-alert-metadata-pair']" />
+	<element name="ANCreateBackgroundPageMetadataKeyTextbox"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='metadata-pair-container']/div/div[1]/div/input" />
+	<element name="ANCreateBackgroundPageMetadataValueTextbox"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='metadata-pair-container']/div/div[2]/div/input" />
+	<element name="ANCreateBackgroundPageSendNowBtn" locatortype="xpath"
+		locatorvalue=".//button[@id='background-msg-send-btn']" />
+	<!--Phunware - ALERTS NOTIFICATIONS DOWNLOAD TAB -->
+	<element name="AlertsNotificationsDownloadTabText" locatortype="xpath"
+		locatorvalue=".//a[@href='/downloads']" exptext="Downloads" />
+	<element name="AlertsNotificationsDownloadTabHeaderText"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/header/h1"
+		exptext="DOWNLOADS" />
+	<element name="AlertsNotificationsDownloadTabSDK" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div/div/div/div/div[1]" />
+	<element name="AlertsNotificationsDownloadTabSDKElements"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div/div/div/div/div[2]" />
+	<element name="AlertsNotificationsDownloadTabSDKElementsMaaSCore"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div/div/div/div/div[2]/div[1]" />
+	<element name="AlertsNotificationsDownloadTabSDKElementsMaaSCoreIOS"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div/div/div/div/div[2]/div[1]/div/a[1]" />
+	<element name="AlertsNotificationsDownloadTabSDKElementsMaaSCoreAndroid"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div/div/div/div/div[2]/div[1]/div/a[2]" />
+	<element name="AlertsNotificationsDownloadTabSDKElementsMaaSAlerts"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div/div/div/div/div[2]/div[2]" />
+	<element name="AlertsNotificationsDownloadTabSDKElementsMaaSAlertsIOS"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div/div/div/div/div[2]/div[2]/div/a[1]" />
+	<element name="AlertsNotificationsDownloadTabSampleApps"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div/div/div/div/div[4]" />
+	<element name="AlertsNotificationsDownloadTabSampleAppsElements"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div/div/div/div/div[5]" />
+	<element name="AlertsNotificationsDownloadTabDocumentation"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div/div/div/div/div[7]" />
+	<element name="AlertsNotificationsDownloadTabDocumentationElements"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div/div/div/div/div[8]" />
+	<!--Phunware - ALERTS NOTIFICATIONS SUPPORT TAB -->
+	<element name="AlertsNotificationsSupportTabText" locatortype="xpath"
+		locatorvalue=".//a[@target='_blank']" exptext="Support" />
+	<element name="AlertsNotificationsSupportTabMailLink"
+		locatortype="xpath" locatorvalue=".//a[@target='_blank']"
+		exptext="https://phunware.desk.com/?b_id=1563" />
+</OR>

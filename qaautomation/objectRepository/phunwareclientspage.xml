@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OR>
+	<!--Phunware - Login Page Objects -->
+	<element name="LoginPageText" locatortype="xpath"
+		locatorvalue=".//div[@id='login-msg-container']/span" exptext="Sign In to Phunware" />
+	<!--Phunware - Application - Tab -->
+	<element name="ClientTabUserName" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-sub-nav-container']/div/div/h1" />
+	<element name="ClientTabOrganizationName" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-sub-nav-container']/div/div/h3" />
+	<element name="ClientTabSwitchTab" locatortype="xpath"
+		locatorvalue=".//div[@class='switch-organization-btns']/a[@class='btn btn-mini switch']"
+		exptext="Switch" />
+	<element name="ClientTabExitTab" locatortype="xpath"
+		locatorvalue=".//div[@class='switch-organization-btns']/a[@class='btn btn-mini btn-inverse reset']"
+		exptext="Exit" />
+	<!--Phunware - all the main tabs -->
+	<element name="ClientTablogo" locatortype="xpath"
+		locatorvalue=".//div[@class='dashboard-logo']/a" />
+	<element name="AnalyticsTablogoText" locatortype="xpath"
+		locatorvalue=".//a[@href='/analytics/']" exptext="ANALYTICS" />
+	<element name="AlertsTablogoText" locatortype="xpath"
+		locatorvalue=".//a[@href='/alerts/']" exptext="ALERTS &amp; NOTIFICATIONS" />
+	<element name="ContentTablogoText" locatortype="xpath"
+		locatorvalue=".//a[@href='/cms/content']" exptext="CONTENT MANAGEMENT" />
+	<element name="AdvertisingTablogoText" locatortype="xpath"
+		locatorvalue=".//a[@href='/advertising/']" exptext="ADVERTISING" />
+	<element name="LocationTablogoText" locatortype="xpath"
+		locatorvalue=".//a[@href='/lbs/configure/mse/venues']" exptext="LOCATION" />
+	<!--Phunware - all the Client page tabs -->
+	<element name="ClientTabYourAccount" locatortype="xpath"
+		locatorvalue=".//a[@href='/account']" exptext="Your Account" />
+	<element name="ClientTabApplications" locatortype="xpath"
+		locatorvalue=".//a[@href='/clients']" exptext="Applications" />
+	<element name="ClientTabUsersAndRoles" locatortype="xpath"
+		locatorvalue=".//a[@href='/users']" exptext="Users &amp; Roles" />
+	<element name="ClientTabDownloads" locatortype="xpath"
+		locatorvalue=".//a[@href='/downloads']" exptext="Downloads" />
+	<element name="ClientTabSupport" locatortype="xpath"
+		locatorvalue=".//a[@href='http://phunware.zendesk.com']" exptext="Support" />
+	<element name="ClientTabSignOut" locatortype="xpath"
+		locatorvalue=".//a[@href='/logout']" exptext="Sign Out" />
+	<!--Phunware - Application - Tab -->
+	<element name="ClientsApplicationsHeader" locatortype="xpath"
+		locatorvalue=".//header[@class='dashboard-main-content-msg']/h1"
+		exptext="YOUR APPLICATIONS" />
+	<!--Phunware - Application - Tab ADD Application Button properties -->
+	<element name="ClientApplicationsAddApplicationBtn"
+		locatortype="xpath" locatorvalue=".//div[@id='header-btn-container']/a" />
+	<element name="ClientApplicationsAddAppBtnAPPName" locatortype="xpath"
+		locatorvalue=".//form[@id='add-app-form']/div[1]/div/label" exptext="Application Name" />
+	<element name="ClientApplicationsAddAppBtnAPPNameTextbox"
+		locatortype="xpath" locatorvalue=".//form[@id='add-app-form']/div[1]/div/div/input" />
+	<element name="ClientApplicationsAddAppBtnPlatform"
+		locatortype="xpath" locatorvalue=".//form[@id='add-app-form']/div[2]/div[1]/label"
+		exptext="Platform" />
+	<element name="ClientApplicationsAddAppBtnPlatformDropDown"
+		locatortype="xpath" locatorvalue=".//form[@id='add-app-form']/div[2]/div[1]/div/select" />
+	<element name="ClientApplicationsAddAppBtnCategory"
+		locatortype="xpath" locatorvalue=".//form[@id='add-app-form']/div[2]/div[2]/label"
+		exptext="Category" />
+	<element name="ClientApplicationsAddAppBtnCategoryDropDown"
+		locatortype="xpath" locatorvalue=".//form[@id='add-app-form']/div[2]/div[2]/div/select" />
+	<element name="ClientApplicationsAddAppBtnCancelBtn"
+		locatortype="xpath" locatorvalue=".//form[@id='add-app-form']/div[3]/div/button[1]" />
+	<element name="ClientApplicationsAddAppBtnSaveBtn" locatortype="xpath"
+		locatorvalue=".//form[@id='add-app-form']/div[3]/div/button[2]" />
+	<!--Phunware - Application - Tab Edit Applicatiion properties -->
+	<element name="ClientApplicationsEditPageCancelBtn"
+		locatortype="xpath" locatorvalue=".//div[@class='app-form']/form//div[3]/div/button[1]" />
+	<element name="ClientApplicationsEditPageSaveBtn" locatortype="xpath"
+		locatorvalue=".//div[@class='app-form']/form//div[3]/div/button[2]" />
+	<element name="ClientApplicationsEditPageCategoryDropDown"
+		locatortype="xpath" locatorvalue=".//div[@class='app-form']/form/div[2]/div[2]/div/select" />
+	<element name="ClientApplicationsEditPagePlatformDropDown"
+		locatortype="xpath" locatorvalue=".//div[@class='app-form']/form/div[2]/div[1]/div/select" />
+	<element name="ClientApplicationsEditPageAPPNameTextbox"
+		locatortype="xpath" locatorvalue=".//form[@id='add-app-form']/div[1]/div/div/input" />
+	<!--Phunware - Application - Application List -->
+	<element name="ClientApplicationsPaginations" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div[1]/div[@class='pull-right']" />
+	<element name="ClientApplicationsAppList" locatortype="xpath"
+		locatorvalue=".//ul[@id='app-list']" />
+	<element name="ClientApplicationsAppListShowingCount"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div[1]/div" />
+	<element name="ClientApplicationsPaginationNextLink"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div[1]/ul" />
+	<element name="ClientApplicationsPaginationPrevLink"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div[1]/ul/li[2]/a[text()='Prev']" />
+	<element name="ClientApplicationsPaginationActiveLink"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div[1]/ul/li[@class='active']/a" />
+	<element name="ClientApplicationsAppListShowKeysTable"
+		locatortype="xpath"
+		locatorvalue=".//table[@class='table table-striped table-app-keys']/tbody" />
+	<!--Phunware - USERS & ROLES -->
+	<element name="ClientUserRolesHeaderText" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/header/h1"
+		exptext="USERS &amp; ROLES" />
+	<element name="ClientUserHeaderText" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/header/h1"
+		exptext="USERS" />
+	<element name="ClientUsersText" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div[3]/h2"
+		exptext="Users" />
+	<element name="ClientRolesText" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div[1]/h2"
+		exptext="Roles" />
+	<element name="ClientUserRolesBtnNewUser" locatortype="xpath"
+		locatorvalue=".//a[text()='New User']" />
+	<element name="ClientUserRolesBtnNewRole" locatortype="xpath"
+		locatorvalue=".//a[text()='New Role']" />
+	<element name="ClientUsersData" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div[2]" />
+	<element name="ClientRolesData" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div[2]" />
+	<!--Phunware - USERS & ROLES Users Table -->
+	<element name="ClientUserRolesUsersListTable" locatortype="xpath"
+		locatorvalue=".//div[@class='container-fluid']/div/div/table/tbody" />
+	<element name="ClientUserRolesRolesListTable" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div[2]/div/div/table/tbody" />
+	<!--Phunware - USERS & ROLES Creating new Role -->
+	<element name="ClientCreateNewRoleHeaderText" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/header/h1"
+		exptext="ADD ROLE" />
+	<element name="ClientCreateNewRoleInputTextBox" locatortype="xpath"
+		locatorvalue=".//input[@id='user_role_save_name']" />
+	<element name="ClientCreateNewRoleAlertsNotificationsText"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div/form/div[2]/div/div/table[1]/thead/tr/th[1]"
+		exptext="Alerts &amp; Notifications" />
+	<element name="ClientCreateNewRoleOrganizationText"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div/form/div[2]/div/div/h2[2]"
+		exptext="Organization" />
+	<element name="ClientCreateNewRoleBtnSave" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-submit']/button" />
+	<element name="ClientCreateNewRoleAlertsNotificationsCheckboxList"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div/form/div[2]/div/div" />
+	<element name="ClientCreateNewRoleErrorMsgForWhiteSpaces"
+		locatortype="xpath" locatorvalue=".//div[@class='alert alert-error']"
+		exptext="You must have at least one set of permissions set." />
+	<!--Phunware - USERS & ROLES Editing Role -->
+	<element name="ClientEditRoleHeaderText" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/header/h1"
+		exptext="EDIT ROLE" />
+	<element name="ClientCreateRoleSuccessMSG" locatortype="xpath"
+		locatorvalue=".//div[@class='alert alert-success']" exptext="The role has been saved." />
+	<element name="ClientDeleteRoleSuccessMSG" locatortype="xpath"
+		locatorvalue=".//div[@class='alert alert-success']" exptext="The role has been deleted." />
+	<!--Phunware - USERS & ROLES Creating new User -->
+	<element name="ClientCreateNewUserHeaderText" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/header/h1"
+		exptext="ADD USER" />
+	<element name="ClientCreateNewUserFNTextBox" locatortype="xpath"
+		locatorvalue=".//input[@id='user_save_firstName']" />
+	<element name="ClientCreateNewUserLNTextBox" locatortype="xpath"
+		locatorvalue=".//input[@id='user_save_lastName']" />
+	<element name="ClientCreateNewUserEmailTextBox" locatortype="xpath"
+		locatorvalue=".//input[@id='user_save_email']" />
+	<element name="ClientCreateNewUserPasswordTextBox" locatortype="xpath"
+		locatorvalue=".//input[@id='user_save_password']" />
+	<element name="ClientCreateNewUserCountryDropdown" locatortype="xpath"
+		locatorvalue=".//select[@id='worldRegions']" />
+	<element name="ClientCreateNewUserTimeZoneDropdown"
+		locatortype="xpath" locatorvalue=".//select[@id='timeZones']" />
+	<element name="ClientCreateNewUserCurrentLocationTimeZoneLink"
+		locatortype="xpath" locatorvalue=".//a[@id='guessTimeZone']" />
+	<element name="ClientCreateNewUserRoleDropdown" locatortype="xpath"
+		locatorvalue=".//select[@id='user_save_role']" />
+	<element name="ClientCreateNewUserStatusDropdown" locatortype="xpath"
+		locatorvalue=".//select[@id='user_save_isActive']" />
+	<element name="ClientCreateNewUserBtnSave" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-submit']/button" />
+	<element name="ClientCreateNewUserApplicationsCheckboxList"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div/form/div[8]/div/div" />
+	<element name="ClientCreateNewUserApplicationsList"
+		locatortype="xpath" locatorvalue=".//div[@id='applicationList']" />
+	<element name="ClientCreateNewUserSuccessMSG" locatortype="xpath"
+		locatorvalue="//div[@class='alert alert-success']" exptext="The user has been saved." />
+	<element name="ClientEmailAlreadyTakenMSG" locatortype="xpath"
+		locatorvalue="alert alert-error" exptext="That email address is already taken." />
+	<element name="SaveUserMsgOrEmailAlreadyTakenMsg" locatortype="xpath"
+		locatorvalue=".//div[@class='alert alert-success' or @class='alert alert-error']" />
+	<!--Phunware - USERS & ROLES Editing User -->
+	<element name="ClientEditUserHeaderText" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/header/h1"
+		exptext="EDIT USER" />
+	<!--Phunware - USERS & ROLES Deleting User -->
+	<element name="ClientDeleteUserSuccessMSG" locatortype="xpath"
+		locatorvalue=".//div[@class='alert alert-success']" exptext="The user has been deleted." />
+	<!--Phunware - USERS & ROLES Validations on Creating User -->
+	<element name="ClientCreateNewUserInvalidEmailPopup"
+		locatortype="xpath" locatorvalue=".//div[@class='alert alert-error']"
+		exptext="" />
+	<element name="ClientCreateNewUserInvalidEmailMSG" locatortype="xpath"
+		locatorvalue="alert alert-error" exptext="Invalid email address." />
+	<element name="ClientCreateNewUserInvalidPasswordMSG"
+		locatortype="xpath" locatorvalue="alert alert-error"
+		exptext="The password must be at least 6 characters long." />
+	<!--Phunware - Your Account -->
+	<element name="ClientYourAccountHeaderText" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/header/h1"
+		exptext="YOUR ACCOUNT" />
+	<element name="ClientYourAccountFNTextBox" locatortype="xpath"
+		locatorvalue=".//input[@id='user_save_firstName']" />
+	<element name="ClientYourAccountLNTextBox" locatortype="xpath"
+		locatorvalue=".//input[@id='user_save_lastName']" />
+	<element name="ClientYourAccountEmailTextBox" locatortype="xpath"
+		locatorvalue=".//input[@id='user_save_email']" />
+	<element name="ClientYourAccountPasswordTextBox" locatortype="xpath"
+		locatorvalue=".//input[@id='user_save_password']" />
+	<element name="ClientYourAccountCountryDropdown" locatortype="xpath"
+		locatorvalue=".//select[@id='worldRegions']" />
+	<element name="ClientYourAccountTimeZoneDropdown" locatortype="xpath"
+		locatorvalue=".//select[@id='timeZones']" />
+	<element name="ClientYourAccountCurrentLocationTimeZoneLink"
+		locatortype="xpath" locatorvalue=".//a[@id='guessTimeZone']" />
+	<element name="ClientYourAccountRoleDropdown" locatortype="xpath"
+		locatorvalue=".//select[@id='user_save_role']" />
+	<element name="ClientYourAccountStatusDropdown" locatortype="xpath"
+		locatorvalue=".//select[@id='user_save_isActive']" />
+	<element name="ClientYourAccountBtnSave" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-submit']/button" />
+	<element name="ClientYourAccountApplicationList" locatortype="xpath"
+		locatorvalue=".//div[@id='applicationList']" />
+	<!--Phunware - ANALYTICS - OVERVIEW - APPLICATION DROPDWON -->
+	<element name="AnalyticsOverviewAppDropdown" locatortype="xpath"
+		locatorvalue=".//select[@id='app-select']" />
+	<!--Phunware - ALERTS & NOTIFICATIONS - -->
+	<element name="AlertsNotificationsOverviewHeaderText"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/header/h1"
+		exptext="OVERVIEW" />
+	<element name="AlertsNotificationsOverviewApplicationDropdown"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div[1]/div[1]/label/select" />
+	<element name="AlertsNotificationsMessageTab" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-sub-nav-container']/div/nav/ul/li[2]/a" />
+	<element name="AlertsNotificationsMessagesHeaderText"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/header/h1"
+		exptext="MESSAGES" />
+	<element name="AlertsNotificationsMessagesApplicationDropdown"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div[1]/div/label/select" />
+	<element name="AlertsNotificationsSegmentsTab" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-sub-nav-container']/div/nav/ul/li[3]/a" />
+	<!--Phunware - ADVERTISING - -->
+	<element name="AdvertisingDashboardHeaderText" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/header/h1"
+		exptext="PUBLISHER DASHBOARD" />
+	<element name="AdvertisingDashboardApplicationDropdown"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div/div/div[1]/span[1]/label/select" />
+	<!--Phunware - all UN USED OBJECTS -->
+	<element name="ClientTabUsers" locatortype="xpath"
+		locatorvalue=".//a[@href='/users']" exptext="Users" />
+	<!--Phunware - Downloads - Tab -->
+	<element name="ClientTabDownloads" locatortype="xpath"
+		locatorvalue=".//a[@href='/downloads']" exptext="Downloads" />
+	<element name="ClientTabDownloadsHeaderElement" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/header/h1"
+		exptext="DOWNLOADS" />
+	<element name="ClientTabDownloadsMaaSCoreArea" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div[1]" />
+	<element name="ClientTabDownloadsMaaSCoreIOSDownload"
+		locatortype="xpath"
+		locatorvalue=".//a[contains(@href,'https://github.com/phunware/maas-core-ios-sdk')]"
+		exptext="https://github.com/phunware/maas-core-ios-sdk/archive/master.zip" />
+	<element name="ClientTabDownloadsMaaSCoreAndroidDownload"
+		locatortype="xpath"
+		locatorvalue=".//a[contains(@href,'https://github.com/phunware/maas-core-android-sdk')]"
+		exptext="https://github.com/phunware/maas-core-android-sdk/archive/master.zip" />
+	<element name="ClientTabDownloadsMaaSCoreIOSDocumentation"
+		locatortype="xpath" locatorvalue=".//a[contains(text(),'MaaSCore (iOS)')]"
+		exptext="https://github.com/phunware/maas-core-ios-sdk/archive/master.zip" />
+	<element name="ClientTabDownloadsMaaSAnalyticsArea"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div[2]" />
+	<element name="ClientTabDownloadsMaaSAlertsArea" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div[3]" />
+	<element name="ClientTabDownloadsMaaSCMSArea" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div[4]" />
+	<element name="ClientTabDownloadsMaaSLocationArea" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div[5]" />
+	<element name="ClientTabDownloadsMaaSAdvertisingArea"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div[6]" />
+</OR>

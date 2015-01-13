@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testcase name="login">
+	<!--loginAs - To Login into the application -->
+	<case name="loginAs" runmode="Y">
+		<param id="organization">cybage</param>
+		<param id="username">bhargavas@cybage.com</param>
+		<param id="password">password</param>
+	</case>
+	<!--verifyInitialLayoutInAlerts - To verify Initial page layout -->
+	<case name="verifyInitialLayoutInAlerts" runmode="Y">
+	</case>
+	<!--verifyAlertsOverviewLayout - To verify Overview tab -->
+	<case name="verifyAlertsOverviewLayout" runmode="Y">
+	</case>
+	<!--verifyOverviewData - To verify Overview data -->
+	<case name="verifyOverviewData" runmode="Y">
+		<param id="application">Cybage MaasAutomation Test111 (ios)</param>
+		<param id="calandar">All</param>
+	</case>
+	<!--verifyComposeMessageLayout - To verify Compose Message Fields -->
+	<case name="verifyComposeMessageLayout" runmode="Y">
+		<param id="application">Cybage MaasAutomation Test111 (ios)</param>
+		<param id="calandar">All</param>
+	</case>
+	<!--validationsInCreateManualMessage - To validate while creating of manual 
+		message -->
+	<case name="validationsInCreateManualMessage" runmode="Y">
+		<param id="application">Cybage MaasAutomation Test111 (ios)</param>
+		<param id="message">test</param>
+	</case>
+	<!--createNewManualMessage - To Create new manual message -->
+	<case name="createNewManualMessage" runmode="Y">
+		<param id="application">Cybage MaasAutomation Test111 (ios)</param>
+		<param id="segment">Blue</param>
+		<param id="messageText">Automation Test Message152</param>
+	</case>
+	<!--validationOfSortingOnDateField - To validate Sorting on Date field -->
+	<case name="validationOfSortingOnDateField" runmode="Y">
+		<param id="application">Cybage MaasAutomation Test111 (ios)</param>
+		<param id="messageText">Automation Test Message152</param>
+	</case>
+	<!--validationOfSortingOnMessagesField - To validate Sorting on Message 
+		field -->
+	<case name="validationOfSortingOnMessagesField" runmode="Y">
+		<param id="application">Cybage MaasAutomation Test111 (ios)</param>
+		<param id="messageText">Automation Test Message152</param>
+	</case>
+	<!--validationsInCreateScheduleMessage - To validate functionality of Create 
+		Schedule message -->
+	<case name="validationsInCreateScheduleMessage" runmode="Y">
+		<param id="application">Cybage MaasAutomation Test111 (ios)</param>
+		<param id="message">test</param>
+		<param id="date">1</param>
+		<param id="timeHrs">9</param>
+		<param id="timeMins">10</param>
+		<param id="Meridian">PM</param>
+		<param id="segment">Blue</param>
+		<param id="messageText">Automation Test Schedule Message125</param>
+	</case>
+	<!--createScheduleMessage - To Create new schedule message -->
+	<case name="createScheduleMessage" runmode="Y">
+		<param id="application">Cybage MaasAutomation Test111 (ios)</param>
+		<param id="timeHrs">9</param>
+		<param id="timeMins">10</param>
+		<param id="Meridian">PM</param>
+		<param id="segment">Blue</param>
+		<param id="messageText">Automation Test Schedule Message126</param>
+	</case>
+	<!--verifyMessagesLayout - To Verify Message Layout -->
+	<case name="verifyMessagesLayout" runmode="Y">
+	</case>
+	<!--verifyMessagesLength - To Verify Message Length dropdown -->
+	<case name="verifyMessagesLength" runmode="N">
+		<param id="application">Cybage Test Android App (android)</param>
+		<param id="entriesFirst">25</param>
+		<param id="entriesSecond">50</param>
+		<param id="entriesThird">100</param>
+		<param id="defaultvalue">10</param>
+	</case>
+	<!--verifyMessagesSearchBox - To Verify Search functionality -->
+	<case name="verifyMessagesSearchBox" runmode="N">
+		<param id="application">Cybage MaasAutomation Test111 (ios)</param>
+		<param id="message">Automation Test Message152</param>
+	</case>
+	<!--clickOnMessage - Click on specific message and verify the message container -->
+	<case name="clickOnMessage" runmode="Y">
+		<param id="application">Cybage MaasAutomation Test111 (ios)</param>
+		<param id="message">Automation Test Message152</param>
+	</case>
+	<!--verifySegmentsLayout - To verify the Segments layout -->
+	<case name="verifySegmentsLayout" runmode="Y">
+	</case>
+	<!--verifySegmentsData - To verify the Segments data -->
+	<case name="verifySegmentsData" runmode="Y">
+		<param id="application">Cybage MaasAutomation Test111 (ios)</param>
+	</case>
+	<!--verifySegmentsData - To Create new segment under specific application -->
+	<case name="createNewSegment" runmode="Y">
+		<param id="application">Cybage MaasAutomation Test111 (ios)</param>
+		<param id="segment">Cybage Automation Test SegmentCheck</param>
+	</case>
+	<!--editSegment - To edit segment under specific application -->
+	<case name="editSegment" runmode="Y">
+		<param id="application">Cybage MaasAutomation Test111 (ios)</param>
+		<param id="segment">Cybage Automation Test SegmentCheck</param>
+		<param id="segmentNewName">Cybage Automation Test SegmentCheck1</param>
+	</case>
+	<!--deleteSegment - To delete segment under specific application -->
+	<case name="deleteSegment" runmode="Y">
+		<param id="application">Cybage MaasAutomation Test111 (ios)</param>
+		<param id="segment">Cybage Automation Test SegmentCheck1</param>
+	</case>
+	<!--clone_The_Segment - To Clone the Segment -->
+	<case name="clone_The_Segment" runmode="Y">
+		<param id="application">Cybage MaasAutomation Test111 (ios)</param>
+		<param id="segment">Segment_For_Cloning</param>
+	</case>
+	<!--delete_Cloned_Segment - To delete Cloned Segment -->
+	<case name="delete_Cloned_Segment" runmode="Y">
+		<param id="application">Cybage MaasAutomation Test111 (ios)</param>
+		<param id="segment">Segment_For_Cloning</param>
+	</case>
+	<!--verifyFeedsLayout - To Verify the Feeds tab Layout -->
+	<case name="verifyFeedsLayout" runmode="Y">
+	</case>
+	<!--create_New_Feeds - To Create Feeds -->
+	<case name="create_New_Feeds" runmode="Y">
+		<param id="application">Cybage MaasAutomation Test111 (ios)</param>
+		<param id="interval">2</param>
+		<param id="daily">10</param>
+		<param id="feedurl">www.google.com</param>
+		<param id="feeditemxpath">FeedItemXpath</param>
+		<param id="feeditemtitlexpath">FeedItemTitleXpath</param>
+		<param id="feeditemdescxpath">FeedDescXpath</param>
+		<param id="feeditemlinkxpath">FeedItemLinkXpath</param>
+		<param id="feeditemtimestampxpath">FeedItemTimeStampXpath</param>
+		<param id="textarea">HelloFeedCreation</param>
+	</case>
+	<!--edit_Feeds - To Create Feeds -->
+	<case name="edit_Feeds" runmode="Y">
+		<param id="message">HelloFeedCreation</param>
+		<param id="interval">5</param>
+		<param id="daily">15</param>
+		<param id="feedurl">www.google.com</param>
+		<param id="feeditemxpath">FeedItemXpath</param>
+		<param id="feeditemtitlexpath">FeedItemTitleXpath</param>
+		<param id="feeditemdescxpath">FeedDescXpath</param>
+		<param id="feeditemlinkxpath">FeedItemLinkXpath</param>
+		<param id="feeditemtimestampxpath">FeedItemTimeStampXpath</param>
+
+	</case>
+	<!--delete_Feeds - To Create Feeds -->
+	<case name="delete_Feeds" runmode="Y">
+		<param id="message">HelloFeedCreation</param>
+	</case>
+	<!--verifyBackgroundLayout - To Verify the Feeds tab Layout -->
+	<case name="verifyBackgroundLayout" runmode="Y">
+	</case>
+	<!--createBackground - To Verify the Feeds tab Layout -->
+	<case name="createBackground" runmode="Y">
+	</case>
+	<!--verifyConfigureLayout - To Verify the Configure tab Layout -->
+	<case name="verifyConfigureLayout" runmode="Y">
+	</case>
+	<!--verifyUpdateCertificateForIOS - To Verify the UpdateCertificate for 
+		IOS application -->
+	<case name="verifyUpdateCertificateForIOS" runmode="Y">
+		<param id="application">Cybage Test iOS App</param>
+	</case>
+	<!--verifyUpdateAPIKeyForAndroid - To Verify the Update API Key for Android 
+		application -->
+	<case name="verifyUpdateAPIKeyForAndroid" runmode="Y">
+		<param id="application">Cybage Test Android App</param>
+	</case>
+	<!--verifyConfigureLayout - To Verify the Configure tab Layout -->
+	<case name="verifyDownloadsLayout" runmode="Y">
+	</case>
+	<!--verifySDKMaaSCoreFunctionality - To Verify the MaaS Core Functionality 
+		in Downloads tab -->
+	<case name="verifySDKMaaSCoreFunctionality" runmode="Y">
+		<param id="sdk">ios</param>
+	</case>
+	<!--verifySDKMaaSAlertsFunctionality - To Verify the MaaS Alerts Functionality 
+		in Downloads tab -->
+	<case name="verifySDKMaaSAlertsFunctionality" runmode="Y">
+		<param id="sdk">android</param>
+	</case>
+	<!--verifyDocumentation - To Verify the MaaS documentation -->
+	<case name="verifyDocumentation" runmode="Y">
+		<param id="doc"> MaaSCore (Android)</param>
+	</case>
+	<!--verifyDownload - To Verify the Download functionality -->
+	<case name="verifyDownload" runmode="Y">
+	</case>
+	<!--verifySupportTab - To Verify the Support link functionality -->
+	<case name="verifySupportTab" runmode="Y">
+	</case>
+	<!--logOut - To Logout from the application -->
+	<case name="logOut" runmode="Y">
+	</case>
+</testcase>

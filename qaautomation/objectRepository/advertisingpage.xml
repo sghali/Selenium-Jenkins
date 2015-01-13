@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OR>
+	<!--PHUNWARE- ADVERTISING -->
+	<element name="AdvertisingTab" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-nav-container']/nav/ul/li[4]/a"
+		exptext="ADVERTISING" />
+	<!--PHUNWARE- ADVERTISING - ALL SUB TABS -->
+	<element name="AdDashboardTabText" locatortype="xpath"
+		locatorvalue=".//a[@href='/advertising/dashboard']" exptext="Dashboard" />
+	<element name="AdSitesTab" locatortype="xpath"
+		locatorvalue=".//a[@href='/advertising/sites']" exptext="Sites" />
+	<element name="AdReportsTab" locatortype="xpath"
+		locatorvalue=".//a[@href='/advertising/reports']" exptext="Reports" />
+	<element name="AdCampaignBuilderTabText" locatortype="xpath"
+		locatorvalue=".//a[@href='/advertising/campaign/builder']" exptext="Campaign Builder" />
+	<element name="AdCampaignsTabText" locatortype="xpath"
+		locatorvalue=".//a[@href='/advertising/campaigns']" exptext="Campaigns" />
+	<element name="AdPaymentsTab" locatortype="xpath"
+		locatorvalue=".//a[@href='/advertising/payments']" exptext="Payments" />
+	<element name="AdAccountTab" locatortype="xpath"
+		locatorvalue=".//a[@href='/advertising/config']" exptext="Account" />
+	<!--PHUNWARE- ADVERTISING - CAMPAIGN BUILDER SUB TAB -->
+	<element name="AdCBTabHeaderText" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/header/h1"
+		exptext="CAMPAIGN BUILDER" />
+	<element name="AdCBTabConfigureYourCampaignZone" locatortype="xpath"
+		locatorvalue=".//div[@id='campaign-loader']/form/div/div[1]" />
+	<element name="AdCBTabConfigureYourCampaignText" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div/div/div/form/div[@class='widget_fields widget_clearfix']/div[1]/h4"
+		exptext="Configure Your Campaign" />
+	<element name="AdCBTabCampaignNameField" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div/div/div/form/div[@class='widget_fields widget_clearfix']/div[1]/div/table/tbody/tr[1]/td[1]/label"
+		exptext="Campaign Name:" />
+	<element name="AdCBTabCampaignNameFieldTextbox" locatortype="xpath"
+		locatorvalue=".//input[@id='quick_campaign_name']" />
+	<element name="AdCBTabBidField" locatortype="xpath"
+		locatorvalue=".//label[@for='quick_campaign_bid']" exptext="Bid: $" />
+	<element name="AdCBTabBidFieldTextbox" locatortype="xpath"
+		locatorvalue=".//input[@id='quick_campaign_bid']" />
+	<element name="AdCBTabMaxDailySpendField" locatortype="xpath"
+		locatorvalue=".//label[@for='quick_campaign_budget']" exptext="Max. Daily Spend: $" />
+	<element name="AdCBTabMaxDailySpendFieldTextbox" locatortype="xpath"
+		locatorvalue=".//input[@id='quick_campaign_budget']" />
+	<element name="AdCBTabCategoryField" locatortype="xpath"
+		locatorvalue=".//label[@for='quick_campaign_category']" exptext="Category:" />
+	<element name="AdCBTabCategoryFieldDropdown" locatortype="xpath"
+		locatorvalue=".//div[@id='quick_campaign_category_chosen']/div/ul" />
+	<element name="AdCBTabCategoryFieldDropdownElement"
+		locatortype="xpath" locatorvalue=".//div[@id='quick_campaign_category_chosen']" />
+	<element name="AdCBTabTargetingZone" locatortype="xpath"
+		locatorvalue=".//div[@id='campaign-loader']/form/div/div[2]" />
+	<element name="AdCBTabTargetingZoneTargetingText" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div/div/div/form/div[@class='widget_fields widget_clearfix']/div[2]/h4"
+		exptext="Targeting" />
+	<element name="AdCBTabTargetingZonePlatformField" locatortype="xpath"
+		locatorvalue=".//div[@class='quick_campaign_targeting_config']/table/tbody/tr[1]/td[1]/label"
+		exptext="Platforms:" />
+	<element name="ADCBTargetingPlatformAllPlatformsRB"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='quick_campaign_targeting_config']/table/tbody/tr[1]/td[2]/label"
+		exptext="All Platforms" />
+	<element name="ADCBTargetingPlatformSpecificPlatformsRB"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='quick_campaign_targeting_config']/table/tbody/tr[1]/td[2]/label"
+		exptext="Specific Platforms" />
+	<element name="ADCBTargetingPlatformSpecificPlatformsRBSelection"
+		locatortype="xpath" locatorvalue=".//input[@id='quick_campaign_device_type_platforms']" />
+	<element name="AdCBTabTargetingZonePlatformTextbox"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='quick_campaign_targeting_config']/table/tbody/tr[1]/td[2]/span" />
+	<element name="AdCBTabTargetingZonePlatformLink" locatortype="xpath"
+		locatorvalue=".//div[@class='quick_campaign_targeting_config']/table/tbody/tr[2]/td[2]/a" />
+	<element name="AdCBTabTargetingZonePlatformSelectionWindow"
+		locatortype="xpath" locatorvalue=".//div[@class='quick_campaign_platforms_modal']" />
+	<element name="AdCBTabTargetingZonePlatformSelectionWindowHeader"
+		locatortype="xpath" locatorvalue=".//div[@class='quick_campaign_platforms_modal']/form/h3"
+		exptext="Targeting - Platforms" />
+	<element name="AdCBTabTargetingZonePlatformSelectionWindowRadioButtons"
+		locatortype="xpath" locatorvalue=".//div[@class='targeting_platforms_media']" />
+	<element name="AdCBTabTargetingZonePlatformSelectionWindowOSType"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='quick_campaign_platforms_modal']/form/div/ul" />
+	<element name="AdCBTabTargetingZonePlatformSelectionWindowCancelBtn"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='targeting_platforms_buttons widget_buttons']/button[1]" />
+	<element name="AdCBTabTargetingZonePlatformSelectionWindowResetBtn"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='targeting_platforms_buttons widget_buttons']/button[2]" />
+	<element name="AdCBTabTargetingZonePlatformSelectionWindowDoneBtn"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='targeting_platforms_buttons widget_buttons']/button[3]" />
+	<element name="AdCBTabTargetingZoneAccuracyText" locatortype="xpath"
+		locatorvalue=".//div[@class='quick_campaign_targeting_config']/table/tbody/tr[3]/td[1]/label"
+		exptext="Accuracy:" />
+	<element name="AdCBTabTargetingZoneAccuracyCountriesText"
+		locatortype="xpath" locatorvalue=".//tr[@id='quick_campaign_locale_country']/td[1]/label"
+		exptext="Countries:" />
+	<element name="AdCBTabTargetingZoneAccuracyCountriesSelectionBox"
+		locatortype="xpath"
+		locatorvalue=".//tr[@id='quick_campaign_locale_country']/td[2]/span/div" />
+	<element name="AdCBTabTargetingZoneAccuracyCountriesSelectionBoxList"
+		locatortype="xpath"
+		locatorvalue=".//tr[@id='quick_campaign_locale_country']/td[2]/span/div/div/ul" />
+	<element name="AdCBTabTargetingZoneAccuracyStatesRadioBtn"
+		locatortype="xpath" locatorvalue=".//input[@id='quick_campaign_locale_state']" />
+	<element name="AdCBTabTargetingZoneAccuracyStates" locatortype="xpath"
+		locatorvalue=".//tr[@id='quick_campaign_locale_state']/td[1]/label"
+		exptex="States" />
+	<element name="AdCBTabTargetingZoneAccuracyStatesSelection"
+		locatortype="xpath" locatorvalue=".//tr[@id='quick_campaign_locale_state']/td[2]/span/div" />
+	<element name="AdCBTabTargetingZoneAccuracyStatesSelectionList"
+		locatortype="xpath"
+		locatorvalue=".//tr[@id='quick_campaign_locale_state']/td[2]/span/div/div/ul" />
+	<element name="AdCBTabTargetingZoneAccuracyHyperlocalWindow"
+		locatortype="xpath" locatorvalue=".//div[@class='quick_campaign_locator_modal']/" />
+	<element name="AdCBTabTargetingZoneAccuracyHyperlocalWindowPopupHeaderText"
+		locatortype="xpath" locatorvalue=".//div[@class='quick_campaign_locator_modal']/form/h3"
+		exptext="Targeting - Hyperlocator™" />
+	<element name="AdCBTabTargetingZoneAccuracyHyperlocalWindowTextbox"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='quick_campaign_locator_modal']/form/div/div[1]/div[1]/input" />
+	<element name="AdCBTabTargetingZoneAccuracyHyperlocalWindowTextbox"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='quick_campaign_locator_modal']/form/div/div[1]/div[1]/input" />
+	<element name="AdCBTabTargetingZoneAccuracyHyperlocalWindowSearch"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='quick_campaign_locator_modal']/form/div/div[1]/div[1]/button" />
+	<element name="AdCBTabTargetingZoneAccuracyHyperlocalWindowInfoElement"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='targeting_hyperlocal_info targeting_hyperlocal_info_single']" />
+	<element name="AdCBTabTargetingZoneAccuracyHyperlocalWindowGraph"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='targeting_hyperlocator_map targeting_hyperlocator_map_single']" />
+	<element name="AdCBTabTargetingZoneAccuracyHyperlocalWindowDoneBtn"
+		locatortype="xpath"
+		locatorvalue=".//button[@class='widget_button_done targeting_hyperlocator_done']" />
+	<element name="AdCBTabTargetingZoneAccuracyHyperlocalWindowCancelBtn"
+		locatortype="xpath"
+		locatorvalue=".//button[@class='widget_button_cancel targeting_hyperlocator_cancel']" />
+	<element name="AdCBTabTargetingZoneAccuracyHyperlocalWindowResetBtn"
+		locatortype="xpath"
+		locatorvalue=".//button[@class='widget_button_reset targeting_hyperlocator_reset']" />
+	<element name="AdCBTabTargetingZoneZipcodetextboxSelectionItem"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='quick_campaign_zipcodes_chosen']/ul/li[@class='search-choice']/span" />
+	<element name="AdCBTabTargetingZoneZipcodeLink" locatortype="xpath"
+		locatorvalue=".//tr[@id='quick_campaign_locale_zipcode']/td[2]/a" />
+	<element
+		name="AdCBTabTargetingZipcodeHyperlocalWindowMultipleLocationsRadio"
+		locatortype="xpath" locatorvalue=".//input[@id='targeting_hyperlocator_mode_multi']" />
+	<element name="AdCBTabTargetingZipcodeHyperlocalWindowMultipleLocationstext"
+		locatortype="xpath" locatorvalue=".//textarea[@id='targeting_hyperlocator_bulk']" />
+	<element name="AdCBTabTargetingZipcodeHyperlocalWindowMultipleSearchBtn"
+		locatortype="xpath" locatorvalue=".//div[@class='targeting_hyperlocator_bulk_buttons']" />
+	<element name="AdCBTabTargetingZoneSourceText" locatortype="xpath"
+		locatorvalue=".//div[@class='quick_campaign_targeting_config']/table/tbody/tr[9]/td[1]/label"
+		exptext="Source:" />
+	<element name="AdCBTabTargetingZoneSourceRadioButtons"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='quick_campaign_targeting_config']/table/tbody/tr[9]/td[2]/ul" />
+	<element name="AdCBTabCreativeBuilderText" locatortype="xpath"
+		locatorvalue=".//div[@id='campaign-loader']/form/div/div[4]/h4"
+		exptext="Creative Builder" />
+	<element name="AdCBTabCreativeBuilderPhoneAdElement"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='quick_campaign_creative_config']/table/tbody/tr[1]/td[1]/label"
+		exptext="Phone Ad:" />
+	<element name="AdCBTabCreativeBuilderPhoneAdDropdown"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='quick_campaign_creative_config']/table/tbody/tr[1]/td[2]/span/div" />
+	<element name="AdCBTabCreativeBuilderPhoneAdDropdownList"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='quick_campaign_creative_config']/table/tbody/tr[1]/td[2]/span/div/div/ul" />
+	<element name="AdCBTabCreativeBuilderImage" locatortype="xpath"
+		locatorvalue=".//div[@class='quick_campaign_creative_preview preview_handset']/p/span" />
+	<element name="AdCBTabCreativeBuilderClickURLTextArea"
+		locatortype="xpath" locatorvalue=".//textarea[@id='quick_campaign_clickurl']" />
+	<element name="AdCBTabCreativeBuilderImageUploadSuccessMsg"
+		locatortype="xpath" locatorvalue=".//div[@class='widget_notice']"
+		exptext="Creative uploaded! Click &quot;Use Creative&quot; to append to your Uploaded Creative." />
+	<element name="AdCBTabCreativeBuilderUseThisCreative"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='quick_campaign_buttons widget_buttons quick_campaign_use_creative']/button" />
+	<element name="AdCBTabDoneBtn" locatortype="xpath"
+		locatorvalue=".//div[@class='quick_campaign_buttons widget_buttons']/button[@class='widget_button_apply']" />
+	<element name="AdCBTabDeliveryOptionsZone" locatortype="xpath"
+		locatorvalue=".//div[@id='campaign-loader']/form/div/div[3]" />
+	<element name="AdCBTabCreativeBuilderZone" locatortype="xpath"
+		locatorvalue=".//div[@id='campaign-loader']/form/div/div[4]" />
+	<element name="AdCBTabUploadCreativesZone" locatortype="xpath"
+		locatorvalue=".//div[@id='campaign-loader']/form/div/div[5]" />
+	<element name="AdCBTabUploadCreativesZoneHeaderText"
+		locatortype="xpath" locatorvalue=".//div[@id='campaign-loader']/form/div/div[5]/h4"
+		exptext="Uploaded Creatives" />
+	<element name="AdCBTabResetBtn" locatortype="xpath"
+		locatorvalue=".//div[@id='campaign-loader']/form/div/div[6]/button[@class='widget_button_reset']" />
+	<element name="AdCBTabDoneBtn" locatortype="xpath"
+		locatorvalue=".//div[@id='campaign-loader']/form/div/div[6]/button[@class='widget_button_apply']" />
+	<!--PHUNWARE- CREATE CAMPAIGNS - ERROR MESSAGES -->
+	<element name="AdCBTabNameErrorMSG" locatortype="xpath"
+		locatorvalue=".//div[@class='widget_errors']" exptext="Please name your campaign." />
+	<element name="AdCBTabPlatformErrorMSG" locatortype="xpath"
+		locatorvalue=".//div[@class='widget_errors']" exptext="You must specify at least one platform." />
+	<element name="AdCBTabPlatformCountryErrorMSG" locatortype="xpath"
+		locatorvalue=".//div[@class='widget_errors']" exptext="You must specify at least one country." />
+	<element name="AdCBTabUploadCreativesErrorMSG" locatortype="xpath"
+		locatorvalue=".//div[@class='widget_errors']" exptext="Campaign must have at least one creative." />
+	<!--PHUNWARE- ADVERTISING - DASHBOARD SUB TAB -->
+	<element name="AdDashboardTabHeaderText" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/header/h1"
+		exptext="PUBLISHER DASHBOARD" />
+	<element name="AdDashboardTabAppDropdown" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div/div/div[@id='dashboard-selections']/span[1]/label/select" />
+	<element name="AdDashboardTabTimeDropdown" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div/div/div[@id='dashboard-selections']/span[2]/label/select" />
+	<element name="AdDashboardTab" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div/div/div[@id='dashboard-selections']/span[2]/label/select" />
+	<!--PHUNWARE- ADVERTISING - DASHBOARD DATA -->
+	<element name="AdDashboardTabImpressionsFieldText" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-totals']/table/thead/tr/th[1]"
+		exptext="Impressions" />
+	<element name="AdDashboardTabImpressionsFieldData" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-totals']/table/tbody/tr/td[1]" />
+	<element name="AdDashboardTabClicksFieldText" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-totals']/table/thead/tr/th[2]"
+		exptext="Clicks" />
+	<element name="AdDashboardTabClicksFieldData" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-totals']/table/tbody/tr/td[2]" />
+	<element name="AdDashboardTabFillRatesFieldText" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-totals']/table/thead/tr/th[3]"
+		exptext="Fill Rate" />
+	<element name="AdDashboardTabFillRatesFieldData" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-totals']/table/tbody/tr/td[3]" />
+	<element name="AdDashboardTabeCPMFieldText" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-totals']/table/thead/tr/th[4]"
+		exptext="eCPM" />
+	<element name="AdDashboardTabeCPMFieldData" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-totals']/table/tbody/tr/td[4]" />
+	<element name="AdDashboardTabEarningsFieldText" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-totals']/table/thead/tr/th[5]"
+		exptext="Earnings" />
+	<element name="AdDashboardTabeEarningsFieldData" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-totals']/table/tbody/tr/td[5]" />
+	<!--PHUNWARE- ADVERTISING - CAMPAIGNS SUB TAB -->
+	<element name="AdCampaignsTabHeaderText" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/header/h1"
+		exptext="CAMPAIGNS" />
+	<element name="AdCampaignsTabCampaignsList" locatortype="xpath"
+		locatorvalue=".//ul[@id='app-list']" />
+	<!--PHUNWARE- ADVERTISING - CAMPAIGN BUILDER - EDIT CAMPAIGN PAGE -->
+	<element name="AdCBEditCampaignPageHeaderText" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/header/h1"
+		exptext="EDIT CAMPAIGN" />
+	<!--PHUNWARE- ADVERTISING - SITES SUB TAB CONFIGURATION LINK -->
+	<element name="AdSitesTabHeaderText" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/header/h1"
+		exptext="SITES &amp; ZONES" />
+	<element name="AdSitesTabApplicationsList" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div/div/div/ul" />
+	<element name="SitesConfigurationAllowDeliveryAdsText"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form app-edit-form' and @style='display: block;']/form/div[1]/div/label"
+		exptext="Allow Delivery of Ads" />
+	<element name="SitesConfigurationAllowDeliveryAdsStatus"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form app-edit-form' and @style='display: block;']/form/div[1]/div/div/input" />
+	<element name="SitesConfigurationAllowDeliveryAdsOnOFFSwitch"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form app-edit-form' and @style='display: block;']/form/div[1]/div/div/label" />
+	<element name="SitesConfigurationAllowThirdPartyAdsText"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form app-edit-form' and @style='display: block;']/form/div[2]/div/label"
+		exptext="Allow Third-Party Ads" />
+	<element name="SitesConfigurationAllowThirdPartyAdsStatus"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form app-edit-form' and @style='display: block;']/form/div[2]/div/div/input" />
+	<element name="SitesConfigurationAllowThirdPartyAdsSlider"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form app-edit-form' and @style='display: block;']/form/div[2]/div/label/following-sibling::*[1]/label" />
+	<element name="AdSitesTabConfigurationFormChannelText"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form app-edit-form' and @style='display: block;']/form/div[3]/div/label"
+		exptext="Channel/Category" />
+	<element name="AdSitesTabConfigurationFormChannelSelectbox"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form app-edit-form' and @style='display: block;']/form/div[3]/div/label/following-sibling::*[1]/label/select" />
+	<element name="AdSitesTabConfigurationFormGender" locatortype="xpath"
+		locatorvalue=".//div[@class='app-form app-edit-form' and @style='display: block;']/form/div[4]/div/label"
+		exptext="Estimated Audience Gender" />
+	<element name="AdSitesTabConfigurationFormGenderSlider"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form app-edit-form' and @style='display: block;']/form/div[4]/div/div[@class='gender-select']/div[2]" />
+	<element name="AdSitesTabConfigurationFormEstimatedAgeText"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form app-edit-form' and @style='display: block;']/form[@id='add-app-form']/div[5]/div/label"
+		exptext="Estimated Age Range" />
+	<element name="AdSitesTabConfigurationFormAgeLower"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form app-edit-form' and @style='display: block;']/form[@id='add-app-form']/div[5]/div/div/span[1]/label/select" />
+	<element name="AdSitesTabConfigurationFormAgeUpper"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form app-edit-form' and @style='display: block;']/form[@id='add-app-form']/div[5]/div/div/span[2]/label/select" />
+	<element name="AdSitesTabConfigurationFormAllowHTMLText"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form app-edit-form' and @style='display: block;']/form[@id='add-app-form']/div[7]/div/table/tbody/tr[1]/td[1]"
+		exptext="Allow HTML Ads" />
+	<element name="ConfigurationAllowHTMLStatus" locatortype="xpath"
+		locatorvalue=".//div[@class='app-form app-edit-form' and @style='display: block;']/form[@id='add-app-form']/div[7]/div/table/tbody/tr[1]/td[1]/div/input" />
+	<element name="AdSitesTabConfigurationFormAllowHTMLTextOnOFFSwitch"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form app-edit-form' and @style='display: block;']/form[@id='add-app-form']/div[7]/div/table/tbody/tr[1]/td[1]/div/label/div[2]" />
+	<element name="AdSitesTabConfigurationFormAllowJavaScriptText"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form app-edit-form' and @style='display: block;']/form[@id='add-app-form']/div[7]/div/table/tbody/tr[1]/td[2]"
+		exptext="Allow Javascript Ads" />
+	<element name="AdSitesTabConfigurationFormAllowJavaScriptStatus"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form app-edit-form' and @style='display: block;']/form[@id='add-app-form']/div[7]/div/table/tbody/tr[1]/td[2]/div/input" />
+	<element name="AdSitesTabConfigurationFormAllowJavaScriptOnOFFSwitch"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form app-edit-form' and @style='display: block;']/form[@id='add-app-form']/div[7]/div/table/tbody/tr[1]/td[2]/div/label/div[2]" />
+	<element name="AdSitesTabConfigurationFormAllowRichMediaText"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form app-edit-form' and @style='display: block;']/form[@id='add-app-form']/div[7]/div/table/tbody/tr[1]/td[3]"
+		exptext="Allow Rich Media Ads" />
+	<element name="AdSitesTabConfigurationFormAllowRichMediaStatus"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form app-edit-form' and @style='display: block;']/form[@id='add-app-form']/div[7]/div/table/tbody/tr[1]/td[3]/div/input" />
+	<element name="AdSitesTabConfigurationFormAllowRichMediaOnOFFSwitch"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form app-edit-form' and @style='display: block;']/form[@id='add-app-form']/div[7]/div/table/tbody/tr[1]/td[3]/div/label/div[2]" />
+	<element name="AdSitesTabConfigurationFormLocationInfoText"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form app-edit-form' and @style='display: block;']/form[@id='add-app-form']/div[7]/div/table/tbody/tr[2]/td[1]"
+		exptext="Location Information" />
+	<element name="AdSitesTabConfigurationFormLocationInfoStatus"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form app-edit-form' and @style='display: block;']/form[@id='add-app-form']/div[7]/div/table/tbody/tr[2]/td[1]/div/input" />
+	<element name="AdSitesTabConfigurationFormLocationInfoOnOFFSwitch"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form app-edit-form' and @style='display: block;']/form[@id='add-app-form']/div[7]/div/table/tbody/tr[2]/td[1]/div/label/div[2]" />
+	<element name="AdSitesTabConfigurationFormMRAIDComplaintText"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form app-edit-form' and @style='display: block;']/form[@id='add-app-form']/div[7]/div/table/tbody/tr[2]/td[3]"
+		exptext="MRAID Compliant Ads" />
+	<element name="AdSitesTabConfigurationFormMRAIDComplaintStatus"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form app-edit-form' and @style='display: block;']/form[@id='add-app-form']/div[7]/div/table/tbody/tr[2]/td[3]/div/input" />
+	<element name="AdSitesTabConfigurationFormMRAIDComplaintOnOFFSwitch"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form app-edit-form' and @style='display: block;']/form[@id='add-app-form']/div[7]/div/table/tbody/tr[2]/td[3]/div/label/div[2]" />
+	<element name="AdSitesTabConfigurationFormAllowCPICampaingsText"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form app-edit-form' and @style='display: block;']/form[@id='add-app-form']/div[7]/div/table/tbody/tr[3]/td[1]"
+		exptext="Allow CPI Campaigns" />
+	<element name="AdSitesTabConfigurationFormAllowCPICampaingsStatus"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form app-edit-form' and @style='display: block;']/form[@id='add-app-form']/div[7]/div/table/tbody/tr[3]/td[1]/div[@class='onoffswitch']/input" />
+	<element name="AdSitesTabConfigurationFormAllowCPICampaingsOnOffSwitch"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form app-edit-form' and @style='display: block;']/form[@id='add-app-form']/div[7]/div/table/tbody/tr[3]/td[1]/div[@class='onoffswitch']/label/div[@class='onoffswitch-switch']" />
+	<element name="AdSitesTabConfigurationFormAllowCPICampaingsTextboxIsExist"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form app-edit-form' and @style='display: block;']/form[@id='add-app-form']/div[7]/div/table/tbody/tr[3]/td[1]/div[2]" />
+	<element name="AdSitesTabConfigurationFormAllowCPICampaingsTextboxInput"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form app-edit-form' and @style='display: block;']/form[@id='add-app-form']/div[7]/div/table/tbody/tr[3]/td[1]/div[2]/input" />
+	<element name="AdSitesTabConfigurationFormCPCFloorText"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form app-edit-form' and @style='display: block;']/form[@id='add-app-form']/div[7]/div/table/tbody/tr[3]/td[2]"
+		exptext="CPC Floor" />
+	<element name="AdSitesTabConfigurationFormCPCFloorOnOffSwitch"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form app-edit-form' and @style='display: block;']/form[@id='add-app-form']/div[7]/div/table/tbody/tr[3]/td[2]/div[@class='onoffswitch']/label/div[@class='onoffswitch-switch']" />
+	<element name="AdSitesTabConfigurationFormCPCFloorTextboxIsExist"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form app-edit-form' and @style='display: block;']/form[@id='add-app-form']/div[7]/div/table/tbody/tr[3]/td[2]/div[2]" />
+	<element name="AdSitesTabConfigurationFormCPCFloorTextboxInput"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form app-edit-form' and @style='display: block;']/form[@id='add-app-form']/div[7]/div/table/tbody/tr[3]/td[2]/div[2]/input" />
+	<element name="AdSitesTabConfigurationFormCPMFloorText"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form app-edit-form' and @style='display: block;']/form[@id='add-app-form']/div[7]/div/table/tbody/tr[3]/td[3]"
+		exptext="CPM Floor" />
+	<element name="AdSitesTabConfigurationFormCPMFloorOnOffSwitch"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form app-edit-form' and @style='display: block;']/form[@id='add-app-form']/div[7]/div/table/tbody/tr[3]/td[3]/div[@class='onoffswitch']/label/div[@class='onoffswitch-switch']" />
+	<element name="AdSitesTabConfigurationFormCPMFloorTextboxIsExist"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form app-edit-form' and @style='display: block;']/form[@id='add-app-form']/div[7]/div/table/tbody/tr[3]/td[3]/div[2]" />
+	<element name="AdSitesTabConfigurationFormCPMFloorTextboxInput"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form app-edit-form' and @style='display: block;']/form[@id='add-app-form']/div[7]/div/table/tbody/tr[3]/td[3]/div[2]/input" />
+	<element name="AdSitesTabConfigurationFormCancelBtn"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form app-edit-form' and @style='display: block;']/form[@id='add-app-form']/div[9]/div/button[1]" />
+	<element name="AdSitesTabConfigurationFormSaveBtn" locatortype="xpath"
+		locatorvalue=".//div[@class='app-form app-edit-form' and @style='display: block;']/form[@id='add-app-form']/div[9]/div/button[2]" />
+	<!--PHUNWARE- ADVERTISING - SITES SUB TAB MEDIATION LINK -->
+	<element name="AdSitesTabMediationFormMediationOnOFFSwitch"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form app-edit-form' and @style='display: block;']/form[contains(@id,'mediation-form')]/div[1]/div[@class='mediation-enable']" />
+	<element name="AdSitesTabMediationFormFirstNetwork"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form mediation-edit-form' and @style='display: block;']/form[contains(@id,'mediation-form')]/div[1]/div[@id='data_mediation_network_1']" />
+	<element name="AdSitesTabMediationFormFNPercentage"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form mediation-edit-form' and @style='display: block;']/form[contains(@id,'mediation-form')]/div[1]/div[@id='data_mediation_network_1']/span[@class='network_percent']" />
+	<element name="AdSitesTabMediationFormSecondNetworkConfigSettings"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form mediation-edit-form' and @style='display: block;']/form[contains(@id,'mediation-form')]/div[1]/div[@id='data_mediation_network_2']/div[@class='network_config']" />
+	<element name="AdSitesTabMediationFormSecondNetworkConfigSettingsLink"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form mediation-edit-form' and @style='display: block;']/form[contains(@id,'mediation-form')]/div[1]/div[@id='data_mediation_network_2']/div[@class='network_config']/a" />
+	<element name="AdSitesTabMediationFormSecondNetworkOnOFFSwitch"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form mediation-edit-form' and @style='display: block;']/form[contains(@id,'mediation-form')]/div[1]/div[@id='data_mediation_network_2']/div[@class='network-enable']/div/label/div[2]" />
+	<element name="AdSitesTabMediationFormSecondNetworkSlider"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form mediation-edit-form' and @style='display: block;']/form[contains(@id,'mediation-form')]/div[1]/div[@id='data_mediation_network_2']/div[2]" />
+	<element name="AdSitesTabMediationFormSecondNetworkParameterSiteID"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form mediation-edit-form' and @style='display: block;']/form[contains(@id,'mediation-form')]/div[1]/div[@id='data_mediation_network_2']/div[contains(@class,'network_parameters')]/div[1]/input" />
+	<element name="AdSitesTabMediationFormSecondNetworkParameterMKVersionID"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form mediation-edit-form' and @style='display: block;']/form[contains(@id,'mediation-form')]/div[1]/div[@id='data_mediation_network_2']/div[contains(@class,'network_parameters')]/div[2]/input" />
+	<element name="AdSitesTabMediationFormSecondNetworkParameterPlatform"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form mediation-edit-form' and @style='display: block;']/form[contains(@id,'mediation-form')]/div[1]/div[@id='data_mediation_network_2']/div[contains(@class,'network_parameters')]/ul[contains(@class,'network_platforms_list')]/li[1]" />
+	<element name="AdSitesTabMediationFormCancelBtn" locatortype="xpath"
+		locatorvalue=".//div[@class='app-form mediation-edit-form' and @style='display: block;']/form[contains(@id,'mediation-form')]/div[2]/div/p/button[1]" />
+	<element name="AdSitesTabMediationFormSaveBtn" locatortype="xpath"
+		locatorvalue=".//div[@class='app-form mediation-edit-form' and @style='display: block;']/form[contains(@id,'mediation-form')]/div[2]/div/p/button[2]" />
+	<!--PHUNWARE- ADVERTISING - SITES SUB TAB ADPLACEMENTS LINK -->
+	<element name="AdSitesTabAdPlacementsFormLengthDD" locatortype="xpath"
+		locatorvalue=".//div[@class='app-form zone-edit-form' and @style='display: block;']/form[contains(@id,'add-zone')]/div/div[1]/div[1]/div/div/div[1]/label/select" />
+	<element name="AdSitesTabAdPlacementsFormSearchBox"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form zone-edit-form' and @style='display: block;']/form[contains(@id,'add-zone')]/div/div[1]/div[1]/div/div/div[2]/label/input" />
+	<element name="AdSitesTabAdPlacementsFormtable" locatortype="xpath"
+		locatorvalue=".//div[@class='app-form zone-edit-form' and @style='display: block;']/form[contains(@id,'add-zone')]/div/div[1]/div[1]/div/div/table/tbody" />
+	<element name="AdSitesTabAdPlacementsFormtableHeaderZone"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form zone-edit-form' and @style='display: block;']/form[contains(@id,'add-zone')]/div/div[1]/div[1]/div/div/table/thead/tr/th[1] "
+		exptext="Zone ID" />
+	<element name="AdSitesTabAdPlacementsFormtableHeaderName"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form zone-edit-form' and @style='display: block;']/form[contains(@id,'add-zone')]/div/div[1]/div[1]/div/div/table/thead/tr/th[2]"
+		exptext="Name" />
+	<element name="AdSitesTabAdPlacementsFormtableHeaderMedia"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form zone-edit-form' and @style='display: block;']/form[contains(@id,'add-zone')]/div/div[1]/div[1]/div/div/table/thead/tr/th[3]"
+		exptext="Media" />
+	<element name="AdSitesTabAdPlacementsFormtableHeaderTypeSize"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form zone-edit-form' and @style='display: block;']/form[contains(@id,'add-zone')]/div/div[1]/div[1]/div/div/table/thead/tr/th[4]"
+		exptext="Type/Size" />
+	<element name="AdSitesTabAdPlacementsFormtableHeaderDelivery"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form zone-edit-form' and @style='display: block;']/form[contains(@id,'add-zone')]/div/div[1]/div[1]/div/div/table/thead/tr/th[5]"
+		exptext="Delivery" />
+	<element name="AdSitesTabAdPlacementsFormtableHeaderEdit"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form zone-edit-form' and @style='display: block;']/form[contains(@id,'add-zone')]/div/div[1]/div[1]/div/div/table/thead/tr/th[6]"
+		exptext="Edit" />
+	<element name="AdSitesTabAdPlacementsFormtableHeaderRemove"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form zone-edit-form' and @style='display: block;']/form[contains(@id,'add-zone')]/div/div[1]/div[1]/div/div/table/thead/tr/th[7]"
+		exptext="Remove" />
+	<element name="AdSitesTabAdPlacementsFormCancelBtn"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form zone-edit-form' and @style='display: block;']/form[contains(@id,'add-zone')]/div/div[2]/p/button[1]" />
+	<element name="AdSitesTabAdPlacementsFormCrateNewPlacementBtn"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form zone-edit-form' and @style='display: block;']/form[contains(@id,'add-zone')]/div/div[2]/p/button[2]" />
+	<element name="AdSitesTabAdPlacementsFormCreateNewForm"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form zone-edit-form' and @style='display: block;']/form[contains(@id,'add-zone')]/div/div[1]/div[2]" />
+	<element name="AdSitesTabAdPlacementsFormCreateNewFormDeviceType"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form zone-edit-form' and @style='display: block;']/form[contains(@id,'add-zone')]/div/div[1]/div[2]/div[1]/ul" />
+	<element name="AdSitesTabAdPlacementsFormCreateNewFormAdType"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form zone-edit-form' and @style='display: block;']/form[contains(@id,'add-zone')]/div/div[1]/div[2]/div[1]/div[1]/ul" />
+	<element name="AdSitesTabAdPlacementsFormCreateNewFormSaveBtn"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='app-form zone-edit-form' and @style='display: block;']/form[contains(@id,'add-zone')]/div/div[2]/p/button[3]" />
+	<!--PHUNWARE- ADVERTISING - REPORTS SUB TAB -->
+	<element name="AdReportsTabHeaderText" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/header/h1"
+		exptext="PUBLISHER DASHBOARD" />
+	<element name="AdReportsTabAppDropdown" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div/form/div/div[@id='dashboard-selections']/span[1/label/select]" />
+	<element name="AdReportsTabTimeDropdown" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-selections']/span[2]/label/select" />
+	<element name="AdReportTab" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div/div/div[@id='dashboard-selections']/span[2]/label/select" />
+	<!--PHUNWARE- ADVERTISING - REPORTS DATA -->
+	<element name="AdReportsTabReportOptionsBtn" locatortype="xpath"
+		locatorvalue=".//div[@class='report-buttons']/button" />
+	<element name="AdReportsTabFilters" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-filters']/div[1]/ul" />
+	<element name="AdReportsTabApplyOptions" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-filters']/div[@class='report-buttons']/button" />
+	<!--PHUNWARE- ADVERTISING - DOWNLOADS SUB TAB -->
+	<element name="AdDownloadsTabHeaderText" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/header/h1"
+		exptext="DOWNLOADS" />
+	<element name="AdDownloadsTabNativeiOSViewSource" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div/div[1]/div/div/div[2]/div/table/tbody/tr/td[1]/p[1]/a" />
+	<!--PHUNWARE- ADVERTISING - PAYMENTS SUB TAB -->
+	<element name="AdPaymentsTabHeaderText" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/header/h1"
+		exptext="MANAGE PAYMENT METHODS" />
+	<element name="Adv_Pay_None_RadioBtn" locatortype="xpath"
+		locatorvalue=".//div[@id='payments-form']/div[1]/label" exptext="None" />
+	<element name="Adv_Pay_ACH_WIRE_RadioBtn" locatortype="xpath"
+		locatorvalue=".//div[@id='payments-form']/div[2]/label" exptext="ACH/WIRE" />
+	<element name="Adv_Pay_PayPal_RadioBtn" locatortype="xpath"
+		locatorvalue=".//div[@id='payments-form']/div[3]/label" exptext="PayPal" />
+	<element name="Adv_Pay_Check_RadioBtn" locatortype="xpath"
+		locatorvalue=".//div[@id='payments-form']/div[4]/label" exptext="Check" />
+	<element name="Adv_Pay_SaveChanges_Btn" locatortype="xpath"
+		locatorvalue=".//button[@id='button-payment-save']" exptext="Check" />
+	<element name="Adv_Pay_ACH_WIRE_Recipient_CompanyName_Text_Element"
+		locatortype="xpath" locatorvalue=".//div[@id='payment-wire']/table/tbody/tr[1]/td/label"
+		exptext="Recipient/Company Name" />
+	<element name="Adv_Pay_ACH_WIRE_Recipient_CompanyName_textbox"
+		locatortype="xpath" locatorvalue=".//div[@id='payment-wire']/table/tbody/tr[1]/td/input"
+		exptext="" />
+	<element name="Adv_Pay_ACH_WIRE_Recipient_BankName_Text_Element"
+		locatortype="xpath" locatorvalue=".//div[@id='payment-wire']/table/tbody/tr[2]/td[1]/label"
+		exptext="Bank Name" />
+	<element name="Adv_Pay_ACH_WIRE_Recipient_BankName_textbox"
+		locatortype="xpath" locatorvalue=".//div[@id='payment-wire']/table/tbody/tr[2]/td[1]/input"
+		exptext="" />
+	<element name="Adv_Pay_ACH_WIRE_Recipient_BankAddress_Text_Element"
+		locatortype="xpath" locatorvalue=".//div[@id='payment-wire']/table/tbody/tr[2]/td[2]/label"
+		exptext="Bank Address" />
+	<element name="Adv_Pay_ACH_WIRE_Recipient_BankAddress_textbox"
+		locatortype="xpath" locatorvalue=".//div[@id='payment-wire']/table/tbody/tr[2]/td[2]/input"
+		exptext="" />
+	<element name="Adv_Pay_ACH_WIRE_Recipient_AccountNumber_Text_Element"
+		locatortype="xpath" locatorvalue=".//div[@id='payment-wire']/table/tbody/tr[3]/td[1]/label"
+		exptext="Account Number/IBAN" />
+	<element name="Adv_Pay_ACH_WIRE_Recipient_AccountNumber_textbox"
+		locatortype="xpath" locatorvalue=".//div[@id='payment-wire']/table/tbody/tr[3]/td[1]/input"
+		exptext="" />
+	<element name="Adv_Pay_ACH_WIRE_Recipient_ACHRoutingNumber_Text_Element"
+		locatortype="xpath" locatorvalue=".//div[@id='payment-wire']/table/tbody/tr[3]/td[2]/label"
+		exptext="ACH Routing Number" />
+	<element name="Adv_Pay_ACH_WIRE_Recipient_ACHRoutingNumber_textbox"
+		locatortype="xpath" locatorvalue=".//div[@id='payment-wire']/table/tbody/tr[3]/td[2]/input"
+		exptext="" />
+	<element name="Adv_Pay_ACH_WIRE_BlankFields_ErrorMsg"
+		locatortype="xpath" locatorvalue=".//div[@class='alert alert-error']"
+		exptext="All fields are required for ACH payments" />
+	<element name="Adv_Pay_ACH_WIRE_AccountNumber_SpecialChar_ErrorMsg"
+		locatortype="xpath" locatorvalue=".//div[@class='alert alert-error']"
+		exptext="IBAN should be alpha-numeric (GB29 NWBK 6016 1331 9268 19)" />
+	<element name="Adv_Pay_ACH_WIRE_AchNumber_Alpha_And_Special_ErrorMsg"
+		locatortype="xpath" locatorvalue=".//div[@class='alert alert-error']"
+		exptext="ACH should be numeric (123456789)" />
+	<element name="Adv_Pay_Paypal_PaypalLogin_Text_Element"
+		locatortype="xpath" locatorvalue=".//div[@id='payment-paypal']/table/tbody/tr/td[1]/label"
+		exptext="PayPal Login" />
+	<element name="Adv_Pay_Paypal_PaypalLogin_textbox" locatortype="xpath"
+		locatorvalue=".//div[@id='payment-paypal']/table/tbody/tr/td[1]/input"
+		exptext="" />
+	<element name="Adv_Pay_Check_PaymentTo_Text_Element"
+		locatortype="xpath" locatorvalue=".//div[@id='payment-check']/table/tbody/tr[1]/td/label"
+		exptext="Payment To" />
+	<element name="Adv_Pay_Check_PaymentTo_textbox" locatortype="xpath"
+		locatorvalue=".//div[@id='payment-check']/table/tbody/tr[1]/td/input"
+		exptext="" />
+	<element name="Adv_Pay_Check_Address_Text_Element" locatortype="xpath"
+		locatorvalue=".//div[@id='payment-check']/table/tbody/tr[2]/td[1]/label"
+		exptext="Address" />
+	<element name="Adv_Pay_Check_Address_textbox" locatortype="xpath"
+		locatorvalue=".//div[@id='payment-check']/table/tbody/tr[2]/td[1]/input"
+		exptext="" />
+	<element name="Adv_Pay_Check_City_Text_Element" locatortype="xpath"
+		locatorvalue=".//div[@id='payment-check']/table/tbody/tr[2]/td[2]/label"
+		exptext="Address" />
+	<element name="Adv_Pay_Check_City_textbox" locatortype="xpath"
+		locatorvalue=".//div[@id='payment-check']/table/tbody/tr[2]/td[2]/input"
+		exptext="" />
+	<element name="Adv_Pay_Check_State_Text_Element" locatortype="xpath"
+		locatorvalue=".//div[@id='payment-check']/table/tbody/tr[3]/td[1]/label"
+		exptext="State" />
+	<element name="Adv_Pay_Check_State_Text_Element" locatortype="xpath"
+		locatorvalue=".//div[@id='payment-check']/table/tbody/tr[3]/td[1]/input"
+		exptext="" />
+	<element name="Adv_Pay_Check_ZIPCODE_Text_Element" locatortype="xpath"
+		locatorvalue=".//div[@id='payment-check']/table/tbody/tr[3]/td[2]/label"
+		exptext="Zip Code" />
+	<element name="Adv_Pay_Check_ZIPCODE_Text_Element" locatortype="xpath"
+		locatorvalue=".//div[@id='payment-check']/table/tbody/tr[3]/td[2]/input"
+		exptext="" />
+	<!--PHUNWARE- ADVERTISING - ACCOUNT SUB TAB -->
+	<element name="AdAccountTabHeaderText" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/header/h1"
+		exptext="CONFIGURATION" />
+	<!--PHUNWARE- ADVERTISING - NOT IN USE -->
+	<element name="AdDownloadsTab" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-sub-nav-container']/div/nav/ul/li[6]/a"
+		exptext="Downloads" />
+</OR>

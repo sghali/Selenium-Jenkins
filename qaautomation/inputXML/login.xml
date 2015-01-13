@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testcase name="login">	
+	<case name="verifyLoginForInvalidUser" runmode="Y">		
+		<param id="username">abc@cybage.com</param>
+		<param id="password">invalidpwd</param>			
+	</case>		
+	<case name="verifyLoginForValidUser" runmode="Y">			
+		<param id="username">bhargavas@cybage.com</param>
+		<param id="password">password</param>
+		<param id="organization">cybage</param>
+	</case>
+</testcase>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- browser IE/CHROME/FIREFOX/SAFARI -->
+<config>
+	<environment name="mass-stage" runmode="Y">	
+	<browser>SAFARI</browser>	
+	<url>https://maas-stage.phunware.com/login</url>
+	</environment>	
+	<environment name="mass-dev" runmode="N">	
+	<browser>FIREFOX</browser>	
+	<url></url>
+	</environment>	
+	<environment name="mass-production" runmode="N">	
+	<browser>FIREFOX</browser>	
+	<url></url>
+	</environment>	
+</config>

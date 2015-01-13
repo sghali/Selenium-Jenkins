@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project basedir="." default="build" name="maasautomation">
+	<property environment="env" />
+	<property name="ws.home" value="${basedir}" />
+	<property name="ws.jars" value="${ws.home}/lib" />
+	<property name="test.dest" value="${ws.home}/build" />
+	<property name="test.src" value="${ws.home}/src" />
+	<property name="ng.result" value="test-output" />
+	<property name="customReport" value="Custom Reports" />
+	<property name="report-dir" value="html-reports" />
+	<property name="junit-xml-dir" value="${ng.result}/junitreports" />
+
+
+	<!-- Target Name setClassPath -->
+	<target name="setClassPath" unless="test.classpath">
+		<path id="classpath_jars">
+			<fileset dir="${ws.jars}" includes="*.jar" />
+		</path>
+		<pathconvert pathsep=":" property="test.classpath" refid="classpath_jars" />
+	</target>
+
+	<!-- Target Name init -->
+	<target name="init" depends="setClassPath">
+		<tstamp>
+			<format property="start.time" pattern="MM/dd/yyyy hh:mm aa" />
+		</tstamp>
+		<condition property="ANT" value="${env.ANT_HOME}/bin/ant.bat" else="${env.ANT_HOME}/bin/ant">
+			<os family="windows" />
+		</condition>
+		<taskdef name="testng" classpath="${test.classpath}" classname="org.testng.TestNGAntTask" />
+	</target>
+
+	<!-- all -->
+	<target name="all">
+	</target>
+
+	<!-- Target name clean -->
+	<target name="clean">
+		<delete dir="${test.dest}" />
+	</target>
+
+	<!-- Target name compile -->
+	<target name="compile" depends="init, clean">
+		<delete includeemptydirs="true" quiet="true">
+			<fileset dir="${test.dest}" includes="**/*" />
+		</delete>
+		<echo message="making directory..." />
+		<mkdir dir="${test.dest}" />
+		<echo message="classpath------: ${test.classpath}" />
+		<echo message="compiling..." />
+		<javac debug="true" destdir="${test.dest}" srcdir="${test.src}" target="1.5" classpath="${test.classpath}">
+		</javac>
+		<copy todir="${test.dest}">
+			<fileset dir="${test.src}" excludes="**/*.java" />
+		</copy>
+	</target>
+
+	<!-- Target name build -->
+	<target name="build" depends="init">
+	</target>
+
+	<!-- Target name run -->
+	<target name="run" depends="compile,jar">
+		<testng classpath="${test.classpath}:${test.dest}" suitename="MaaS_Regression" delegatecommandsystemproperties="true">
+			<xmlfileset dir="${ws.home}" includes="testng.xml" />
+		</testng>
+		<!--
+	        <testng classpath="${test.classpath}:${test.dest}" groups="fast">
+	            <classfileset dir="${test.dest}" includes="example1/*.class"/>
+	        </testng>
+	        -->
+	</target>
+
+	<!-- Create JAR for the Application -->
+	<target name="jar">
+		<mkdir dir="build/jar" />
+		<jar destfile="build/jar/maas.jar" basedir="${test.dest}" />
+	</target>
+
+	<target name="usage">
+		<echo>
+	            ant run will execute the test
+	        </echo>
+	</target>
+
+	<path id="test.c">
+		<fileset dir="${ws.jars}" includes="*.jar" />
+	</path>
+
+	<target name="email" depends="run , junit-report" >
+		<antcall target="junit-report"/>
+		<zip destfile="${customReport}/CustomReport_TestReport.zip" basedir="${customReport}" />
+		<mail mailhost="172.27.172.202" mailport="25" subject="MaaS UI Test Results" messagemimetype="text/html" messagefile="${report-dir}/Junit/junit-noframes.html">
+			<from address="bhargavas@cybage.com" />
+			<to address="bhargavas@cybage.com" />
+
+			<attachments>
+				<fileset dir="${customReport}">
+					<include name="**/*.zip" />
+				</fileset>
+			</attachments>
+		</mail>
+	</target>
+
+	<target name="makexsltreports">
+		<mkdir dir="${ws.home}/XSLT_Reports/output" />
+
+		<xslt in="${ng.result}/testng-results.xml" style="XSLT_Reports/xslt/testng-results.xsl" out="${ws.home}/XSLT_Reports/output/index.html" classpathref="test.c" processor="SaxonLiaison">
+			<param name="testNgXslt.outputDir" expression="${ws.home}/XSLT_Reports/output/" />
+			<param name="testNgXslt.showRuntimeTotals" expression="true" />
+		</xslt>
+	</target>
+
+	<target name="junit-report">
+		<!-- Delete and recreate the html report directories -->
+		<delete dir="${report-dir}" failonerror="false"/>
+		<mkdir dir="${report-dir}" />
+		<mkdir dir="${report-dir}/Junit" />
+		<!-- Ant task to generate the html report.
+	  todir - Directory to generate the output reports
+	  
+	  feports.ileset - Directory to look for the junit xml r
+	  
+	  report - defines the type of format to be generated.
+	    Here we are using "noframes" which generates a single html report.
+	   -->
+		<junitreport todir="${report-dir}/Junit">
+			<fileset dir="${junit-xml-dir}">
+				<include name="**/*.xml" />
+			</fileset>
+			<report format="noframes" todir="${report-dir}/Junit" />
+		</junitreport>
+	</target>
+</project>

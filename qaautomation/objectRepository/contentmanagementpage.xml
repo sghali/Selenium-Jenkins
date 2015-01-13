@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OR>
+	<!--PHUNWARE- CONTENTMANAGEMENT - ALL TABS -->
+	<element name="ContentManagementContentTab" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-sub-nav-container']/div/nav/ul/li[1]/a"
+		exptext="Content" />
+	<element name="ContentManagementStructureTab" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-sub-nav-container']/div/nav/ul/li[2]/a"
+		exptext="Structure" />
+	<element name="ContentManagementSchemasTab" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-sub-nav-container']/div/nav/ul/li[3]/a"
+		exptext="Schemas" />
+	<element name="ContentManagementS3Tab" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-sub-nav-container']/div/nav/ul/li[4]/a"
+		exptext="S3" />
+	<!--PHUNWARE- CONTENTMANAGEMENT - CONTENT -->
+	<element name="ContentManagementContentTabHeaderText"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/header/h1"
+		exptext="CONTENT&#58;&#32;CONTAINERS" />
+	<element name="CMContentTabContainersList" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div[@id='container-item-list']" />
+	<element name="CMContentTabContainersContentForm" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div[@id='dashboard-view-structure-item']" />
+	<element name="CMContentTabContainersContentFormCompanyName"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-view-structure-item']/div/form/div[1]/div/div/div/div[1]/div[1]/label" />
+	<element name="CMContentTabContainersContentFormCompanyNameTextBox"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div[@id='dashboard-view-structure-item']/div/form/div[1]/div/div/div/div[1]/div[2]/input" />
+	<element name="CMContentTabContainersContentFormCompanyAdd"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-view-structure-item']/div/form/div[1]/div/div/div/div[2]/div[1]/label" />
+	<element name="CMContentTabContainersContentFormCompanyAddTextBox"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div[@id='dashboard-view-structure-item']/div/form/div[1]/div/div/div/div[2]/div[2]/input" />
+	<element name="CMContentTabContainersContentFormCompanyLocations"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-view-structure-item']/div/form/div[1]/div/div/div/div[3]/div[1]/label" />
+	<element name="CMContentTabContainersContentFormCompanyLocTextBox"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div[@id='dashboard-view-structure-item']/div/form/div[1]/div/div/div/div[3]/div[2]/textarea" />
+	<element name="CMContentTabContainersContentFormCompanyEmp"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-view-structure-item']/div/form/div[1]/div/div/div/div[4]/div[1]/label" />
+	<element name="CMContentTabContainersContentFormCompanyEmpTextBox"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div[@id='dashboard-view-structure-item']/div/form/div[1]/div/div/div/div[4]/div[2]/input" />
+	<element name="CMContentTabContainersContentFormCompanyEstDate"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-view-structure-item']/div/form/div[1]/div/div/div/div[5]/div[1]/label" />
+	<element name="CMContentTabContainersContentFormCompanyEstDateTextBox"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div[@id='dashboard-view-structure-item']/div/form/div[1]/div/div/div/div[5]/div[2]/input" />
+	<element name="CMSContentFormCompanyEstDateCalanderCurrentDate"
+		locatortype="xpath" locatorvalue=".//td[@class='day active']" />
+	<element name="CMContentTabContainersContentFormCancelBtn"
+		locatortype="xpath" locatorvalue=".//div[@id='dashboard-main-content-submit']/div/a" />
+	<element name="CMContentTabContainersContentFormSavelBtn"
+		locatortype="xpath"
+		locatorvalue=".//button[@id='new-schema-send-btn']" />
+	<element name="CMContentTabContainersContentFormSuccessMsg"
+		locatortype="xpath" locatorvalue=".//div[@class='alert alert-success']"
+		exptext="The data was saved!" />
+	<!--PHUNWARE- CONTENTMANAGEMENT - STRUCTURE -->
+	<element name="ContentManagementStructureTabHeaderText"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/header/h1"
+		exptext="STRUCTURE&#58;&#32;CONTAINERS" />
+	<element name="ContentManagementStructureTabNewContainerBtn"
+		locatortype="xpath" locatorvalue=".//a[@id='btn-add-container']" />
+	<element name="ContentManagementStructureTabContainersList"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div[@id='structure-item-list']" />
+	<element name="ContentManagementStructureTabNewContainerNameField"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='container-add-form']/form/div[1]/div/div/div/div/div/label"
+		exptext="Name *" />
+	<element name="ContentManagementStructureTabNewContainerNameFieldTextbox"
+		locatortype="xpath" locatorvalue=".//input[@id='container_save_name']" />
+	<element name="ContentManagementStructureTabNewContainerSaveBtn"
+		locatortype="xpath" locatorvalue=".//div[@id='container-add-form']/form/div[2]/div/button" />
+	<element name="ContentManagementStructureTabNewContainerCancelBtn"
+		locatortype="xpath" locatorvalue=".//div[@id='container-add-form']/form/div[2]/div/a" />
+	<element name="ContentManagementStructureTabNewContainerSuccessMsg"
+		locatortype="xpath" locatorvalue=".//div[@class='alert alert-success']"
+		exptext="The container was saved!" />
+	<element name="ContentManagementStructureTabNewContainerEditSaveBtn"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='container-edit-form form-container']/form/div[2]/div/button" />
+	<element name="ContentManagementStructureTabNewContainerEditCancelBtn"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='container-edit-form form-container']/form/div[2]/div/a[2]" />
+	<element name="ContentManagementStructureTabNewContainerEditDeleteBtn"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='container-edit-form form-container']/form/div[2]/div/a[1]" />
+	<element name="ContentManagementStructureTabNewContainerDeleteSuccessMsg"
+		locatortype="xpath" locatorvalue=".//div[@class='alert alert-success']"
+		exptext="The container was deleted!" />
+	<!--PHUNWARE- CONTENTMANAGEMENT - STRUCTURE OPEN CONTAINER ITEMS -->
+	<element name="CMStructureTabOpenContainerHeaderText"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/header/h1" />
+	<element name="CMStructureTabOpenContainerNewItemBtn"
+		locatortype="xpath" locatorvalue=".//a[@id='btn-add-structure']" />
+	<element name="CMStructureTabOpenContainerNewItemNameField"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div[2]/form/div[1]/div/div[1]/div/div[1]/label"
+		exptext="Name *" />
+	<element name="CMStructureTabOpenContainerNewItemNameTextbox"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div[2]/form/div[1]/div/div[1]/div/div[1]/input" />
+	<element name="CMStructureTabOpenContainerNewItemTypeField"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div[2]/form/div[1]/div/div[1]/div/div[2]/label"
+		exptext="Type *" />
+	<element name="CMStructureTabOpenContainerNewItemTypeDropdown"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div[2]/form/div[1]/div/div[1]/div/div[2]/select" />
+	<element name="CMStructureTabOpenContainerNewItemFieldField"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div[2]/form/div[1]/div/div[2]/div/div[1]/label"
+		exptext="Field" />
+	<element name="CMStructureTabOpenContainerNewItemFieldTextbox"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div[2]/form/div[1]/div/div[2]/div/div[1]/input" />
+	<element name="CMStructureTabOpenContainerNewItemSchemaField"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div[2]/form/div[1]/div/div[2]/div/div[2]/label"
+		exptext="Schema" />
+	<element name="CMStructureTabOpenContainerNewItemSchemaDropdown"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div[2]/form/div[1]/div/div[2]/div/div[2]/select" />
+	<element name="CMStructureTabOpenContainerNewItemCancelBtn"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div[2]/form/div[2]/div/a" />
+	<element name="CMStructureTabOpenContainerNewItemSaveBtn"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div[2]/form/div[2]/div/button" />
+	<element name="CMStructureTabOpenContainerNewItemErrorMsgAtField"
+		locatortype="xpath" locatorvalue=".//div[@class='alert alert-error']"
+		exptext="×&#10;You must specify a field value." />
+	<element name="CMStructureTabOpenContainerNewItemSuccessMsg"
+		locatortype="xpath" locatorvalue=".//div[@class='alert alert-success']"
+		exptext="The structure item was saved!" />
+	<element name="CMStructureTabOpenContainerContainersList"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div[@id='container-item-list']" />
+	<!--PHUNWARE- CONTENTMANAGEMENT - SCHEMAS -->
+	<element name="ContentManagementSchemasTabHeaderText"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/header/h1"
+		exptext="SCHEMAS" />
+	<element name="ContentManagementSchemasTabNewSchemaBtn"
+		locatortype="xpath" locatorvalue=".//a[@id='btn-add-schema']" />
+	<element name="ContentManagementSchemasTabSchemasList"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div[@id='container-item-list']" />
+	<element name="CMSchemasTabCreateNewSchemaHeaderText"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/header/h1"
+		exptext="CREATE NEW SCHEMA" />
+	<element name="CMSchemasTabCreateNewSchemaNameLabel"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-new-schema']/form/div[1]/div[1]/div/div/label"
+		exptext="Name *" />
+	<element name="CMSchemasTabCreateNewSchemaNameValue"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-new-schema']/form/div[1]/div[1]/div/div/input" />
+	<element name="CMSchemasTabCreateNewSchemaDescriptionLabel"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-new-schema']/form/div[1]/div[2]/div/div/label"
+		exptext="Description" />
+	<element name="CMSchemasTabCreateNewSchemaDescriptionTextbox"
+		locatortype="xpath" locatorvalue=".//input[@id='schema_description']" />
+	<element name="CMSchemasTabCreateNewSchemaAddAttributeBtn"
+		locatortype="xpath" locatorvalue=".//a[@id='btn-add-attribute']" />
+	<element name="CMSchemasTabCreateNewSchemaAddFieldBtn"
+		locatortype="xpath" locatorvalue=".//a[@id='btn-add-field']" />
+	<element name="CMSchemasTabCreateNewSchemaAttributesLabel"
+		locatortype="xpath" locatorvalue=".//div[@id='dashboard-new-schema']/form/div[3]/h2"
+		exptext="Attributes" />
+	<element name="CMSchemasTabCreateNewSchemaFieldsLabel"
+		locatortype="xpath" locatorvalue=".//div[@id='dashboard-new-schema']/form/div[5]/h2"
+		exptext="Fields" />
+	<element name="CMSchemasTabCreateNewSchemaCancelBtn"
+		locatortype="xpath" locatorvalue=".//a[@id='new-schema-cancel-btn']" />
+	<element name="CMSchemasTabCreateNewSchemaSaveBtn" locatortype="xpath"
+		locatorvalue=".//button[@id='new-schema-send-btn']" />
+	<element name="CMSchemasTabCreateNewSchemaAddAttributeFields"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='dashboard-form-style schema-block-container']" />
+	<element name="CMSchemasTabCreateNewSchemaAddAttributeFieldsCloseBtn"
+		locatortype="xpath" locatorvalue=".//div[@class='schema-block-controls']/a" />
+	<element name="CMSchemasTabCreateNewSchemaAddFieldFields"
+		locatortype="xpath"
+		locatorvalue=".//div[@class='dashboard-form-style field-block-container schema-block-container']" />
+	<element name="CMSchemasTabCreateNewSchemaAddFieldFieldsCloseBtn"
+		locatortype="xpath" locatorvalue=".//a[@id='btn-remove']" />
+	<element name="CMSchemasTabCreateNewSchemaAddAttributesKeyTextbox"
+		locatortype="xpath" locatorvalue=".//input[contains(@id,'schema_attributes')]" />
+	<element name="CMSchemasTabCreateNewSchemaAddFieldLabelTextbox"
+		locatortype="xpath" locatorvalue=".//input[contains(@id,'schema_fields')]" />
+	<element name="CMSchemasTabCreateNewSchemaAddFieldTypeDropDown"
+		locatortype="xpath" locatorvalue=".//select[contains(@id,'schema_fields')]" />
+	<element name="CMSchemasTabCreateNewSchemaFieldsErrorMSG"
+		locatortype="xpath" locatorvalue=".//div[@class='alert alert-error']"
+		exptext="This value should not be blank." />
+	<element name="CMSchemasTabCreateNewSchemaSuccessMSG"
+		locatortype="xpath" locatorvalue=".//div[@class='alert alert-success']"
+		exptext="Your schema has been saved." />
+	<element name="CMSchemasTabCreateNewSchemaDeleteSuccessMSG"
+		locatortype="xpath" locatorvalue=".//div[@class='alert alert-success']"
+		exptext="Your schema has been deleted." />
+	<!--PHUNWARE- CONTENTMANAGEMENT - SCHEMAS ATTRIBUTE SET & FIELD SET -->
+	<element name="CMSchemasTabCreateNewSchemaAddAttributeSet"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-new-schema']/form/div[@class='schema-attributes']" />
+	<element name="CMSchemasTabCreateNewSchemaAddFieldSet"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-new-schema']/form/div[@class='schema-fields ui-sortable']" />
+	<element name="CMSchemasTabCreateNewSchemaAddFieldSetLabel1"
+		locatortype="xpath" locatorvalue=".//input[@id='schema_fields_0_label']" />
+	<element name="CMSchemasTabCreateNewSchemaAddFieldSetField1"
+		locatortype="xpath" locatorvalue=".//input[@id='schema_fields_0_field']" />
+	<element name="CMSchemasTabCreateNewSchemaAddFieldSetDescription1"
+		locatortype="xpath" locatorvalue=".//input[@id='schema_fields_0_description']" />
+	<element name="CMSchemasTabCreateNewSchemaAddFieldSetLabel2"
+		locatortype="xpath" locatorvalue=".//input[@id='schema_fields_1_label']" />
+	<element name="CMSchemasTabCreateNewSchemaAddFieldSetField2"
+		locatortype="xpath" locatorvalue=".//input[@id='schema_fields_1_field']" />
+	<element name="CMSchemasTabCreateNewSchemaAddFieldSetDescription2"
+		locatortype="xpath" locatorvalue=".//input[@id='schema_fields_1_description']" />
+	<element name="CMSchemasTabCreateNewSchemaAddFieldSetLabel3"
+		locatortype="xpath" locatorvalue=".//input[@id='schema_fields_2_label']" />
+	<element name="CMSchemasTabCreateNewSchemaAddFieldSetField3"
+		locatortype="xpath" locatorvalue=".//input[@id='schema_fields_2_field']" />
+	<element name="CMSchemasTabCreateNewSchemaAddFieldSetDescription3"
+		locatortype="xpath" locatorvalue=".//input[@id='schema_fields_2_description']" />
+	<element name="CMSchemasTabCreateNewSchemaAddFieldSetTypeDropdown3"
+		locatortype="xpath" locatorvalue=".//select[@id='schema_fields_2_type']" />
+	<element name="CMSchemasTabCreateNewSchemaAddFieldSetLabel4"
+		locatortype="xpath" locatorvalue=".//input[@id='schema_fields_3_label']" />
+	<element name="CMSchemasTabCreateNewSchemaAddFieldSetField4"
+		locatortype="xpath" locatorvalue=".//input[@id='schema_fields_3_field']" />
+	<element name="CMSchemasTabCreateNewSchemaAddFieldSetDescription4"
+		locatortype="xpath" locatorvalue=".//input[@id='schema_fields_3_description']" />
+	<element name="CMSchemasTabCreateNewSchemaAddFieldSetTypeDropdown4"
+		locatortype="xpath" locatorvalue=".//select[@id='schema_fields_3_type']" />
+	<element name="CMSchemasTabCreateNewSchemaAddFieldSetLabel5"
+		locatortype="xpath" locatorvalue=".//input[@id='schema_fields_4_label']" />
+	<element name="CMSchemasTabCreateNewSchemaAddFieldSetField5"
+		locatortype="xpath" locatorvalue=".//input[@id='schema_fields_4_field']" />
+	<element name="CMSchemasTabCreateNewSchemaAddFieldSetDescription5"
+		locatortype="xpath" locatorvalue=".//input[@id='schema_fields_4_description']" />
+	<element name="CMSchemasTabCreateNewSchemaAddFieldSetTypeDropdown5"
+		locatortype="xpath" locatorvalue=".//select[@id='schema_fields_4_type']" />
+	<!--PHUNWARE- CONTENTMANAGEMENT - SCHEMAS Edit Schema -->
+	<element name="CMSchemasTabCreateNewSchemaNameTextBoxEdit"
+		locatortype="xpath" locatorvalue=".//input[@id='schema_name']" />
+	<element name="CMSchemasTabEditSchemaDeleteSchemaBtn"
+		locatortype="xpath" locatorvalue=".//a[text()='Delete Schema']" />
+	<!--PHUNWARE- CONTENTMANAGEMENT - S3 -->
+	<element name="ContentManagementS3TabHeaderText" locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/header/h1"
+		exptext="SET S3 DATA" />
+	<element name="ContentManagementS3TabNewSchemaBtn" locatortype="xpath"
+		locatorvalue=".//a[@id='btn-add-schema']" />
+	<!--New Functionality- MULTI LINE HTML - CONTENT -->
+	<element name="CMContentTabMultiLineHtmlRichTextbox"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div[@id='dashboard-view-structure-item']/div/form/div[1]/div/div/div/div[3]/div[2]/div/div" />
+	<element name="CMContentTabMultiLineHtmlRichTextboxHeader"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div[@id='dashboard-view-structure-item']/div/form/div[1]/div/div/div/div[3]/div[2]/div/div/span" />
+	<element name="CMContentTabMultiLineHtmlRichTextboxBottomFrame"
+		locatortype="xpath"
+		locatorvalue=".//div[@id='dashboard-main-content-container']/div/div[@id='dashboard-view-structure-item']/div/form/div[1]/div/div/div/div[3]/div[2]/div/div/div/iframe" />
+	<element name="CMContentTabMultiLineHtmlRichTextboxBottomBody"
+		locatortype="xpath"
+		locatorvalue="//body[@class='cke_editable cke_editable_themed cke_contents_ltr']" />
+	<element name="CMContentTabMultiLineHtmlRichTextboxBottomBodyParagraph"
+		locatortype="xpath"
+		locatorvalue="//body[@class='cke_editable cke_editable_themed cke_contents_ltr']/p" />
+	<element name="CMContentTabMultiLineHtmlRichTextboxBold"
+		locatortype="xpath" locatorvalue=".//span[@class='cke_toolgroup']/a[1]" />
+	<element name="CMS_ThisValueShouldNotBlank_Msg_Element"
+		locatortype="xpath" locatorvalue=".//div[@class='alert alert-error']"
+		exptext="This value should not be blank." />
+</OR>

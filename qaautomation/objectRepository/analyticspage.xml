@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OR>	
+	
+ <!--ANALYTICS PAGE -->		
+	<element name="AnalyticsTab" locatortype="xpath" locatorvalue=".//div[@id='dashboard-main-nav-container']/nav/ul/li[1]/a" exptext="ANALYTICS"/>
+	<element name="AnalyticsOverviewTabHeaderText" locatortype="xpath" locatorvalue=".//header[@class='dashboard-main-content-msg']/h1" exptext="OVERVIEW"/>
+	<element name="AnalyticsOverviewTabApplicationDropdown" locatortype="xpath" locatorvalue=".//select[@id='app-select']"/>
+	<element name="AnalyticsOverviewTabCalandarDropdown" locatortype="xpath" locatorvalue=".//select[@id='report-type-select']"/>
+	
+	
+	<element name="AnalyticsEventsTab" locatortype="xpath" locatorvalue=".//a[@href='/analytics/events']" exptext="Custom Events"/>
+	<element name="AnalyticsEventsTabHeaderText" locatortype="xpath" locatorvalue=".//div[@id='dashboard-main-content-container']/div/header/h1" exptext="EVENTS"/>
+	<element name="AnalyticsEventsTabApplicationDropdown" locatortype="xpath" locatorvalue=".//select[@id='app-select']"/>
+	<element name="AnalyticsEventsTabCalandarDropdown" locatortype="xpath" locatorvalue=".//select[@id='report-type-select']"/>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+</OR>

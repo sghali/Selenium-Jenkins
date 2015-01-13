@@ -1,0 +1,792 @@
+ INFO 2014-07-16 15:52:36,683 [main] (ContentManagement.java:1635) - User is on [Create New Schema] tab
+ INFO 2014-07-16 15:52:36,683 [main] (ContentManagement.java:1636) - Verify validations on Create new Schema 
+ INFO 2014-07-16 15:52:40,852 [main] (ContentManagement.java:1712) - Click operation is successful on 'SAVE' button. Verify 'Name' field is mandatory for creating container
+ INFO 2014-07-16 15:52:40,910 [main] (ContentManagement.java:1737) - Validation on 'Name' field is successful. User is on [CREATE NEW SCHEMA] page
+ INFO 2014-07-16 15:52:40,918 [main] (ContentManagement.java:1746) - Enter the schema [Cybage Automation Test Schema] in Name textbox
+ INFO 2014-07-16 15:52:41,030 [main] (ContentManagement.java:1750) - Entering Schema in Name textbox is successful
+ INFO 2014-07-16 15:52:41,030 [main] (ContentManagement.java:1751) - Click on 'SAVE' button
+ INFO 2014-07-16 15:52:47,148 [main] (ContentManagement.java:1772) - Click operation is successful on 'SAVE' button. Verify 'Name' field is mandatory for creating container
+ INFO 2014-07-16 15:52:47,214 [main] (ContentManagement.java:1819) - Validation success at Fields in [CREATE NEW SCHEMA]
+ INFO 2014-07-16 15:52:56,973 [main] (ContentManagement.java:1859) - Click operation is successful on 'SAVE' button. Verify 'Name' field is mandatory for creating container
+ INFO 2014-07-16 15:53:03,174 [main] (ContentManagement.java:1928) - Click operation is successful on 'SAVE' button. Verify 'Name' field is mandatory for creating container
+ INFO 2014-07-16 15:53:09,540 [main] (ContentManagement.java:1980) - Click operation on ADD ATTRIBUTE is successful
+ INFO 2014-07-16 15:53:15,765 [main] (ContentManagement.java:1992) - Click operation is successful on 'SAVE' button. Verify 'Name' field is mandatory for creating container
+ INFO 2014-07-16 15:53:22,118 [main] (ContentManagement.java:2052) - Click operation is successful on 'SAVE' button. Verify 'Name' field is mandatory for creating container
+ INFO 2014-07-16 15:53:29,058 [main] (ContentManagement.java:2120) - Starting [createNewSchema] execution
+ INFO 2014-07-16 15:53:29,059 [main] (ContentManagement.java:2121) - Verify if User is on [Create New Schema] page
+ERROR 2014-07-16 15:53:35,123 [main] (SeleniumUtils.java:163) - Assertion error
+ INFO 2014-07-16 15:53:35,123 [main] (ContentManagement.java:2138) - User is not on [Create New Schema] page
+ INFO 2014-07-16 15:53:35,124 [main] (ContentManagement.java:2139) - Navigate to [Schemas] tab
+ INFO 2014-07-16 15:53:54,010 [main] (ContentManagement.java:2268) - User is on [Create New Schema] tab
+ INFO 2014-07-16 15:53:54,011 [main] (ContentManagement.java:2269) - Create new Schema 
+ INFO 2014-07-16 15:53:54,526 [main] (ContentManagement.java:2367) - Click on ADD ATTRIBUTE button
+ INFO 2014-07-16 15:53:59,743 [main] (ContentManagement.java:2370) - Click operation on 'ADD ATTRIBUTE' button is successful. Enter data in 'Key' and 'Val' fields
+ INFO 2014-07-16 15:54:00,313 [main] (ContentManagement.java:2409) - Click on 'ADD FIELD' button
+ INFO 2014-07-16 15:54:06,600 [main] (ContentManagement.java:2412) - Click operation on 'ADD FIELD' button is successful
+ERROR 2014-07-16 15:54:07,553 [main] (SeleniumUtils.java:289) - java.lang.NullPointerException
+ INFO 2014-07-16 15:54:18,434 [main] (ContentManagement.java:2513) - Test case [createNewSchema] is successful
+ INFO 2014-07-16 15:54:18,442 [main] (ContentManagement.java:2535) - Starting [verifySchema] execution
+ INFO 2014-07-16 15:54:18,442 [main] (ContentManagement.java:2536) - Verify if User is on [Schemas] page
+ INFO 2014-07-16 15:54:18,463 [main] (ContentManagement.java:2626) - User is on [Schemas] tab
+ INFO 2014-07-16 15:54:18,464 [main] (ContentManagement.java:2627) - Verify if Schemas List present in [Schemas] tab
+ INFO 2014-07-16 15:54:27,979 [main] (ContentManagement.java:2643) - Verification of Schemas List is successful. Schemas List is present in [Schemas] tab
+ INFO 2014-07-16 15:54:27,979 [main] (ContentManagement.java:2645) - Verify [Cybage Automation Test Schema] schema present in the Schemas List
+ INFO 2014-07-16 15:54:28,042 [main] (ContentManagement.java:2660) - [Cybage Automation Test Schema] schema present in the Schemas List
+ INFO 2014-07-16 15:54:28,042 [main] (ContentManagement.java:2662) - Execution of verifySchema is successful
+ INFO 2014-07-16 15:54:28,066 [main] (ContentManagement.java:2688) - Starting [editSchema] execution
+ INFO 2014-07-16 15:54:28,066 [main] (ContentManagement.java:2689) - Verify if User is on [Schemas] page
+ INFO 2014-07-16 15:54:28,084 [main] (ContentManagement.java:2780) - User is on [Schemas] tab
+ INFO 2014-07-16 15:54:28,085 [main] (ContentManagement.java:2781) - Verify if Schemas List present in [Schemas] tab
+ INFO 2014-07-16 15:54:30,139 [main] (ContentManagement.java:2797) - Verification of Schemas List is successful
+ INFO 2014-07-16 15:54:30,139 [main] (ContentManagement.java:2798) - Edit the [Cybage Automation Test Schema] schema
+ INFO 2014-07-16 15:54:45,914 [main] (ContentManagement.java:2939) - Test case [editSchema] is successful
+ INFO 2014-07-16 15:54:45,920 [main] (ContentManagement.java:2967) - Starting [deleteSchema] execution
+ INFO 2014-07-16 15:54:45,921 [main] (ContentManagement.java:2968) - Verify if User is on [Schemas] page
+ INFO 2014-07-16 15:54:47,994 [main] (ContentManagement.java:3067) - User is on [Schemas] tab
+ INFO 2014-07-16 15:54:47,995 [main] (ContentManagement.java:3068) - Verify if Schemas List present in [Schemas] tab
+ INFO 2014-07-16 15:54:48,004 [main] (ContentManagement.java:3083) - Verification of Schemas List is successful. Schemas List is present in [Schemas] tab
+ INFO 2014-07-16 15:54:48,004 [main] (ContentManagement.java:3085) - Verify [Cybage Automation Test SchemaEdit] schema present in the Schemas List
+ INFO 2014-07-16 15:54:53,189 [main] (ContentManagement.java:3118) - [Cybage Automation Test SchemaEdit] schema present in the Schemas List
+ INFO 2014-07-16 15:55:09,021 [main] (ContentManagement.java:3224) - Starting [createNewComplexSchema] execution
+ INFO 2014-07-16 15:55:09,022 [main] (ContentManagement.java:3225) - Verify if User is on [Create New Schema] page
+ERROR 2014-07-16 15:55:09,041 [main] (SeleniumUtils.java:163) - Assertion error
+ INFO 2014-07-16 15:55:09,041 [main] (ContentManagement.java:3241) - User is not on [Create New Schema] page
+ INFO 2014-07-16 15:55:09,041 [main] (ContentManagement.java:3242) - Navigate to [Schemas] tab
+ INFO 2014-07-16 15:55:26,204 [main] (ContentManagement.java:3371) - User is on [Create New Schema] tab
+ INFO 2014-07-16 15:55:26,204 [main] (ContentManagement.java:3372) - Create new Complex Schema 
+ INFO 2014-07-16 15:55:26,749 [main] (ContentManagement.java:3504) - Click on ADD ATTRIBUTE button
+ INFO 2014-07-16 15:55:32,015 [main] (ContentManagement.java:3525) - Click operation on 'ADD ATTRIBUTE' button is successful. Enter data in 'Key' and 'Val' fields
+ INFO 2014-07-16 15:55:32,522 [main] (ContentManagement.java:3564) - Click on 'ADD FIELD' button
+ INFO 2014-07-16 15:55:38,435 [main] (ContentManagement.java:3577) - Click operation on 'ADD FIELD' button is successful
+ INFO 2014-07-16 15:55:51,820 [main] (ContentManagement.java:4033) - Starting [createNewContainer] execution
+ INFO 2014-07-16 15:55:51,820 [main] (ContentManagement.java:4034) - Verify if user is on [STRUCTURE:CONTAINERS] tab
+ERROR 2014-07-16 15:55:51,839 [main] (SeleniumUtils.java:163) - Assertion error
+ INFO 2014-07-16 15:55:51,839 [main] (ContentManagement.java:4050) - User is not on [STRUCTURE:CONTAINERS] tab 
+ INFO 2014-07-16 15:55:51,840 [main] (ContentManagement.java:4051) - Click on [Structure] sub tab
+ INFO 2014-07-16 15:56:00,204 [main] (ContentManagement.java:4087) - Click operation on [STRUCTURE] tab is successful. Verify User is on [STRUCTURE:CONTAINERS] page
+ INFO 2014-07-16 15:56:00,261 [main] (ContentManagement.java:4128) - User is on [STRUCTURE:CONTAINERS] tab
+ INFO 2014-07-16 15:56:00,261 [main] (ContentManagement.java:4129) - Click on 'NEW CONTAINER' button
+ INFO 2014-07-16 15:56:03,445 [main] (ContentManagement.java:4150) - Verify 'Name' field 'SAVE' & 'CANCEL' buttons are displayed
+ INFO 2014-07-16 15:56:03,535 [main] (ContentManagement.java:4241) - 'Name' field 'SAVE' & 'CANCEL' buttons are displayed successfully 
+ INFO 2014-07-16 15:56:03,536 [main] (ContentManagement.java:4242) - Create [Cybage Automation Test Container] container
+ INFO 2014-07-16 15:56:09,087 [main] (ContentManagement.java:4268) - Verify if the Success message displyaed 
+ INFO 2014-07-16 15:56:09,168 [main] (ContentManagement.java:4302) - New Container Success message displayed successfully
+ INFO 2014-07-16 15:56:09,168 [main] (ContentManagement.java:4303) - Verify if the container [Cybage Automation Test Container] displayed in Containers list
+ INFO 2014-07-16 15:56:11,351 [main] (ContentManagement.java:4340) - [Cybage Automation Test Container] displyaed in Containers list
+ INFO 2014-07-16 15:56:11,351 [main] (ContentManagement.java:4342) - Test case [createNewContainer] is successful
+ INFO 2014-07-16 15:56:11,376 [main] (ContentManagement.java:4369) - Starting [editContainer] execution
+ INFO 2014-07-16 15:56:11,376 [main] (ContentManagement.java:4370) - Verify if user is on [STRUCTURE:CONTAINERS] tab
+ INFO 2014-07-16 15:56:13,423 [main] (ContentManagement.java:4464) - User is on [STRUCTURE:CONTAINERS] tab
+ INFO 2014-07-16 15:56:13,424 [main] (ContentManagement.java:4465) - Verify if the container [Cybage Automation Test Container] displayed in Containers list
+ INFO 2014-07-16 15:56:17,620 [main] (ContentManagement.java:4502) - [Cybage Automation Test Container] displyaed in Containers list
+ INFO 2014-07-16 15:56:17,621 [main] (ContentManagement.java:4504) - Edit the container [Cybage Automation Test Container]
+ INFO 2014-07-16 15:56:17,921 [main] (ContentManagement.java:4519) - Click operation successful on Edit link of a container [Cybage Automation Test Container] 
+ INFO 2014-07-16 15:56:25,562 [main] (ContentManagement.java:4562) - Verify if the Success message displyaed 
+ INFO 2014-07-16 15:56:29,595 [main] (ContentManagement.java:4596) - Edit Container Success message displayed successfully
+ INFO 2014-07-16 15:56:29,596 [main] (ContentManagement.java:4597) - Verify if the container [Cybage Automation Test ContainerEdit] displayed in Containers list
+ INFO 2014-07-16 15:56:40,673 [main] (ContentManagement.java:4634) - [Cybage Automation Test ContainerEdit] displyaed in Containers list
+ INFO 2014-07-16 15:56:40,673 [main] (ContentManagement.java:4636) - Test case [editContainer] is successful 
+ INFO 2014-07-16 15:56:40,681 [main] (ContentManagement.java:4664) - Starting [deleteContainer] execution
+ INFO 2014-07-16 15:56:40,681 [main] (ContentManagement.java:4665) - Verify if user is on [STRUCTURE:CONTAINERS] tab
+ INFO 2014-07-16 15:56:42,749 [main] (ContentManagement.java:4756) - User is on [STRUCTURE:CONTAINERS] tab
+ INFO 2014-07-16 15:56:42,749 [main] (ContentManagement.java:4757) - Verify if the container [Cybage Automation Test ContainerEdit] displayed in Containers list
+ INFO 2014-07-16 15:56:43,111 [main] (ContentManagement.java:4792) - [Cybage Automation Test ContainerEdit] displyaed in Containers list
+ INFO 2014-07-16 15:56:43,111 [main] (ContentManagement.java:4794) - Edit the container [Cybage Automation Test ContainerEdit]
+ INFO 2014-07-16 15:56:43,480 [main] (ContentManagement.java:4809) - Click operation successful on Edit link of a container [Cybage Automation Test ContainerEdit] 
+ INFO 2014-07-16 15:56:58,887 [main] (ContentManagement.java:4833) - Verify if the Container Delte Success message displyaed 
+ INFO 2014-07-16 15:56:58,933 [main] (ContentManagement.java:4872) - Delete Container Success message displayed successfully
+ INFO 2014-07-16 15:56:58,933 [main] (ContentManagement.java:4873) - Verify if the container [null] displayed in Containers list
+ERROR 2014-07-16 15:56:58,969 [main] (SeleniumCustomUtils.java:1115) - java.lang.NullPointerException
+ INFO 2014-07-16 15:56:58,992 [main] (ContentManagement.java:4930) - Starting [createContainerWithSchema] execution
+ INFO 2014-07-16 15:56:58,992 [main] (ContentManagement.java:4931) - Verify if user is on [STRUCTURE:CONTAINERS] tab
+ INFO 2014-07-16 15:57:01,013 [main] (ContentManagement.java:5024) - User is on [STRUCTURE:CONTAINERS] tab
+ INFO 2014-07-16 15:57:01,013 [main] (ContentManagement.java:5025) - Click on 'NEW CONTAINER' button
+ INFO 2014-07-16 15:57:07,205 [main] (ContentManagement.java:5047) - Verify 'Name' field 'SAVE' & 'CANCEL' buttons are displayed
+ INFO 2014-07-16 15:57:07,277 [main] (ContentManagement.java:5121) - 'Name' field 'SAVE' & 'CANCEL' buttons are displayed successfully 
+ INFO 2014-07-16 15:57:07,278 [main] (ContentManagement.java:5122) - Create [Companies List] container
+ INFO 2014-07-16 15:57:14,760 [main] (ContentManagement.java:5148) - Verify if the Success message displyaed 
+ INFO 2014-07-16 15:57:14,957 [main] (ContentManagement.java:5186) - New Container Success message displayed successfully
+ INFO 2014-07-16 15:57:14,957 [main] (ContentManagement.java:5187) - Verify if the container [Companies List] displayed in Containers list
+ INFO 2014-07-16 15:57:15,118 [main] (ContentManagement.java:5223) - [Companies List] displyaed in Containers list
+ INFO 2014-07-16 15:57:15,118 [main] (ContentManagement.java:5225) - Click on [Companies List] container
+ INFO 2014-07-16 15:57:21,512 [main] (ContentManagement.java:5273) - Click operation successful on container [Companies List]
+ INFO 2014-07-16 15:57:21,520 [main] (ContentManagement.java:5292) - Click on 'NEW ITEM' button for container
+ INFO 2014-07-16 15:57:25,687 [main] (ContentManagement.java:5296) - Click operation is successful on 'NEW ITEM'. Verify 'Name', 'Field', 'Type' & 'Schema' fields
+ INFO 2014-07-16 15:57:25,830 [main] (ContentManagement.java:5510) - Verification of 'Name', 'Type', 'Field' & 'Schema' fields are successful
+ INFO 2014-07-16 15:57:25,830 [main] (ContentManagement.java:5511) - Verify 'CANCEL' & 'SAVE' buttons
+ INFO 2014-07-16 15:57:25,839 [main] (ContentManagement.java:5529) - Verification of 'CANCEL' & 'SAVE' buttons successful
+ INFO 2014-07-16 15:57:25,840 [main] (ContentManagement.java:5530) - Validate the 'NEW ITEM' form
+ INFO 2014-07-16 15:57:39,318 [main] (ContentManagement.java:5703) - Verify if the container [Companies] displayed in Containers list
+ INFO 2014-07-16 15:57:42,446 [main] (ContentManagement.java:5726) - container [Companies] is present in containers list
+ INFO 2014-07-16 15:57:49,485 [main] (ContentManagement.java:5792) - Starting [putContentInContainer] execution
+ INFO 2014-07-16 15:57:49,485 [main] (ContentManagement.java:5793) - Verify if user is on [Content] sub tab in [Content Management] tab
+ERROR 2014-07-16 15:57:51,522 [main] (SeleniumUtils.java:163) - Assertion error
+ INFO 2014-07-16 15:57:59,667 [main] (ContentManagement.java:5880) - User is on [Content] sub tab in [Content Management] tab
+ INFO 2014-07-16 15:57:59,668 [main] (ContentManagement.java:5881) - Click on container [Companies List] in container list
+ INFO 2014-07-16 15:58:18,621 [main] (ContentManagement.java:6005) - Verify the form and enter the data in container
+ INFO 2014-07-16 15:58:31,553 [main] (ContentManagement.java:6210) - Verification of all the form fields and Entering data is successful
+ INFO 2014-07-16 15:58:31,553 [main] (ContentManagement.java:6211) - Click on SAVE button
+ INFO 2014-07-16 15:58:37,877 [main] (ContentManagement.java:6279) - Content data saved successfully
+ INFO 2014-07-16 15:59:00,699 [main] (ContentManagement.java:6427) - Verify if User is on [Create New Schema] page
+ERROR 2014-07-16 15:59:00,722 [main] (SeleniumUtils.java:163) - Assertion error
+ INFO 2014-07-16 15:59:00,722 [main] (ContentManagement.java:6443) - User is not on [Create New Schema] page
+ INFO 2014-07-16 15:59:00,723 [main] (ContentManagement.java:6444) - Navigate to [Schemas] tab
+ INFO 2014-07-16 15:59:18,238 [main] (ContentManagement.java:6573) - User is on [Create New Schema] tab
+ INFO 2014-07-16 15:59:18,238 [main] (ContentManagement.java:6574) - Create new Complex Schema 
+ INFO 2014-07-16 15:59:18,761 [main] (ContentManagement.java:6706) - Click on ADD ATTRIBUTE button
+ INFO 2014-07-16 15:59:24,011 [main] (ContentManagement.java:6727) - Click operation on 'ADD ATTRIBUTE' button is successful. Enter data in 'Key' and 'Val' fields
+ INFO 2014-07-16 15:59:24,498 [main] (ContentManagement.java:6766) - Click on 'ADD FIELD' button
+ INFO 2014-07-16 15:59:30,320 [main] (ContentManagement.java:6779) - Click operation on 'ADD FIELD' button is successful
+ INFO 2014-07-16 15:59:44,447 [main] (ContentManagement.java:7208) - Verify if user is on [STRUCTURE:CONTAINERS] tab
+ERROR 2014-07-16 15:59:46,495 [main] (SeleniumUtils.java:163) - Assertion error
+ INFO 2014-07-16 15:59:46,495 [main] (ContentManagement.java:7225) - User is not on [STRUCTURE:CONTAINERS] tab 
+ INFO 2014-07-16 15:59:46,495 [main] (ContentManagement.java:7226) - Click on [Structure] sub tab
+ INFO 2014-07-16 15:59:54,122 [main] (ContentManagement.java:7260) - Click operation on [STRUCTURE] tab is successful. Verify User is on [STRUCTURE:CONTAINERS] page
+ INFO 2014-07-16 15:59:54,173 [main] (ContentManagement.java:7301) - User is on [STRUCTURE:CONTAINERS] tab
+ INFO 2014-07-16 15:59:54,173 [main] (ContentManagement.java:7302) - Click on 'NEW CONTAINER' button
+ INFO 2014-07-16 16:00:00,375 [main] (ContentManagement.java:7324) - Verify 'Name' field 'SAVE' & 'CANCEL' buttons are displayed
+ INFO 2014-07-16 16:00:00,454 [main] (ContentManagement.java:7398) - 'Name' field 'SAVE' & 'CANCEL' buttons are displayed successfully 
+ INFO 2014-07-16 16:00:00,456 [main] (ContentManagement.java:7399) - Create [Office List] container
+ INFO 2014-07-16 16:00:07,887 [main] (ContentManagement.java:7425) - Verify if the Success message displyaed 
+ INFO 2014-07-16 16:00:10,776 [main] (ContentManagement.java:7463) - New Container Success message displayed successfully
+ INFO 2014-07-16 16:00:10,776 [main] (ContentManagement.java:7464) - Verify if the container [Office List] displayed in Containers list
+ INFO 2014-07-16 16:00:10,878 [main] (ContentManagement.java:7500) - [Office List] displyaed in Containers list
+ INFO 2014-07-16 16:00:10,878 [main] (ContentManagement.java:7502) - Click on [Office List] container
+ INFO 2014-07-16 16:00:16,527 [main] (ContentManagement.java:7550) - Click operation successful on container [Office List]
+ INFO 2014-07-16 16:00:16,537 [main] (ContentManagement.java:7569) - Click on 'NEW ITEM' button for container
+ INFO 2014-07-16 16:00:20,704 [main] (ContentManagement.java:7573) - Click operation is successful on 'NEW ITEM'. Verify 'Name', 'Field', 'Type' & 'Schema' fields
+ INFO 2014-07-16 16:00:20,868 [main] (ContentManagement.java:7787) - Verification of 'Name', 'Type', 'Field' & 'Schema' fields are successful
+ INFO 2014-07-16 16:00:20,868 [main] (ContentManagement.java:7788) - Verify 'CANCEL' & 'SAVE' buttons
+ INFO 2014-07-16 16:00:20,876 [main] (ContentManagement.java:7806) - Verification of 'CANCEL' & 'SAVE' buttons successful
+ INFO 2014-07-16 16:00:20,876 [main] (ContentManagement.java:7807) - Validate the 'NEW ITEM' form
+ INFO 2014-07-16 16:00:34,256 [main] (ContentManagement.java:7980) - Verify if the container [Offices] displayed in Containers list
+ INFO 2014-07-16 16:00:36,875 [main] (ContentManagement.java:8003) - container [Offices] is present in containers list
+ INFO 2014-07-16 16:00:43,924 [main] (ContentManagement.java:8043) - Verify if user is on [Content] sub tab in [Content Management] tab
+ERROR 2014-07-16 16:00:45,974 [main] (SeleniumUtils.java:163) - Assertion error
+ INFO 2014-07-16 16:00:54,928 [main] (ContentManagement.java:8130) - User is on [Content] sub tab in [Content Management] tab
+ INFO 2014-07-16 16:00:54,928 [main] (ContentManagement.java:8131) - Click on container [Office List] in container list
+ INFO 2014-07-16 16:01:14,924 [main] (ContentManagement.java:8255) - Verify the form and enter the data in container
+ERROR 2014-07-16 16:01:23,382 [main] (SeleniumUtils.java:143) - Unable to identify the element with id xpath and value //body[@class='cke_editable cke_editable_themed cke_contents_ltr']/p
+ERROR 2014-07-16 16:01:23,383 [main] (ContentManagement.java:8418) - Unable to identify third label texbox element
+ERROR 2014-07-16 16:01:23,718 [main] (SeleniumUtils.java:350) - java.lang.NullPointerException
+ERROR 2014-07-16 16:01:25,719 [main] (SeleniumUtils.java:266) - Error while typing the textjava.lang.NullPointerException
+ERROR 2014-07-16 16:01:25,758 [main] (SeleniumUtils.java:163) - Assertion error
+ERROR 2014-07-16 16:01:25,758 [main] (ContentManagement.java:8449) - Validation failed at Bold functionality
+ERROR 2014-07-16 16:01:31,104 [main] (SeleniumUtils.java:143) - Unable to identify the element with id xpath and value //body[@class='cke_editable cke_editable_themed cke_contents_ltr']/p
+ERROR 2014-07-16 16:01:31,104 [main] (ContentManagement.java:8480) - Unable to identify third label texbox element
+ERROR 2014-07-16 16:01:31,340 [main] (SeleniumUtils.java:900) - Unable to perform select operation on given text
+ INFO 2014-07-16 16:01:38,966 [main] (ContentManagement.java:8599) - Verification of all the form fields and Entering data is successful
+ INFO 2014-07-16 16:01:38,966 [main] (ContentManagement.java:8600) - Click on SAVE button
+ INFO 2014-07-16 16:01:47,882 [main] (ContentManagement.java:8668) - Content data saved successfully
+ INFO 2014-07-16 16:02:07,978 [main] (ContentManagement.java:8815) - Starting [deleteTestData] execution
+ INFO 2014-07-16 16:02:07,978 [main] (ContentManagement.java:8817) - Verify if User is on [Schemas] page
+ERROR 2014-07-16 16:02:08,016 [main] (SeleniumUtils.java:163) - Assertion error
+ INFO 2014-07-16 16:02:08,016 [main] (ContentManagement.java:8833) - User is not on [Schemas] tab
+ INFO 2014-07-16 16:02:15,518 [main] (ContentManagement.java:8906) - User is on [Schemas] tab
+ INFO 2014-07-16 16:02:15,518 [main] (ContentManagement.java:8907) - Verify if Schemas List present in [Schemas] tab
+ INFO 2014-07-16 16:02:15,528 [main] (ContentManagement.java:8922) - Verification of Schemas List is successful. Schemas List is present in [Schemas] tab
+ INFO 2014-07-16 16:02:15,528 [main] (ContentManagement.java:8924) - Verify [Company] schema present in the Schemas List
+ INFO 2014-07-16 16:02:20,563 [main] (ContentManagement.java:8957) - [Company] schema present in the Schemas List
+ INFO 2014-07-16 16:02:36,058 [main] (ContentManagement.java:8991) - Verify if user is on [STRUCTURE:CONTAINERS] tab
+ERROR 2014-07-16 16:02:38,118 [main] (SeleniumUtils.java:163) - Assertion error
+ INFO 2014-07-16 16:02:38,119 [main] (ContentManagement.java:9008) - User is not on [STRUCTURE:CONTAINERS] tab 
+ INFO 2014-07-16 16:02:38,119 [main] (ContentManagement.java:9009) - Click on [Structure] sub tab
+ INFO 2014-07-16 16:02:46,391 [main] (ContentManagement.java:9042) - Click operation on [STRUCTURE] tab is successful. Verify User is on [STRUCTURE:CONTAINERS] page
+ INFO 2014-07-16 16:02:46,457 [main] (ContentManagement.java:9082) - User is on [STRUCTURE:CONTAINERS] tab
+ INFO 2014-07-16 16:02:46,457 [main] (ContentManagement.java:9083) - Verify if the container [Companies List] displayed in Containers list
+ INFO 2014-07-16 16:02:46,641 [main] (ContentManagement.java:9118) - [Companies List] displyaed in Containers list
+ INFO 2014-07-16 16:02:46,642 [main] (ContentManagement.java:9120) - Edit the container [Companies List]
+ INFO 2014-07-16 16:02:46,988 [main] (ContentManagement.java:9135) - Click operation successful on Edit link of a container [Companies List] 
+ INFO 2014-07-16 16:02:56,716 [main] (ContentManagement.java:9182) - Starting [logOut] execution
+ INFO 2014-07-16 16:02:56,716 [main] (ContentManagement.java:9183) - Navigating to [Accounts] page
+ INFO 2014-07-16 16:03:06,582 [main] (ContentManagement.java:9219) - Click on Sign Out button
+ INFO 2014-07-16 16:03:13,955 [main] (ContentManagement.java:9267) - Closing the browser
+ INFO 2014-07-16 16:30:11,715 [main] (Suite.java:42) - Starting the execution
+ INFO 2014-07-16 16:30:11,717 [main] (Suite.java:43) - reading [config] file
+ INFO 2014-07-16 16:30:12,133 [main] (Suite.java:64) - reading [config] file successful
+ INFO 2014-07-16 16:30:12,219 [main] (Suite.java:85) - reading [ParentSuite] input file
+ INFO 2014-07-16 16:30:12,236 [main] (Suite.java:107) - reading [ParentSuite] input file is successful
+ INFO 2014-07-16 16:30:12,241 [main] (Suite.java:108) - The Test suites for execution..[login, phunwareClients, analytics, alertsAndnotifications, contentmanagement, advertising, location, commonscenarios]
+ INFO 2014-07-16 16:30:12,267 [main] (ContentManagement.java:74) - reading ContentManagement Input file
+ INFO 2014-07-16 16:30:12,284 [main] (ContentManagement.java:97) - reading [ContentManagement] Input file successful
+ INFO 2014-07-16 16:30:12,284 [main] (ContentManagement.java:98) -  {[loginAs, verifyContentLayout, createSchemaWithMultiLineHtml]} for execution in [ContentManagement] suite
+ INFO 2014-07-16 16:30:17,880 [main] (Suite.java:42) - Starting the execution
+ INFO 2014-07-16 16:30:17,885 [main] (Suite.java:43) - reading [config] file
+ INFO 2014-07-16 16:30:18,233 [main] (Suite.java:64) - reading [config] file successful
+ INFO 2014-07-16 16:30:18,333 [main] (Suite.java:85) - reading [ParentSuite] input file
+ INFO 2014-07-16 16:30:18,344 [main] (Suite.java:107) - reading [ParentSuite] input file is successful
+ INFO 2014-07-16 16:30:18,344 [main] (Suite.java:108) - The Test suites for execution..[login, phunwareClients, analytics, alertsAndnotifications, contentmanagement, advertising, location, commonscenarios]
+ INFO 2014-07-16 16:30:18,358 [main] (ContentManagement.java:74) - reading ContentManagement Input file
+ INFO 2014-07-16 16:30:18,382 [main] (ContentManagement.java:97) - reading [ContentManagement] Input file successful
+ INFO 2014-07-16 16:30:18,382 [main] (ContentManagement.java:98) -  {[loginAs, verifyContentLayout, createSchemaWithMultiLineHtml]} for execution in [ContentManagement] suite
+ INFO 2014-07-16 16:30:18,412 [main] (ContentManagement.java:134) - opening [FIREFOX] browser
+ INFO 2014-07-16 16:30:32,135 [main] (Suite.java:42) - Starting the execution
+ INFO 2014-07-16 16:30:32,136 [main] (Suite.java:43) - reading [config] file
+ INFO 2014-07-16 16:30:32,458 [main] (Suite.java:64) - reading [config] file successful
+ INFO 2014-07-16 16:30:32,558 [main] (Suite.java:85) - reading [ParentSuite] input file
+ INFO 2014-07-16 16:30:32,567 [main] (Suite.java:107) - reading [ParentSuite] input file is successful
+ INFO 2014-07-16 16:30:32,568 [main] (Suite.java:108) - The Test suites for execution..[login, phunwareClients, analytics, alertsAndnotifications, contentmanagement, advertising, location, commonscenarios]
+ INFO 2014-07-16 16:30:32,579 [main] (ContentManagement.java:74) - reading ContentManagement Input file
+ INFO 2014-07-16 16:30:32,596 [main] (ContentManagement.java:97) - reading [ContentManagement] Input file successful
+ INFO 2014-07-16 16:30:32,597 [main] (ContentManagement.java:98) -  {[loginAs, verifyContentLayout, createSchemaWithMultiLineHtml]} for execution in [ContentManagement] suite
+ INFO 2014-07-16 16:30:32,619 [main] (ContentManagement.java:134) - opening [FIREFOX] browser
+ INFO 2014-07-16 16:30:51,732 [main] (ContentManagement.java:145) - Identify Username, Password & Signin buttons
+ INFO 2014-07-16 16:30:51,877 [main] (ContentManagement.java:172) - login into the application
+ INFO 2014-07-16 16:31:06,588 [main] (ContentManagement.java:175) - Verify the landing page after login
+ERROR 2014-07-16 16:31:11,685 [main] (SeleniumUtils.java:163) - Assertion error
+ INFO 2014-07-16 16:31:11,685 [main] (ContentManagement.java:340) - User is landed on [YOUR ACCOUNT] page
+ INFO 2014-07-16 16:31:11,686 [main] (ContentManagement.java:341) - Navigate to [YOUR APPLICATIONS] page
+ INFO 2014-07-16 16:31:11,686 [main] (ContentManagement.java:342) - Verify if User has Switch button 
+ INFO 2014-07-16 16:31:11,696 [main] (ContentManagement.java:357) - Click on [Switch Button]
+ INFO 2014-07-16 16:31:11,877 [main] (ContentManagement.java:365) - Click operation on [Switch Button] is successful
+ INFO 2014-07-16 16:31:11,877 [main] (ContentManagement.java:367) - Identify Switch button - Organization text box
+ INFO 2014-07-16 16:31:12,889 [main] (ContentManagement.java:389) - Enter the Organization [cybage] name in the Switch btn Organization text box
+ INFO 2014-07-16 16:31:20,860 [main] (ContentManagement.java:432) - Verify if user is landed on [Your Applications] page
+ INFO 2014-07-16 16:31:20,928 [main] (ContentManagement.java:492) - Starting [verifyContentLayout] execution
+ INFO 2014-07-16 16:31:20,930 [main] (ContentManagement.java:493) - Navigating to [Content Management] tab
+ INFO 2014-07-16 16:31:35,234 [main] (ContentManagement.java:528) - Verify all the sub tabs in [Content Management] tab
+ INFO 2014-07-16 16:31:35,321 [main] (ContentManagement.java:559) - Verification of [Content] tab text is successful
+ INFO 2014-07-16 16:31:35,322 [main] (ContentManagement.java:560) - Verify [Structure] tab
+ INFO 2014-07-16 16:31:35,347 [main] (ContentManagement.java:592) - Verification of [Structure] tab text is successful
+ INFO 2014-07-16 16:31:35,349 [main] (ContentManagement.java:593) - Verify [Schemas] tab
+ INFO 2014-07-16 16:31:35,382 [main] (ContentManagement.java:624) - Verification of [Schemas] tab text is successful
+ INFO 2014-07-16 16:31:35,383 [main] (ContentManagement.java:625) - Verify [S3] tab
+ INFO 2014-07-16 16:31:35,383 [main] (ContentManagement.java:648) - Verification of all the sub tabs in [Content Management] tab is successful
+ INFO 2014-07-16 16:31:35,383 [main] (ContentManagement.java:649) - Verify if user is on [Content] sub tab in [Content Management] tab
+ WARN 2014-07-16 16:31:35,428 [main] (ContentManagement.java:702) - Test case [verifyStructureLayout] is not added for execution
+ WARN 2014-07-16 16:31:35,473 [main] (ContentManagement.java:822) - Test case [verifySchemasLayout] is not added for execution
+ WARN 2014-07-16 16:31:35,479 [main] (ContentManagement.java:938) - Test case [verifyCreateNewSchemaLayout] is not added for execution
+ WARN 2014-07-16 16:31:35,483 [main] (ContentManagement.java:1458) - Test case [validationsOnCreateNewSchema] is not added for execution
+ WARN 2014-07-16 16:31:35,489 [main] (ContentManagement.java:2111) - Test case [createNewSchema] is not added for execution
+ WARN 2014-07-16 16:31:35,514 [main] (ContentManagement.java:2526) - Test case [verifySchema] is not added for execution
+ WARN 2014-07-16 16:31:35,531 [main] (ContentManagement.java:2680) - Test case [editSchema] is not added for execution
+ WARN 2014-07-16 16:31:35,538 [main] (ContentManagement.java:2958) - Test case [deleteSchema] is not added for execution
+ WARN 2014-07-16 16:31:35,543 [main] (ContentManagement.java:3215) - Test case [createNewComplexSchema] is not added for execution
+ WARN 2014-07-16 16:31:35,821 [main] (ContentManagement.java:4023) - Test case [createNewContainer] is not added for execution
+ WARN 2014-07-16 16:31:36,062 [main] (ContentManagement.java:4361) - Test case [editContainer] is not added for execution
+ WARN 2014-07-16 16:31:36,068 [main] (ContentManagement.java:4655) - Test case [deleteContainer] is not added for execution
+ WARN 2014-07-16 16:31:36,074 [main] (ContentManagement.java:4919) - Test case [createContainerWithSchema] is not added for execution
+ WARN 2014-07-16 16:31:36,079 [main] (ContentManagement.java:5784) - Test case [putContentInContainer] is not added for execution
+ INFO 2014-07-16 16:31:36,105 [main] (ContentManagement.java:6427) - Verify if User is on [Create New Schema] page
+ERROR 2014-07-16 16:32:20,340 [main] (SeleniumUtils.java:163) - Assertion error
+ INFO 2014-07-16 16:33:01,625 [main] (ContentManagement.java:6443) - User is not on [Create New Schema] page
+ INFO 2014-07-16 16:33:01,990 [main] (ContentManagement.java:6444) - Navigate to [Schemas] tab
+ INFO 2014-07-16 16:35:18,703 [main] (ContentManagement.java:6573) - User is on [Create New Schema] tab
+ INFO 2014-07-16 16:35:19,074 [main] (ContentManagement.java:6574) - Create new Complex Schema 
+ INFO 2014-07-16 16:35:59,578 [main] (ContentManagement.java:6706) - Click on ADD ATTRIBUTE button
+ INFO 2014-07-16 16:36:08,294 [main] (ContentManagement.java:6727) - Click operation on 'ADD ATTRIBUTE' button is successful. Enter data in 'Key' and 'Val' fields
+ INFO 2014-07-16 16:36:18,422 [main] (ContentManagement.java:6766) - Click on 'ADD FIELD' button
+ INFO 2014-07-16 16:36:46,819 [main] (ContentManagement.java:6779) - Click operation on 'ADD FIELD' button is successful
+ERROR 2014-07-16 16:38:49,547 [main] (SeleniumUtils.java:143) - Unable to identify the element with id xpath and value .//div[@class='alert alert-success']
+ERROR 2014-07-16 16:38:49,549 [main] (SeleniumUtils.java:417) - java.lang.NullPointerException
+ERROR 2014-07-16 16:38:51,076 [main] (SeleniumUtils.java:203) - Error while reading the text of a element. The error message is java.lang.NullPointerException
+ERROR 2014-07-16 16:38:52,995 [main] (SeleniumUtils.java:167) - AssertionEqual has failed.And the error message is java.lang.NullPointerException
+ERROR 2014-07-16 16:38:56,452 [main] (ContentManagement.java:7188) - 'Schema' success message text matching failed. The Expected text is [×
+Your schema has been saved.] and the actual return text is [null]
+ INFO 2014-07-16 16:40:13,340 [main] (ContentManagement.java:7208) - Verify if user is on [STRUCTURE:CONTAINERS] tab
+ERROR 2014-07-16 16:40:20,808 [main] (SeleniumUtils.java:163) - Assertion error
+ INFO 2014-07-16 16:40:21,689 [main] (ContentManagement.java:7225) - User is not on [STRUCTURE:CONTAINERS] tab 
+ INFO 2014-07-16 16:40:22,025 [main] (ContentManagement.java:7226) - Click on [Structure] sub tab
+ INFO 2014-07-16 16:41:23,703 [main] (ContentManagement.java:7260) - Click operation on [STRUCTURE] tab is successful. Verify User is on [STRUCTURE:CONTAINERS] page
+ INFO 2014-07-16 16:41:30,105 [main] (ContentManagement.java:7301) - User is on [STRUCTURE:CONTAINERS] tab
+ INFO 2014-07-16 16:41:30,441 [main] (ContentManagement.java:7302) - Click on 'NEW CONTAINER' button
+ INFO 2014-07-16 16:41:46,027 [main] (ContentManagement.java:7324) - Verify 'Name' field 'SAVE' & 'CANCEL' buttons are displayed
+ INFO 2014-07-16 16:41:57,687 [main] (ContentManagement.java:7398) - 'Name' field 'SAVE' & 'CANCEL' buttons are displayed successfully 
+ INFO 2014-07-16 16:41:58,846 [main] (ContentManagement.java:7399) - Create [Office List] container
+ INFO 2014-07-16 16:42:13,813 [main] (ContentManagement.java:7425) - Verify if the Success message displyaed 
+ INFO 2014-07-16 16:42:21,428 [main] (ContentManagement.java:7463) - New Container Success message displayed successfully
+ INFO 2014-07-16 16:42:22,616 [main] (ContentManagement.java:7464) - Verify if the container [Office List] displayed in Containers list
+ INFO 2014-07-16 16:42:28,437 [main] (ContentManagement.java:7500) - [Office List] displyaed in Containers list
+ INFO 2014-07-16 16:42:29,510 [main] (ContentManagement.java:7502) - Click on [Office List] container
+ INFO 2014-07-16 16:43:06,742 [main] (ContentManagement.java:7550) - Click operation successful on container [Office List]
+ INFO 2014-07-16 16:44:53,443 [main] (ContentManagement.java:7569) - Click on 'NEW ITEM' button for container
+ INFO 2014-07-16 16:45:46,419 [main] (ContentManagement.java:7573) - Click operation is successful on 'NEW ITEM'. Verify 'Name', 'Field', 'Type' & 'Schema' fields
+ INFO 2014-07-16 16:49:48,633 [main] (ContentManagement.java:7787) - Verification of 'Name', 'Type', 'Field' & 'Schema' fields are successful
+ INFO 2014-07-16 16:49:48,889 [main] (ContentManagement.java:7788) - Verify 'CANCEL' & 'SAVE' buttons
+ INFO 2014-07-16 16:49:51,436 [main] (ContentManagement.java:7806) - Verification of 'CANCEL' & 'SAVE' buttons successful
+ INFO 2014-07-16 16:49:51,718 [main] (ContentManagement.java:7807) - Validate the 'NEW ITEM' form
+ INFO 2014-07-16 16:53:42,111 [main] (ContentManagement.java:7980) - Verify if the container [Offices] displayed in Containers list
+ INFO 2014-07-16 16:54:09,748 [main] (ContentManagement.java:8003) - container [Offices] is present in containers list
+ INFO 2014-07-16 16:54:29,958 [main] (ContentManagement.java:8043) - Verify if user is on [Content] sub tab in [Content Management] tab
+ERROR 2014-07-16 16:54:39,684 [main] (SeleniumUtils.java:163) - Assertion error
+ INFO 2014-07-16 16:54:54,805 [main] (ContentManagement.java:8130) - User is on [Content] sub tab in [Content Management] tab
+ INFO 2014-07-16 16:54:55,731 [main] (ContentManagement.java:8131) - Click on container [Office List] in container list
+ INFO 2014-07-16 16:55:40,291 [main] (ContentManagement.java:8255) - Verify the form and enter the data in container
+ERROR 2014-07-16 16:56:32,565 [main] (SeleniumUtils.java:143) - Unable to identify the element with id xpath and value //body[@class='cke_editable cke_editable_themed cke_contents_ltr']/p
+ERROR 2014-07-16 16:56:44,579 [main] (ContentManagement.java:8418) - Unable to identify third label texbox element
+ERROR 2014-07-16 16:56:47,827 [main] (SeleniumUtils.java:350) - java.lang.NullPointerException
+ERROR 2014-07-16 16:56:52,465 [main] (SeleniumUtils.java:266) - Error while typing the textjava.lang.NullPointerException
+ERROR 2014-07-16 16:57:05,348 [main] (SeleniumUtils.java:163) - Assertion error
+ERROR 2014-07-16 16:57:06,276 [main] (ContentManagement.java:8449) - Validation failed at Bold functionality
+ INFO 2014-07-16 17:02:34,610 [main] (Suite.java:42) - Starting the execution
+ INFO 2014-07-16 17:02:34,612 [main] (Suite.java:43) - reading [config] file
+ INFO 2014-07-16 17:02:34,948 [main] (Suite.java:64) - reading [config] file successful
+ INFO 2014-07-16 17:02:35,071 [main] (Suite.java:85) - reading [ParentSuite] input file
+ INFO 2014-07-16 17:02:35,081 [main] (Suite.java:107) - reading [ParentSuite] input file is successful
+ INFO 2014-07-16 17:02:35,081 [main] (Suite.java:108) - The Test suites for execution..[login, phunwareClients, analytics, alertsAndnotifications, contentmanagement, advertising, location, commonscenarios]
+ INFO 2014-07-16 17:02:35,127 [main] (ContentManagement.java:74) - reading ContentManagement Input file
+ INFO 2014-07-16 17:02:35,157 [main] (ContentManagement.java:97) - reading [ContentManagement] Input file successful
+ INFO 2014-07-16 17:02:35,158 [main] (ContentManagement.java:98) -  {[loginAs, verifyContentLayout, createSchemaWithMultiLineHtml]} for execution in [ContentManagement] suite
+ INFO 2014-07-16 17:02:35,180 [main] (ContentManagement.java:134) - opening [FIREFOX] browser
+ INFO 2014-07-16 17:02:47,426 [main] (ContentManagement.java:145) - Identify Username, Password & Signin buttons
+ INFO 2014-07-16 17:02:47,583 [main] (ContentManagement.java:172) - login into the application
+ INFO 2014-07-16 17:02:55,309 [main] (ContentManagement.java:175) - Verify the landing page after login
+ERROR 2014-07-16 17:03:00,385 [main] (SeleniumUtils.java:163) - Assertion error
+ INFO 2014-07-16 17:03:00,386 [main] (ContentManagement.java:340) - User is landed on [YOUR ACCOUNT] page
+ INFO 2014-07-16 17:03:00,386 [main] (ContentManagement.java:341) - Navigate to [YOUR APPLICATIONS] page
+ INFO 2014-07-16 17:03:00,386 [main] (ContentManagement.java:342) - Verify if User has Switch button 
+ INFO 2014-07-16 17:03:00,396 [main] (ContentManagement.java:357) - Click on [Switch Button]
+ INFO 2014-07-16 17:03:00,472 [main] (ContentManagement.java:365) - Click operation on [Switch Button] is successful
+ INFO 2014-07-16 17:03:00,472 [main] (ContentManagement.java:367) - Identify Switch button - Organization text box
+ INFO 2014-07-16 17:03:01,485 [main] (ContentManagement.java:389) - Enter the Organization [cybage] name in the Switch btn Organization text box
+ INFO 2014-07-16 17:03:09,768 [main] (ContentManagement.java:432) - Verify if user is landed on [Your Applications] page
+ INFO 2014-07-16 17:03:09,836 [main] (ContentManagement.java:492) - Starting [verifyContentLayout] execution
+ INFO 2014-07-16 17:03:09,838 [main] (ContentManagement.java:493) - Navigating to [Content Management] tab
+ INFO 2014-07-16 17:03:25,671 [main] (ContentManagement.java:528) - Verify all the sub tabs in [Content Management] tab
+ INFO 2014-07-16 17:03:25,753 [main] (ContentManagement.java:559) - Verification of [Content] tab text is successful
+ INFO 2014-07-16 17:03:25,754 [main] (ContentManagement.java:560) - Verify [Structure] tab
+ INFO 2014-07-16 17:03:25,783 [main] (ContentManagement.java:592) - Verification of [Structure] tab text is successful
+ INFO 2014-07-16 17:03:25,783 [main] (ContentManagement.java:593) - Verify [Schemas] tab
+ INFO 2014-07-16 17:03:25,825 [main] (ContentManagement.java:624) - Verification of [Schemas] tab text is successful
+ INFO 2014-07-16 17:03:25,826 [main] (ContentManagement.java:625) - Verify [S3] tab
+ INFO 2014-07-16 17:03:25,826 [main] (ContentManagement.java:648) - Verification of all the sub tabs in [Content Management] tab is successful
+ INFO 2014-07-16 17:03:25,827 [main] (ContentManagement.java:649) - Verify if user is on [Content] sub tab in [Content Management] tab
+ WARN 2014-07-16 17:03:25,869 [main] (ContentManagement.java:702) - Test case [verifyStructureLayout] is not added for execution
+ WARN 2014-07-16 17:03:25,891 [main] (ContentManagement.java:822) - Test case [verifySchemasLayout] is not added for execution
+ WARN 2014-07-16 17:03:25,895 [main] (ContentManagement.java:938) - Test case [verifyCreateNewSchemaLayout] is not added for execution
+ WARN 2014-07-16 17:03:25,900 [main] (ContentManagement.java:1458) - Test case [validationsOnCreateNewSchema] is not added for execution
+ WARN 2014-07-16 17:03:25,907 [main] (ContentManagement.java:2111) - Test case [createNewSchema] is not added for execution
+ WARN 2014-07-16 17:03:25,919 [main] (ContentManagement.java:2526) - Test case [verifySchema] is not added for execution
+ WARN 2014-07-16 17:03:25,927 [main] (ContentManagement.java:2680) - Test case [editSchema] is not added for execution
+ WARN 2014-07-16 17:03:25,954 [main] (ContentManagement.java:2958) - Test case [deleteSchema] is not added for execution
+ WARN 2014-07-16 17:03:25,958 [main] (ContentManagement.java:3215) - Test case [createNewComplexSchema] is not added for execution
+ WARN 2014-07-16 17:03:26,244 [main] (ContentManagement.java:4023) - Test case [createNewContainer] is not added for execution
+ WARN 2014-07-16 17:03:26,505 [main] (ContentManagement.java:4361) - Test case [editContainer] is not added for execution
+ WARN 2014-07-16 17:03:26,529 [main] (ContentManagement.java:4655) - Test case [deleteContainer] is not added for execution
+ WARN 2014-07-16 17:03:26,537 [main] (ContentManagement.java:4919) - Test case [createContainerWithSchema] is not added for execution
+ WARN 2014-07-16 17:03:26,545 [main] (ContentManagement.java:5784) - Test case [putContentInContainer] is not added for execution
+ INFO 2014-07-16 17:03:26,570 [main] (ContentManagement.java:6427) - Verify if User is on [Create New Schema] page
+ERROR 2014-07-16 17:03:34,910 [main] (SeleniumUtils.java:163) - Assertion error
+ INFO 2014-07-16 17:03:34,910 [main] (ContentManagement.java:6443) - User is not on [Create New Schema] page
+ INFO 2014-07-16 17:03:34,910 [main] (ContentManagement.java:6444) - Navigate to [Schemas] tab
+ INFO 2014-07-16 17:03:53,495 [main] (ContentManagement.java:6573) - User is on [Create New Schema] tab
+ INFO 2014-07-16 17:03:53,495 [main] (ContentManagement.java:6574) - Create new Complex Schema 
+ INFO 2014-07-16 17:03:54,105 [main] (ContentManagement.java:6706) - Click on ADD ATTRIBUTE button
+ INFO 2014-07-16 17:03:59,390 [main] (ContentManagement.java:6727) - Click operation on 'ADD ATTRIBUTE' button is successful. Enter data in 'Key' and 'Val' fields
+ INFO 2014-07-16 17:03:59,868 [main] (ContentManagement.java:6766) - Click on 'ADD FIELD' button
+ INFO 2014-07-16 17:04:05,725 [main] (ContentManagement.java:6779) - Click operation on 'ADD FIELD' button is successful
+ INFO 2014-07-16 17:04:21,197 [main] (ContentManagement.java:7208) - Verify if user is on [STRUCTURE:CONTAINERS] tab
+ERROR 2014-07-16 17:04:23,221 [main] (SeleniumUtils.java:163) - Assertion error
+ INFO 2014-07-16 17:04:23,222 [main] (ContentManagement.java:7225) - User is not on [STRUCTURE:CONTAINERS] tab 
+ INFO 2014-07-16 17:04:23,222 [main] (ContentManagement.java:7226) - Click on [Structure] sub tab
+ INFO 2014-07-16 17:04:31,536 [main] (ContentManagement.java:7260) - Click operation on [STRUCTURE] tab is successful. Verify User is on [STRUCTURE:CONTAINERS] page
+ INFO 2014-07-16 17:04:31,561 [main] (ContentManagement.java:7301) - User is on [STRUCTURE:CONTAINERS] tab
+ INFO 2014-07-16 17:04:31,561 [main] (ContentManagement.java:7302) - Click on 'NEW CONTAINER' button
+ INFO 2014-07-16 17:04:37,791 [main] (ContentManagement.java:7324) - Verify 'Name' field 'SAVE' & 'CANCEL' buttons are displayed
+ INFO 2014-07-16 17:04:37,847 [main] (ContentManagement.java:7398) - 'Name' field 'SAVE' & 'CANCEL' buttons are displayed successfully 
+ INFO 2014-07-16 17:04:37,847 [main] (ContentManagement.java:7399) - Create [Office List] container
+ INFO 2014-07-16 17:04:45,361 [main] (ContentManagement.java:7425) - Verify if the Success message displyaed 
+ INFO 2014-07-16 17:04:47,864 [main] (ContentManagement.java:7463) - New Container Success message displayed successfully
+ INFO 2014-07-16 17:04:47,866 [main] (ContentManagement.java:7464) - Verify if the container [Office List] displayed in Containers list
+ INFO 2014-07-16 17:04:47,988 [main] (ContentManagement.java:7500) - [Office List] displyaed in Containers list
+ INFO 2014-07-16 17:04:47,989 [main] (ContentManagement.java:7502) - Click on [Office List] container
+ INFO 2014-07-16 17:04:54,778 [main] (ContentManagement.java:7550) - Click operation successful on container [Office List]
+ INFO 2014-07-16 17:04:54,789 [main] (ContentManagement.java:7569) - Click on 'NEW ITEM' button for container
+ INFO 2014-07-16 17:04:59,002 [main] (ContentManagement.java:7573) - Click operation is successful on 'NEW ITEM'. Verify 'Name', 'Field', 'Type' & 'Schema' fields
+ INFO 2014-07-16 17:04:59,143 [main] (ContentManagement.java:7787) - Verification of 'Name', 'Type', 'Field' & 'Schema' fields are successful
+ INFO 2014-07-16 17:04:59,143 [main] (ContentManagement.java:7788) - Verify 'CANCEL' & 'SAVE' buttons
+ INFO 2014-07-16 17:04:59,153 [main] (ContentManagement.java:7806) - Verification of 'CANCEL' & 'SAVE' buttons successful
+ INFO 2014-07-16 17:04:59,153 [main] (ContentManagement.java:7807) - Validate the 'NEW ITEM' form
+ INFO 2014-07-16 17:05:12,606 [main] (ContentManagement.java:7980) - Verify if the container [Offices] displayed in Containers list
+ INFO 2014-07-16 17:05:15,643 [main] (ContentManagement.java:8003) - container [Offices] is present in containers list
+ INFO 2014-07-16 17:05:23,210 [main] (ContentManagement.java:8043) - Verify if user is on [Content] sub tab in [Content Management] tab
+ERROR 2014-07-16 17:05:25,284 [main] (SeleniumUtils.java:163) - Assertion error
+ INFO 2014-07-16 17:05:34,109 [main] (ContentManagement.java:8130) - User is on [Content] sub tab in [Content Management] tab
+ INFO 2014-07-16 17:05:34,109 [main] (ContentManagement.java:8131) - Click on container [Office List] in container list
+ INFO 2014-07-16 17:05:59,487 [main] (ContentManagement.java:8255) - Verify the form and enter the data in container
+ERROR 2014-07-16 17:06:13,473 [main] (SeleniumUtils.java:143) - Unable to identify the element with id xpath and value .//div[@id='dashboard-main-content-container']/div/div[@id='dashboard-view-structure-item']/div/form/div[1]/div/div/div/div[3]/div[2]/div/div/div/iframe/html/body/p
+ INFO 2014-07-16 17:08:43,338 [main] (Suite.java:42) - Starting the execution
+ INFO 2014-07-16 17:08:43,339 [main] (Suite.java:43) - reading [config] file
+ INFO 2014-07-16 17:08:43,670 [main] (Suite.java:64) - reading [config] file successful
+ INFO 2014-07-16 17:08:43,765 [main] (Suite.java:85) - reading [ParentSuite] input file
+ INFO 2014-07-16 17:08:43,780 [main] (Suite.java:107) - reading [ParentSuite] input file is successful
+ INFO 2014-07-16 17:08:43,780 [main] (Suite.java:108) - The Test suites for execution..[login, phunwareClients, analytics, alertsAndnotifications, contentmanagement, advertising, location, commonscenarios]
+ INFO 2014-07-16 17:08:43,793 [main] (ContentManagement.java:74) - reading ContentManagement Input file
+ INFO 2014-07-16 17:08:43,819 [main] (ContentManagement.java:97) - reading [ContentManagement] Input file successful
+ INFO 2014-07-16 17:08:43,819 [main] (ContentManagement.java:98) -  {[loginAs, verifyContentLayout, createSchemaWithMultiLineHtml]} for execution in [ContentManagement] suite
+ INFO 2014-07-16 17:08:43,855 [main] (ContentManagement.java:134) - opening [FIREFOX] browser
+ INFO 2014-07-16 17:08:58,330 [main] (ContentManagement.java:145) - Identify Username, Password & Signin buttons
+ INFO 2014-07-16 17:08:58,403 [main] (ContentManagement.java:172) - login into the application
+ INFO 2014-07-16 17:09:11,379 [main] (ContentManagement.java:175) - Verify the landing page after login
+ERROR 2014-07-16 17:09:16,470 [main] (SeleniumUtils.java:163) - Assertion error
+ INFO 2014-07-16 17:09:16,470 [main] (ContentManagement.java:340) - User is landed on [YOUR ACCOUNT] page
+ INFO 2014-07-16 17:09:16,471 [main] (ContentManagement.java:341) - Navigate to [YOUR APPLICATIONS] page
+ INFO 2014-07-16 17:09:16,471 [main] (ContentManagement.java:342) - Verify if User has Switch button 
+ INFO 2014-07-16 17:09:16,484 [main] (ContentManagement.java:357) - Click on [Switch Button]
+ INFO 2014-07-16 17:09:16,584 [main] (ContentManagement.java:365) - Click operation on [Switch Button] is successful
+ INFO 2014-07-16 17:09:16,584 [main] (ContentManagement.java:367) - Identify Switch button - Organization text box
+ INFO 2014-07-16 17:09:17,596 [main] (ContentManagement.java:389) - Enter the Organization [cybage] name in the Switch btn Organization text box
+ INFO 2014-07-16 17:09:26,351 [main] (ContentManagement.java:432) - Verify if user is landed on [Your Applications] page
+ INFO 2014-07-16 17:09:26,407 [main] (ContentManagement.java:492) - Starting [verifyContentLayout] execution
+ INFO 2014-07-16 17:09:26,411 [main] (ContentManagement.java:493) - Navigating to [Content Management] tab
+ INFO 2014-07-16 17:09:40,948 [main] (ContentManagement.java:528) - Verify all the sub tabs in [Content Management] tab
+ INFO 2014-07-16 17:09:41,031 [main] (ContentManagement.java:559) - Verification of [Content] tab text is successful
+ INFO 2014-07-16 17:09:41,031 [main] (ContentManagement.java:560) - Verify [Structure] tab
+ INFO 2014-07-16 17:09:41,063 [main] (ContentManagement.java:592) - Verification of [Structure] tab text is successful
+ INFO 2014-07-16 17:09:41,064 [main] (ContentManagement.java:593) - Verify [Schemas] tab
+ INFO 2014-07-16 17:09:41,099 [main] (ContentManagement.java:624) - Verification of [Schemas] tab text is successful
+ INFO 2014-07-16 17:09:41,099 [main] (ContentManagement.java:625) - Verify [S3] tab
+ INFO 2014-07-16 17:09:41,100 [main] (ContentManagement.java:648) - Verification of all the sub tabs in [Content Management] tab is successful
+ INFO 2014-07-16 17:09:41,100 [main] (ContentManagement.java:649) - Verify if user is on [Content] sub tab in [Content Management] tab
+ WARN 2014-07-16 17:09:41,161 [main] (ContentManagement.java:702) - Test case [verifyStructureLayout] is not added for execution
+ WARN 2014-07-16 17:09:41,172 [main] (ContentManagement.java:822) - Test case [verifySchemasLayout] is not added for execution
+ WARN 2014-07-16 17:09:41,179 [main] (ContentManagement.java:938) - Test case [verifyCreateNewSchemaLayout] is not added for execution
+ WARN 2014-07-16 17:09:41,185 [main] (ContentManagement.java:1458) - Test case [validationsOnCreateNewSchema] is not added for execution
+ WARN 2014-07-16 17:09:41,192 [main] (ContentManagement.java:2111) - Test case [createNewSchema] is not added for execution
+ WARN 2014-07-16 17:09:41,200 [main] (ContentManagement.java:2526) - Test case [verifySchema] is not added for execution
+ WARN 2014-07-16 17:09:41,206 [main] (ContentManagement.java:2680) - Test case [editSchema] is not added for execution
+ WARN 2014-07-16 17:09:41,210 [main] (ContentManagement.java:2958) - Test case [deleteSchema] is not added for execution
+ WARN 2014-07-16 17:09:41,216 [main] (ContentManagement.java:3215) - Test case [createNewComplexSchema] is not added for execution
+ WARN 2014-07-16 17:09:41,510 [main] (ContentManagement.java:4023) - Test case [createNewContainer] is not added for execution
+ WARN 2014-07-16 17:09:41,741 [main] (ContentManagement.java:4361) - Test case [editContainer] is not added for execution
+ WARN 2014-07-16 17:09:41,746 [main] (ContentManagement.java:4655) - Test case [deleteContainer] is not added for execution
+ WARN 2014-07-16 17:09:41,751 [main] (ContentManagement.java:4919) - Test case [createContainerWithSchema] is not added for execution
+ WARN 2014-07-16 17:09:41,754 [main] (ContentManagement.java:5784) - Test case [putContentInContainer] is not added for execution
+ INFO 2014-07-16 17:09:41,777 [main] (ContentManagement.java:6427) - Verify if User is on [Create New Schema] page
+ERROR 2014-07-16 17:09:41,804 [main] (SeleniumUtils.java:163) - Assertion error
+ INFO 2014-07-16 17:09:41,805 [main] (ContentManagement.java:6443) - User is not on [Create New Schema] page
+ INFO 2014-07-16 17:09:41,805 [main] (ContentManagement.java:6444) - Navigate to [Schemas] tab
+ INFO 2014-07-16 17:10:01,108 [main] (ContentManagement.java:6573) - User is on [Create New Schema] tab
+ INFO 2014-07-16 17:10:01,108 [main] (ContentManagement.java:6574) - Create new Complex Schema 
+ INFO 2014-07-16 17:10:01,742 [main] (ContentManagement.java:6706) - Click on ADD ATTRIBUTE button
+ INFO 2014-07-16 17:10:06,928 [main] (ContentManagement.java:6727) - Click operation on 'ADD ATTRIBUTE' button is successful. Enter data in 'Key' and 'Val' fields
+ INFO 2014-07-16 17:10:07,370 [main] (ContentManagement.java:6766) - Click on 'ADD FIELD' button
+ INFO 2014-07-16 17:10:13,216 [main] (ContentManagement.java:6779) - Click operation on 'ADD FIELD' button is successful
+ INFO 2014-07-16 17:10:28,132 [main] (ContentManagement.java:7208) - Verify if user is on [STRUCTURE:CONTAINERS] tab
+ERROR 2014-07-16 17:10:30,156 [main] (SeleniumUtils.java:163) - Assertion error
+ INFO 2014-07-16 17:10:30,157 [main] (ContentManagement.java:7225) - User is not on [STRUCTURE:CONTAINERS] tab 
+ INFO 2014-07-16 17:10:30,157 [main] (ContentManagement.java:7226) - Click on [Structure] sub tab
+ INFO 2014-07-16 17:10:43,820 [main] (ContentManagement.java:7260) - Click operation on [STRUCTURE] tab is successful. Verify User is on [STRUCTURE:CONTAINERS] page
+ INFO 2014-07-16 17:10:43,866 [main] (ContentManagement.java:7301) - User is on [STRUCTURE:CONTAINERS] tab
+ INFO 2014-07-16 17:10:43,867 [main] (ContentManagement.java:7302) - Click on 'NEW CONTAINER' button
+ INFO 2014-07-16 17:10:49,999 [main] (ContentManagement.java:7324) - Verify 'Name' field 'SAVE' & 'CANCEL' buttons are displayed
+ INFO 2014-07-16 17:10:50,069 [main] (ContentManagement.java:7398) - 'Name' field 'SAVE' & 'CANCEL' buttons are displayed successfully 
+ INFO 2014-07-16 17:10:50,069 [main] (ContentManagement.java:7399) - Create [Office List] container
+ INFO 2014-07-16 17:10:57,497 [main] (ContentManagement.java:7425) - Verify if the Success message displyaed 
+ INFO 2014-07-16 17:10:59,544 [main] (ContentManagement.java:7463) - New Container Success message displayed successfully
+ INFO 2014-07-16 17:10:59,545 [main] (ContentManagement.java:7464) - Verify if the container [Office List] displayed in Containers list
+ INFO 2014-07-16 17:10:59,640 [main] (ContentManagement.java:7500) - [Office List] displyaed in Containers list
+ INFO 2014-07-16 17:10:59,641 [main] (ContentManagement.java:7502) - Click on [Office List] container
+ INFO 2014-07-16 17:11:06,206 [main] (ContentManagement.java:7550) - Click operation successful on container [Office List]
+ INFO 2014-07-16 17:11:06,218 [main] (ContentManagement.java:7569) - Click on 'NEW ITEM' button for container
+ INFO 2014-07-16 17:11:10,366 [main] (ContentManagement.java:7573) - Click operation is successful on 'NEW ITEM'. Verify 'Name', 'Field', 'Type' & 'Schema' fields
+ERROR 2014-07-16 17:11:15,407 [main] (SeleniumUtils.java:143) - Unable to identify the element with id xpath and value .//div[@id='dashboard-main-content-container']/div/div[2]/form/div[1]/div/div[1]/div/div[1]/label
+ERROR 2014-07-16 17:11:15,408 [main] (SeleniumUtils.java:203) - Error while reading the text of a element. The error message is java.lang.NullPointerException
+ERROR 2014-07-16 17:11:15,408 [main] (SeleniumUtils.java:167) - AssertionEqual has failed.And the error message is java.lang.NullPointerException
+ERROR 2014-07-16 17:11:15,408 [main] (ContentManagement.java:7591) - [NEW ITEM]'Name' field text matching failed. The Expected text is [Name *] and the return text is [null]
+ INFO 2014-07-16 17:11:16,820 [main] (ContentManagement.java:7787) - Verification of 'Name', 'Type', 'Field' & 'Schema' fields are successful
+ INFO 2014-07-16 17:11:16,822 [main] (ContentManagement.java:7788) - Verify 'CANCEL' & 'SAVE' buttons
+ INFO 2014-07-16 17:11:16,830 [main] (ContentManagement.java:7806) - Verification of 'CANCEL' & 'SAVE' buttons successful
+ INFO 2014-07-16 17:11:16,831 [main] (ContentManagement.java:7807) - Validate the 'NEW ITEM' form
+ INFO 2014-07-16 17:11:30,181 [main] (ContentManagement.java:7980) - Verify if the container [Offices] displayed in Containers list
+ INFO 2014-07-16 17:11:32,711 [main] (ContentManagement.java:8003) - container [Offices] is present in containers list
+ INFO 2014-07-16 17:11:40,321 [main] (ContentManagement.java:8043) - Verify if user is on [Content] sub tab in [Content Management] tab
+ERROR 2014-07-16 17:11:42,370 [main] (SeleniumUtils.java:163) - Assertion error
+ INFO 2014-07-16 17:11:50,680 [main] (ContentManagement.java:8130) - User is on [Content] sub tab in [Content Management] tab
+ INFO 2014-07-16 17:11:50,681 [main] (ContentManagement.java:8131) - Click on container [Office List] in container list
+ INFO 2014-07-16 17:12:16,777 [main] (ContentManagement.java:8255) - Verify the form and enter the data in container
+ERROR 2014-07-16 17:12:53,083 [main] (SeleniumUtils.java:143) - Unable to identify the element with id xpath and value /html/body/p
+ INFO 2014-07-16 17:15:05,027 [main] (Suite.java:42) - Starting the execution
+ INFO 2014-07-16 17:15:05,029 [main] (Suite.java:43) - reading [config] file
+ INFO 2014-07-16 17:15:05,432 [main] (Suite.java:64) - reading [config] file successful
+ INFO 2014-07-16 17:15:05,523 [main] (Suite.java:85) - reading [ParentSuite] input file
+ INFO 2014-07-16 17:15:05,536 [main] (Suite.java:107) - reading [ParentSuite] input file is successful
+ INFO 2014-07-16 17:15:05,536 [main] (Suite.java:108) - The Test suites for execution..[login, phunwareClients, analytics, alertsAndnotifications, contentmanagement, advertising, location, commonscenarios]
+ INFO 2014-07-16 17:15:05,547 [main] (ContentManagement.java:74) - reading ContentManagement Input file
+ INFO 2014-07-16 17:15:05,565 [main] (ContentManagement.java:97) - reading [ContentManagement] Input file successful
+ INFO 2014-07-16 17:15:05,565 [main] (ContentManagement.java:98) -  {[loginAs, verifyContentLayout, createSchemaWithMultiLineHtml]} for execution in [ContentManagement] suite
+ INFO 2014-07-16 17:15:05,584 [main] (ContentManagement.java:134) - opening [FIREFOX] browser
+ INFO 2014-07-16 17:15:20,862 [main] (ContentManagement.java:145) - Identify Username, Password & Signin buttons
+ INFO 2014-07-16 17:15:21,019 [main] (ContentManagement.java:172) - login into the application
+ INFO 2014-07-16 17:15:28,583 [main] (ContentManagement.java:175) - Verify the landing page after login
+ERROR 2014-07-16 17:15:33,666 [main] (SeleniumUtils.java:163) - Assertion error
+ INFO 2014-07-16 17:15:33,666 [main] (ContentManagement.java:340) - User is landed on [YOUR ACCOUNT] page
+ INFO 2014-07-16 17:15:33,667 [main] (ContentManagement.java:341) - Navigate to [YOUR APPLICATIONS] page
+ INFO 2014-07-16 17:15:33,667 [main] (ContentManagement.java:342) - Verify if User has Switch button 
+ INFO 2014-07-16 17:15:33,677 [main] (ContentManagement.java:357) - Click on [Switch Button]
+ INFO 2014-07-16 17:15:33,841 [main] (ContentManagement.java:365) - Click operation on [Switch Button] is successful
+ INFO 2014-07-16 17:15:33,841 [main] (ContentManagement.java:367) - Identify Switch button - Organization text box
+ INFO 2014-07-16 17:15:34,855 [main] (ContentManagement.java:389) - Enter the Organization [cybage] name in the Switch btn Organization text box
+ INFO 2014-07-16 17:15:42,896 [main] (ContentManagement.java:432) - Verify if user is landed on [Your Applications] page
+ INFO 2014-07-16 17:15:42,949 [main] (ContentManagement.java:492) - Starting [verifyContentLayout] execution
+ INFO 2014-07-16 17:15:42,951 [main] (ContentManagement.java:493) - Navigating to [Content Management] tab
+ INFO 2014-07-16 17:15:56,410 [main] (ContentManagement.java:528) - Verify all the sub tabs in [Content Management] tab
+ INFO 2014-07-16 17:15:56,494 [main] (ContentManagement.java:559) - Verification of [Content] tab text is successful
+ INFO 2014-07-16 17:15:56,494 [main] (ContentManagement.java:560) - Verify [Structure] tab
+ INFO 2014-07-16 17:15:56,519 [main] (ContentManagement.java:592) - Verification of [Structure] tab text is successful
+ INFO 2014-07-16 17:15:56,519 [main] (ContentManagement.java:593) - Verify [Schemas] tab
+ INFO 2014-07-16 17:15:56,546 [main] (ContentManagement.java:624) - Verification of [Schemas] tab text is successful
+ INFO 2014-07-16 17:15:56,547 [main] (ContentManagement.java:625) - Verify [S3] tab
+ INFO 2014-07-16 17:15:56,547 [main] (ContentManagement.java:648) - Verification of all the sub tabs in [Content Management] tab is successful
+ INFO 2014-07-16 17:15:56,547 [main] (ContentManagement.java:649) - Verify if user is on [Content] sub tab in [Content Management] tab
+ WARN 2014-07-16 17:15:56,595 [main] (ContentManagement.java:702) - Test case [verifyStructureLayout] is not added for execution
+ WARN 2014-07-16 17:15:56,604 [main] (ContentManagement.java:822) - Test case [verifySchemasLayout] is not added for execution
+ WARN 2014-07-16 17:15:56,609 [main] (ContentManagement.java:938) - Test case [verifyCreateNewSchemaLayout] is not added for execution
+ WARN 2014-07-16 17:15:56,614 [main] (ContentManagement.java:1458) - Test case [validationsOnCreateNewSchema] is not added for execution
+ WARN 2014-07-16 17:15:56,623 [main] (ContentManagement.java:2111) - Test case [createNewSchema] is not added for execution
+ WARN 2014-07-16 17:15:56,632 [main] (ContentManagement.java:2526) - Test case [verifySchema] is not added for execution
+ WARN 2014-07-16 17:15:56,636 [main] (ContentManagement.java:2680) - Test case [editSchema] is not added for execution
+ WARN 2014-07-16 17:15:56,641 [main] (ContentManagement.java:2958) - Test case [deleteSchema] is not added for execution
+ WARN 2014-07-16 17:15:56,645 [main] (ContentManagement.java:3215) - Test case [createNewComplexSchema] is not added for execution
+ WARN 2014-07-16 17:15:56,877 [main] (ContentManagement.java:4023) - Test case [createNewContainer] is not added for execution
+ WARN 2014-07-16 17:15:57,094 [main] (ContentManagement.java:4361) - Test case [editContainer] is not added for execution
+ WARN 2014-07-16 17:15:57,097 [main] (ContentManagement.java:4655) - Test case [deleteContainer] is not added for execution
+ WARN 2014-07-16 17:15:57,102 [main] (ContentManagement.java:4919) - Test case [createContainerWithSchema] is not added for execution
+ WARN 2014-07-16 17:15:57,106 [main] (ContentManagement.java:5784) - Test case [putContentInContainer] is not added for execution
+ INFO 2014-07-16 17:15:57,121 [main] (ContentManagement.java:6427) - Verify if User is on [Create New Schema] page
+ERROR 2014-07-16 17:15:57,144 [main] (SeleniumUtils.java:163) - Assertion error
+ INFO 2014-07-16 17:15:57,145 [main] (ContentManagement.java:6443) - User is not on [Create New Schema] page
+ INFO 2014-07-16 17:15:57,145 [main] (ContentManagement.java:6444) - Navigate to [Schemas] tab
+ INFO 2014-07-16 17:16:15,223 [main] (ContentManagement.java:6573) - User is on [Create New Schema] tab
+ INFO 2014-07-16 17:16:15,224 [main] (ContentManagement.java:6574) - Create new Complex Schema 
+ INFO 2014-07-16 17:16:15,820 [main] (ContentManagement.java:6706) - Click on ADD ATTRIBUTE button
+ INFO 2014-07-16 17:16:21,153 [main] (ContentManagement.java:6727) - Click operation on 'ADD ATTRIBUTE' button is successful. Enter data in 'Key' and 'Val' fields
+ INFO 2014-07-16 17:16:21,643 [main] (ContentManagement.java:6766) - Click on 'ADD FIELD' button
+ INFO 2014-07-16 17:16:27,572 [main] (ContentManagement.java:6779) - Click operation on 'ADD FIELD' button is successful
+ INFO 2014-07-16 17:16:42,688 [main] (ContentManagement.java:7208) - Verify if user is on [STRUCTURE:CONTAINERS] tab
+ERROR 2014-07-16 17:16:44,749 [main] (SeleniumUtils.java:163) - Assertion error
+ INFO 2014-07-16 17:16:44,751 [main] (ContentManagement.java:7225) - User is not on [STRUCTURE:CONTAINERS] tab 
+ INFO 2014-07-16 17:16:44,751 [main] (ContentManagement.java:7226) - Click on [Structure] sub tab
+ INFO 2014-07-16 17:16:52,272 [main] (ContentManagement.java:7260) - Click operation on [STRUCTURE] tab is successful. Verify User is on [STRUCTURE:CONTAINERS] page
+ INFO 2014-07-16 17:16:52,334 [main] (ContentManagement.java:7301) - User is on [STRUCTURE:CONTAINERS] tab
+ INFO 2014-07-16 17:16:52,334 [main] (ContentManagement.java:7302) - Click on 'NEW CONTAINER' button
+ INFO 2014-07-16 17:16:58,525 [main] (ContentManagement.java:7324) - Verify 'Name' field 'SAVE' & 'CANCEL' buttons are displayed
+ INFO 2014-07-16 17:16:58,605 [main] (ContentManagement.java:7398) - 'Name' field 'SAVE' & 'CANCEL' buttons are displayed successfully 
+ INFO 2014-07-16 17:16:58,606 [main] (ContentManagement.java:7399) - Create [Office List] container
+ INFO 2014-07-16 17:17:06,084 [main] (ContentManagement.java:7425) - Verify if the Success message displyaed 
+ INFO 2014-07-16 17:17:08,179 [main] (ContentManagement.java:7463) - New Container Success message displayed successfully
+ INFO 2014-07-16 17:17:08,179 [main] (ContentManagement.java:7464) - Verify if the container [Office List] displayed in Containers list
+ INFO 2014-07-16 17:17:08,274 [main] (ContentManagement.java:7500) - [Office List] displyaed in Containers list
+ INFO 2014-07-16 17:17:08,275 [main] (ContentManagement.java:7502) - Click on [Office List] container
+ INFO 2014-07-16 17:17:14,446 [main] (ContentManagement.java:7550) - Click operation successful on container [Office List]
+ INFO 2014-07-16 17:17:14,458 [main] (ContentManagement.java:7569) - Click on 'NEW ITEM' button for container
+ INFO 2014-07-16 17:17:18,645 [main] (ContentManagement.java:7573) - Click operation is successful on 'NEW ITEM'. Verify 'Name', 'Field', 'Type' & 'Schema' fields
+ INFO 2014-07-16 17:17:18,827 [main] (ContentManagement.java:7787) - Verification of 'Name', 'Type', 'Field' & 'Schema' fields are successful
+ INFO 2014-07-16 17:17:18,827 [main] (ContentManagement.java:7788) - Verify 'CANCEL' & 'SAVE' buttons
+ INFO 2014-07-16 17:17:18,835 [main] (ContentManagement.java:7806) - Verification of 'CANCEL' & 'SAVE' buttons successful
+ INFO 2014-07-16 17:17:18,835 [main] (ContentManagement.java:7807) - Validate the 'NEW ITEM' form
+ INFO 2014-07-16 17:17:32,321 [main] (ContentManagement.java:7980) - Verify if the container [Offices] displayed in Containers list
+ INFO 2014-07-16 17:17:34,528 [main] (ContentManagement.java:8003) - container [Offices] is present in containers list
+ INFO 2014-07-16 17:17:41,596 [main] (ContentManagement.java:8043) - Verify if user is on [Content] sub tab in [Content Management] tab
+ERROR 2014-07-16 17:17:43,651 [main] (SeleniumUtils.java:163) - Assertion error
+ INFO 2014-07-16 17:17:51,903 [main] (ContentManagement.java:8130) - User is on [Content] sub tab in [Content Management] tab
+ INFO 2014-07-16 17:17:51,903 [main] (ContentManagement.java:8131) - Click on container [Office List] in container list
+ INFO 2014-07-16 17:18:10,926 [main] (ContentManagement.java:8255) - Verify the form and enter the data in container
+ERROR 2014-07-16 17:43:31,896 [main] (SeleniumUtils.java:143) - Unable to identify the element with id xpath and value ./html/body/p
+ INFO 2014-07-16 18:11:11,318 [main] (Suite.java:42) - Starting the execution
+ INFO 2014-07-16 18:11:11,320 [main] (Suite.java:43) - reading [config] file
+ INFO 2014-07-16 18:11:11,638 [main] (Suite.java:64) - reading [config] file successful
+ INFO 2014-07-16 18:11:11,754 [main] (Suite.java:85) - reading [ParentSuite] input file
+ INFO 2014-07-16 18:11:11,763 [main] (Suite.java:107) - reading [ParentSuite] input file is successful
+ INFO 2014-07-16 18:11:11,763 [main] (Suite.java:108) - The Test suites for execution..[login, phunwareClients, analytics, alertsAndnotifications, contentmanagement, advertising, location, commonscenarios]
+ INFO 2014-07-16 18:11:11,791 [main] (ContentManagement.java:74) - reading ContentManagement Input file
+ INFO 2014-07-16 18:11:11,809 [main] (ContentManagement.java:97) - reading [ContentManagement] Input file successful
+ INFO 2014-07-16 18:11:11,810 [main] (ContentManagement.java:98) -  {[loginAs, verifyContentLayout, createSchemaWithMultiLineHtml]} for execution in [ContentManagement] suite
+ INFO 2014-07-16 18:11:11,828 [main] (ContentManagement.java:134) - opening [FIREFOX] browser
+ INFO 2014-07-16 18:11:40,085 [main] (ContentManagement.java:145) - Identify Username, Password & Signin buttons
+ INFO 2014-07-16 18:11:40,234 [main] (ContentManagement.java:172) - login into the application
+ INFO 2014-07-16 18:11:47,604 [main] (ContentManagement.java:175) - Verify the landing page after login
+ERROR 2014-07-16 18:11:52,707 [main] (SeleniumUtils.java:163) - Assertion error
+ INFO 2014-07-16 18:11:52,707 [main] (ContentManagement.java:340) - User is landed on [YOUR ACCOUNT] page
+ INFO 2014-07-16 18:11:52,707 [main] (ContentManagement.java:341) - Navigate to [YOUR APPLICATIONS] page
+ INFO 2014-07-16 18:11:52,708 [main] (ContentManagement.java:342) - Verify if User has Switch button 
+ INFO 2014-07-16 18:11:52,719 [main] (ContentManagement.java:357) - Click on [Switch Button]
+ INFO 2014-07-16 18:11:52,856 [main] (ContentManagement.java:365) - Click operation on [Switch Button] is successful
+ INFO 2014-07-16 18:11:52,857 [main] (ContentManagement.java:367) - Identify Switch button - Organization text box
+ INFO 2014-07-16 18:11:53,901 [main] (ContentManagement.java:389) - Enter the Organization [cybage] name in the Switch btn Organization text box
+ INFO 2014-07-16 18:12:03,180 [main] (ContentManagement.java:432) - Verify if user is landed on [Your Applications] page
+ INFO 2014-07-16 18:12:03,250 [main] (ContentManagement.java:492) - Starting [verifyContentLayout] execution
+ INFO 2014-07-16 18:12:03,253 [main] (ContentManagement.java:493) - Navigating to [Content Management] tab
+ INFO 2014-07-16 18:12:18,550 [main] (ContentManagement.java:528) - Verify all the sub tabs in [Content Management] tab
+ INFO 2014-07-16 18:12:18,628 [main] (ContentManagement.java:559) - Verification of [Content] tab text is successful
+ INFO 2014-07-16 18:12:18,629 [main] (ContentManagement.java:560) - Verify [Structure] tab
+ INFO 2014-07-16 18:12:18,657 [main] (ContentManagement.java:592) - Verification of [Structure] tab text is successful
+ INFO 2014-07-16 18:12:18,658 [main] (ContentManagement.java:593) - Verify [Schemas] tab
+ INFO 2014-07-16 18:12:18,708 [main] (ContentManagement.java:624) - Verification of [Schemas] tab text is successful
+ INFO 2014-07-16 18:12:18,708 [main] (ContentManagement.java:625) - Verify [S3] tab
+ INFO 2014-07-16 18:12:18,708 [main] (ContentManagement.java:648) - Verification of all the sub tabs in [Content Management] tab is successful
+ INFO 2014-07-16 18:12:18,709 [main] (ContentManagement.java:649) - Verify if user is on [Content] sub tab in [Content Management] tab
+ WARN 2014-07-16 18:12:18,773 [main] (ContentManagement.java:702) - Test case [verifyStructureLayout] is not added for execution
+ WARN 2014-07-16 18:12:18,840 [main] (ContentManagement.java:822) - Test case [verifySchemasLayout] is not added for execution
+ WARN 2014-07-16 18:12:18,851 [main] (ContentManagement.java:938) - Test case [verifyCreateNewSchemaLayout] is not added for execution
+ WARN 2014-07-16 18:12:18,998 [main] (ContentManagement.java:1458) - Test case [validationsOnCreateNewSchema] is not added for execution
+ WARN 2014-07-16 18:12:19,014 [main] (ContentManagement.java:2111) - Test case [createNewSchema] is not added for execution
+ WARN 2014-07-16 18:12:19,077 [main] (ContentManagement.java:2526) - Test case [verifySchema] is not added for execution
+ WARN 2014-07-16 18:12:19,081 [main] (ContentManagement.java:2680) - Test case [editSchema] is not added for execution
+ WARN 2014-07-16 18:12:19,084 [main] (ContentManagement.java:2958) - Test case [deleteSchema] is not added for execution
+ WARN 2014-07-16 18:12:19,089 [main] (ContentManagement.java:3215) - Test case [createNewComplexSchema] is not added for execution
+ WARN 2014-07-16 18:12:19,339 [main] (ContentManagement.java:4023) - Test case [createNewContainer] is not added for execution
+ WARN 2014-07-16 18:12:19,668 [main] (ContentManagement.java:4361) - Test case [editContainer] is not added for execution
+ WARN 2014-07-16 18:12:19,712 [main] (ContentManagement.java:4655) - Test case [deleteContainer] is not added for execution
+ WARN 2014-07-16 18:12:19,830 [main] (ContentManagement.java:4919) - Test case [createContainerWithSchema] is not added for execution
+ WARN 2014-07-16 18:12:19,920 [main] (ContentManagement.java:5784) - Test case [putContentInContainer] is not added for execution
+ INFO 2014-07-16 18:12:19,979 [main] (ContentManagement.java:6427) - Verify if User is on [Create New Schema] page
+ERROR 2014-07-16 18:12:20,021 [main] (SeleniumUtils.java:163) - Assertion error
+ INFO 2014-07-16 18:12:20,021 [main] (ContentManagement.java:6443) - User is not on [Create New Schema] page
+ INFO 2014-07-16 18:12:20,021 [main] (ContentManagement.java:6444) - Navigate to [Schemas] tab
+ INFO 2014-07-16 18:12:38,259 [main] (ContentManagement.java:6573) - User is on [Create New Schema] tab
+ INFO 2014-07-16 18:12:38,260 [main] (ContentManagement.java:6574) - Create new Complex Schema 
+ INFO 2014-07-16 18:12:38,917 [main] (ContentManagement.java:6706) - Click on ADD ATTRIBUTE button
+ INFO 2014-07-16 18:12:44,184 [main] (ContentManagement.java:6727) - Click operation on 'ADD ATTRIBUTE' button is successful. Enter data in 'Key' and 'Val' fields
+ INFO 2014-07-16 18:12:44,707 [main] (ContentManagement.java:6766) - Click on 'ADD FIELD' button
+ INFO 2014-07-16 18:12:50,971 [main] (ContentManagement.java:6779) - Click operation on 'ADD FIELD' button is successful
+ INFO 2014-07-16 18:13:05,650 [main] (ContentManagement.java:7208) - Verify if user is on [STRUCTURE:CONTAINERS] tab
+ERROR 2014-07-16 18:13:07,709 [main] (SeleniumUtils.java:163) - Assertion error
+ INFO 2014-07-16 18:13:07,710 [main] (ContentManagement.java:7225) - User is not on [STRUCTURE:CONTAINERS] tab 
+ INFO 2014-07-16 18:13:07,710 [main] (ContentManagement.java:7226) - Click on [Structure] sub tab
+ INFO 2014-07-16 18:13:11,899 [main] (ContentManagement.java:7260) - Click operation on [STRUCTURE] tab is successful. Verify User is on [STRUCTURE:CONTAINERS] page
+ INFO 2014-07-16 18:13:11,926 [main] (ContentManagement.java:7301) - User is on [STRUCTURE:CONTAINERS] tab
+ INFO 2014-07-16 18:13:11,926 [main] (ContentManagement.java:7302) - Click on 'NEW CONTAINER' button
+ INFO 2014-07-16 18:13:18,023 [main] (ContentManagement.java:7324) - Verify 'Name' field 'SAVE' & 'CANCEL' buttons are displayed
+ INFO 2014-07-16 18:13:18,100 [main] (ContentManagement.java:7398) - 'Name' field 'SAVE' & 'CANCEL' buttons are displayed successfully 
+ INFO 2014-07-16 18:13:18,100 [main] (ContentManagement.java:7399) - Create [Office List] container
+ INFO 2014-07-16 18:13:25,560 [main] (ContentManagement.java:7425) - Verify if the Success message displyaed 
+ INFO 2014-07-16 18:13:25,740 [main] (ContentManagement.java:7463) - New Container Success message displayed successfully
+ INFO 2014-07-16 18:13:25,740 [main] (ContentManagement.java:7464) - Verify if the container [Office List] displayed in Containers list
+ INFO 2014-07-16 18:13:26,108 [main] (ContentManagement.java:7500) - [Office List] displyaed in Containers list
+ INFO 2014-07-16 18:13:26,108 [main] (ContentManagement.java:7502) - Click on [Office List] container
+ INFO 2014-07-16 18:13:32,570 [main] (ContentManagement.java:7550) - Click operation successful on container [Office List]
+ INFO 2014-07-16 18:13:32,581 [main] (ContentManagement.java:7569) - Click on 'NEW ITEM' button for container
+ INFO 2014-07-16 18:13:36,715 [main] (ContentManagement.java:7573) - Click operation is successful on 'NEW ITEM'. Verify 'Name', 'Field', 'Type' & 'Schema' fields
+ INFO 2014-07-16 18:13:36,845 [main] (ContentManagement.java:7787) - Verification of 'Name', 'Type', 'Field' & 'Schema' fields are successful
+ INFO 2014-07-16 18:13:36,845 [main] (ContentManagement.java:7788) - Verify 'CANCEL' & 'SAVE' buttons
+ INFO 2014-07-16 18:13:36,856 [main] (ContentManagement.java:7806) - Verification of 'CANCEL' & 'SAVE' buttons successful
+ INFO 2014-07-16 18:13:36,856 [main] (ContentManagement.java:7807) - Validate the 'NEW ITEM' form
+ INFO 2014-07-16 18:13:50,327 [main] (ContentManagement.java:7980) - Verify if the container [Offices] displayed in Containers list
+ INFO 2014-07-16 18:13:53,602 [main] (ContentManagement.java:8003) - container [Offices] is present in containers list
+ INFO 2014-07-16 18:13:58,430 [main] (ContentManagement.java:8043) - Verify if user is on [Content] sub tab in [Content Management] tab
+ERROR 2014-07-16 18:14:00,501 [main] (SeleniumUtils.java:163) - Assertion error
+ INFO 2014-07-16 18:14:10,014 [main] (ContentManagement.java:8130) - User is on [Content] sub tab in [Content Management] tab
+ INFO 2014-07-16 18:14:10,014 [main] (ContentManagement.java:8131) - Click on container [Office List] in container list
+ INFO 2014-07-16 18:14:29,792 [main] (ContentManagement.java:8255) - Verify the form and enter the data in container
+ERROR 2014-07-16 18:14:42,787 [main] (SeleniumUtils.java:143) - Unable to identify the element with id xpath and value ./#document/html[@dir='ltr']/body/p
+ INFO 2014-07-16 18:16:25,884 [main] (Suite.java:42) - Starting the execution
+ INFO 2014-07-16 18:16:25,885 [main] (Suite.java:43) - reading [config] file
+ INFO 2014-07-16 18:16:26,196 [main] (Suite.java:64) - reading [config] file successful
+ INFO 2014-07-16 18:16:26,291 [main] (Suite.java:85) - reading [ParentSuite] input file
+ INFO 2014-07-16 18:16:26,300 [main] (Suite.java:107) - reading [ParentSuite] input file is successful
+ INFO 2014-07-16 18:16:26,300 [main] (Suite.java:108) - The Test suites for execution..[login, phunwareClients, analytics, alertsAndnotifications, contentmanagement, advertising, location, commonscenarios]
+ INFO 2014-07-16 18:16:26,312 [main] (ContentManagement.java:74) - reading ContentManagement Input file
+ INFO 2014-07-16 18:16:26,336 [main] (ContentManagement.java:97) - reading [ContentManagement] Input file successful
+ INFO 2014-07-16 18:16:26,336 [main] (ContentManagement.java:98) -  {[loginAs, verifyContentLayout, createSchemaWithMultiLineHtml]} for execution in [ContentManagement] suite
+ INFO 2014-07-16 18:16:26,361 [main] (ContentManagement.java:134) - opening [FIREFOX] browser
+ INFO 2014-07-16 18:18:29,842 [main] (ContentManagement.java:145) - Identify Username, Password & Signin buttons
+ INFO 2014-07-16 18:18:29,957 [main] (ContentManagement.java:172) - login into the application
+ INFO 2014-07-16 18:18:38,128 [main] (ContentManagement.java:175) - Verify the landing page after login
+ERROR 2014-07-16 18:18:43,201 [main] (SeleniumUtils.java:163) - Assertion error
+ INFO 2014-07-16 18:18:43,202 [main] (ContentManagement.java:340) - User is landed on [YOUR ACCOUNT] page
+ INFO 2014-07-16 18:18:43,202 [main] (ContentManagement.java:341) - Navigate to [YOUR APPLICATIONS] page
+ INFO 2014-07-16 18:18:43,202 [main] (ContentManagement.java:342) - Verify if User has Switch button 
+ INFO 2014-07-16 18:18:43,215 [main] (ContentManagement.java:357) - Click on [Switch Button]
+ INFO 2014-07-16 18:18:43,432 [main] (ContentManagement.java:365) - Click operation on [Switch Button] is successful
+ INFO 2014-07-16 18:18:43,432 [main] (ContentManagement.java:367) - Identify Switch button - Organization text box
+ INFO 2014-07-16 18:18:44,472 [main] (ContentManagement.java:389) - Enter the Organization [cybage] name in the Switch btn Organization text box
+ERROR 2014-07-16 18:18:52,635 [main] (SeleniumUtils.java:653) - org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
+Command duration or timeout: 5.02 seconds
+Build info: version: '2.40.0', revision: 'fbe29a9', time: '2014-02-19 20:54:28'
+System info: host: 'bhargavas-w7', ip: '172.27.36.55', os.name: 'Windows Vista', os.arch: 'x86', os.version: '6.1', java.version: '1.6.0'
+Session ID: 701fd881-1d78-492c-befd-f4ece763bc61
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=XP, acceptSslCerts=true, javascriptEnabled=true, browserName=firefox, rotatable=false, locationContextEnabled=true, version=30.0, cssSelectorsEnabled=true, databaseEnabled=true, handlesAlerts=true, browserConnectionEnabled=true, nativeEvents=false, webStorageEnabled=true, applicationCacheEnabled=true, takesScreenshot=true}]
+ERROR 2014-07-16 18:18:52,638 [main] (ContentManagement.java:419) - Unable to select on organization in a list
+ INFO 2014-07-16 18:18:52,916 [main] (ContentManagement.java:432) - Verify if user is landed on [Your Applications] page
+ERROR 2014-07-16 18:18:52,956 [main] (SeleniumUtils.java:163) - Assertion error
+ERROR 2014-07-16 18:18:52,957 [main] (ContentManagement.java:455) - Login failed. User is not landed on [Your Applications] page
+ INFO 2014-07-16 18:18:53,314 [main] (ContentManagement.java:9267) - Closing the browser
+ INFO 2014-07-16 18:19:00,919 [main] (Suite.java:42) - Starting the execution
+ INFO 2014-07-16 18:19:00,921 [main] (Suite.java:43) - reading [config] file
+ INFO 2014-07-16 18:19:01,273 [main] (Suite.java:64) - reading [config] file successful
+ INFO 2014-07-16 18:19:01,379 [main] (Suite.java:85) - reading [ParentSuite] input file
+ INFO 2014-07-16 18:19:01,399 [main] (Suite.java:107) - reading [ParentSuite] input file is successful
+ INFO 2014-07-16 18:19:01,400 [main] (Suite.java:108) - The Test suites for execution..[login, phunwareClients, analytics, alertsAndnotifications, contentmanagement, advertising, location, commonscenarios]
+ INFO 2014-07-16 18:19:01,412 [main] (ContentManagement.java:74) - reading ContentManagement Input file
+ INFO 2014-07-16 18:19:01,431 [main] (ContentManagement.java:97) - reading [ContentManagement] Input file successful
+ INFO 2014-07-16 18:19:01,432 [main] (ContentManagement.java:98) -  {[loginAs, verifyContentLayout, createSchemaWithMultiLineHtml]} for execution in [ContentManagement] suite
+ INFO 2014-07-16 18:19:01,447 [main] (ContentManagement.java:134) - opening [FIREFOX] browser
+ INFO 2014-07-16 18:19:14,389 [main] (ContentManagement.java:145) - Identify Username, Password & Signin buttons
+ INFO 2014-07-16 18:19:14,571 [main] (ContentManagement.java:172) - login into the application
+ INFO 2014-07-16 18:19:22,440 [main] (ContentManagement.java:175) - Verify the landing page after login
+ERROR 2014-07-16 18:19:27,516 [main] (SeleniumUtils.java:163) - Assertion error
+ INFO 2014-07-16 18:19:27,517 [main] (ContentManagement.java:340) - User is landed on [YOUR ACCOUNT] page
+ INFO 2014-07-16 18:19:27,517 [main] (ContentManagement.java:341) - Navigate to [YOUR APPLICATIONS] page
+ INFO 2014-07-16 18:19:27,517 [main] (ContentManagement.java:342) - Verify if User has Switch button 
+ INFO 2014-07-16 18:19:27,528 [main] (ContentManagement.java:357) - Click on [Switch Button]
+ INFO 2014-07-16 18:19:27,640 [main] (ContentManagement.java:365) - Click operation on [Switch Button] is successful
+ INFO 2014-07-16 18:19:27,641 [main] (ContentManagement.java:367) - Identify Switch button - Organization text box
+ INFO 2014-07-16 18:19:28,679 [main] (ContentManagement.java:389) - Enter the Organization [cybage] name in the Switch btn Organization text box
+ INFO 2014-07-16 18:19:36,621 [main] (ContentManagement.java:432) - Verify if user is landed on [Your Applications] page
+ INFO 2014-07-16 18:19:36,713 [main] (ContentManagement.java:492) - Starting [verifyContentLayout] execution
+ INFO 2014-07-16 18:19:36,714 [main] (ContentManagement.java:493) - Navigating to [Content Management] tab
+ INFO 2014-07-16 18:19:51,059 [main] (ContentManagement.java:528) - Verify all the sub tabs in [Content Management] tab
+ INFO 2014-07-16 18:19:51,222 [main] (ContentManagement.java:559) - Verification of [Content] tab text is successful
+ INFO 2014-07-16 18:19:51,222 [main] (ContentManagement.java:560) - Verify [Structure] tab
+ INFO 2014-07-16 18:19:51,261 [main] (ContentManagement.java:592) - Verification of [Structure] tab text is successful
+ INFO 2014-07-16 18:19:51,262 [main] (ContentManagement.java:593) - Verify [Schemas] tab
+ INFO 2014-07-16 18:19:51,293 [main] (ContentManagement.java:624) - Verification of [Schemas] tab text is successful
+ INFO 2014-07-16 18:19:51,293 [main] (ContentManagement.java:625) - Verify [S3] tab
+ INFO 2014-07-16 18:19:51,295 [main] (ContentManagement.java:648) - Verification of all the sub tabs in [Content Management] tab is successful
+ INFO 2014-07-16 18:19:51,295 [main] (ContentManagement.java:649) - Verify if user is on [Content] sub tab in [Content Management] tab
+ WARN 2014-07-16 18:19:51,329 [main] (ContentManagement.java:702) - Test case [verifyStructureLayout] is not added for execution
+ WARN 2014-07-16 18:19:51,355 [main] (ContentManagement.java:822) - Test case [verifySchemasLayout] is not added for execution
+ WARN 2014-07-16 18:19:51,360 [main] (ContentManagement.java:938) - Test case [verifyCreateNewSchemaLayout] is not added for execution
+ WARN 2014-07-16 18:19:51,364 [main] (ContentManagement.java:1458) - Test case [validationsOnCreateNewSchema] is not added for execution
+ WARN 2014-07-16 18:19:51,377 [main] (ContentManagement.java:2111) - Test case [createNewSchema] is not added for execution
+ WARN 2014-07-16 18:19:51,383 [main] (ContentManagement.java:2526) - Test case [verifySchema] is not added for execution
+ WARN 2014-07-16 18:19:51,390 [main] (ContentManagement.java:2680) - Test case [editSchema] is not added for execution
+ WARN 2014-07-16 18:19:51,401 [main] (ContentManagement.java:2958) - Test case [deleteSchema] is not added for execution
+ WARN 2014-07-16 18:19:51,409 [main] (ContentManagement.java:3215) - Test case [createNewComplexSchema] is not added for execution
+ WARN 2014-07-16 18:19:51,665 [main] (ContentManagement.java:4023) - Test case [createNewContainer] is not added for execution
+ WARN 2014-07-16 18:19:51,905 [main] (ContentManagement.java:4361) - Test case [editContainer] is not added for execution
+ WARN 2014-07-16 18:19:51,917 [main] (ContentManagement.java:4655) - Test case [deleteContainer] is not added for execution
+ WARN 2014-07-16 18:19:51,922 [main] (ContentManagement.java:4919) - Test case [createContainerWithSchema] is not added for execution
+ WARN 2014-07-16 18:19:51,926 [main] (ContentManagement.java:5784) - Test case [putContentInContainer] is not added for execution
+ INFO 2014-07-16 18:19:51,939 [main] (ContentManagement.java:6427) - Verify if User is on [Create New Schema] page
+ERROR 2014-07-16 18:19:51,976 [main] (SeleniumUtils.java:163) - Assertion error
+ INFO 2014-07-16 18:19:51,977 [main] (ContentManagement.java:6443) - User is not on [Create New Schema] page
+ INFO 2014-07-16 18:19:51,977 [main] (ContentManagement.java:6444) - Navigate to [Schemas] tab
+ INFO 2014-07-16 18:20:10,509 [main] (ContentManagement.java:6573) - User is on [Create New Schema] tab
+ INFO 2014-07-16 18:20:10,509 [main] (ContentManagement.java:6574) - Create new Complex Schema 
+ INFO 2014-07-16 18:20:11,060 [main] (ContentManagement.java:6706) - Click on ADD ATTRIBUTE button
+ INFO 2014-07-16 18:20:16,285 [main] (ContentManagement.java:6727) - Click operation on 'ADD ATTRIBUTE' button is successful. Enter data in 'Key' and 'Val' fields
+ INFO 2014-07-16 18:20:16,638 [main] (ContentManagement.java:6766) - Click on 'ADD FIELD' button
+ INFO 2014-07-16 18:20:22,589 [main] (ContentManagement.java:6779) - Click operation on 'ADD FIELD' button is successful
+ INFO 2014-07-16 18:20:36,928 [main] (ContentManagement.java:7208) - Verify if user is on [STRUCTURE:CONTAINERS] tab
+ERROR 2014-07-16 18:20:38,951 [main] (SeleniumUtils.java:163) - Assertion error
+ INFO 2014-07-16 18:20:38,951 [main] (ContentManagement.java:7225) - User is not on [STRUCTURE:CONTAINERS] tab 
+ INFO 2014-07-16 18:20:38,951 [main] (ContentManagement.java:7226) - Click on [Structure] sub tab
+ INFO 2014-07-16 18:20:46,346 [main] (ContentManagement.java:7260) - Click operation on [STRUCTURE] tab is successful. Verify User is on [STRUCTURE:CONTAINERS] page
+ INFO 2014-07-16 18:20:46,373 [main] (ContentManagement.java:7301) - User is on [STRUCTURE:CONTAINERS] tab
+ INFO 2014-07-16 18:20:46,373 [main] (ContentManagement.java:7302) - Click on 'NEW CONTAINER' button
+ INFO 2014-07-16 18:20:52,592 [main] (ContentManagement.java:7324) - Verify 'Name' field 'SAVE' & 'CANCEL' buttons are displayed
+ INFO 2014-07-16 18:20:52,669 [main] (ContentManagement.java:7398) - 'Name' field 'SAVE' & 'CANCEL' buttons are displayed successfully 
+ INFO 2014-07-16 18:20:52,670 [main] (ContentManagement.java:7399) - Create [Office List] container
+ INFO 2014-07-16 18:21:00,077 [main] (ContentManagement.java:7425) - Verify if the Success message displyaed 
+ INFO 2014-07-16 18:21:00,244 [main] (ContentManagement.java:7463) - New Container Success message displayed successfully
+ INFO 2014-07-16 18:21:00,244 [main] (ContentManagement.java:7464) - Verify if the container [Office List] displayed in Containers list
+ INFO 2014-07-16 18:21:00,580 [main] (ContentManagement.java:7500) - [Office List] displyaed in Containers list
+ INFO 2014-07-16 18:21:00,580 [main] (ContentManagement.java:7502) - Click on [Office List] container
+ INFO 2014-07-16 18:21:06,743 [main] (ContentManagement.java:7550) - Click operation successful on container [Office List]
+ INFO 2014-07-16 18:21:06,756 [main] (ContentManagement.java:7569) - Click on 'NEW ITEM' button for container
+ INFO 2014-07-16 18:21:10,955 [main] (ContentManagement.java:7573) - Click operation is successful on 'NEW ITEM'. Verify 'Name', 'Field', 'Type' & 'Schema' fields
+ INFO 2014-07-16 18:21:11,114 [main] (ContentManagement.java:7787) - Verification of 'Name', 'Type', 'Field' & 'Schema' fields are successful
+ INFO 2014-07-16 18:21:11,114 [main] (ContentManagement.java:7788) - Verify 'CANCEL' & 'SAVE' buttons
+ INFO 2014-07-16 18:21:11,126 [main] (ContentManagement.java:7806) - Verification of 'CANCEL' & 'SAVE' buttons successful
+ INFO 2014-07-16 18:21:11,127 [main] (ContentManagement.java:7807) - Validate the 'NEW ITEM' form
+ INFO 2014-07-16 18:21:24,630 [main] (ContentManagement.java:7980) - Verify if the container [Offices] displayed in Containers list
+ INFO 2014-07-16 18:21:30,429 [main] (ContentManagement.java:8003) - container [Offices] is present in containers list
+ INFO 2014-07-16 18:21:34,652 [main] (ContentManagement.java:8043) - Verify if user is on [Content] sub tab in [Content Management] tab
+ERROR 2014-07-16 18:21:36,698 [main] (SeleniumUtils.java:163) - Assertion error
+ INFO 2014-07-16 18:21:44,918 [main] (ContentManagement.java:8130) - User is on [Content] sub tab in [Content Management] tab
+ INFO 2014-07-16 18:21:44,919 [main] (ContentManagement.java:8131) - Click on container [Office List] in container list
+ INFO 2014-07-16 18:22:07,495 [main] (ContentManagement.java:8255) - Verify the form and enter the data in container
+ERROR 2014-07-16 18:22:33,552 [main] (SeleniumUtils.java:143) - Unable to identify the element with id xpath and value .//html[@dir='ltr']/body/p

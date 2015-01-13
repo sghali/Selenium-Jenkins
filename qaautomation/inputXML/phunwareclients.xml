@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testcase name="phunwareclients">
+	<!--loginAs - To Login into the application -->
+	<case name="loginAs" runmode="Y">
+		<param id="username">bhargavas@cybage.com</param>
+		<param id="password">password</param>
+		<param id="organization">Cybage</param>
+	</case>
+	<!--verifyInitialLayout - Verify the Initial Layout of Screen -->
+	<case name="verifyInitialLayout" runmode="Y">
+	</case>
+	<!--verifyApplicationLayout - Verify the Application tab layout -->
+	<case name="verifyApplicationLayout" runmode="Y">
+		<param id="userName">Bhargava Swayampakula</param>
+		<param id="orgName">Cybage</param>
+		<param id="userCurrentRole">Admin</param>
+	</case>
+	<!--validationInCreateApplication - verifying the error validation on fields 
+		while creating new application -->
+	<case name="validationInCreateApplication" runmode="Y">
+	</case>
+	<!--createApplication - Create the new application -->
+	<case name="createApplication" runmode="N">
+		<param id="appName">Cybage MaasAutomation Test122</param>
+		<param id="platform">Android</param>
+		<param id="category">Business</param>
+	</case>
+	<!--verifyApplication - Verify the if the application is present with showkeys 
+		values -->
+	<case name="verifyApplication" runmode="Y">
+		<param id="appName">Cybage MaasAutomation Test122</param>
+	</case>
+	<!--editApplication - Edit the application -->
+	<case name="editApplication" runmode="Y">
+		<param id="appName">Cybage MaasAutomation Test118</param>
+		<param id="NewappName">Cybage MaasAutomation Test118</param>
+		<param id="platform">iOS</param>
+		<param id="category">Books</param>
+	</case>
+	<!--verifyYourAccountLayout - Verify the Your Account tab layout -->
+	<case name="verifyYourAccountLayout" runmode="Y">
+		<param id="userCurrentRole">Admin</param>
+	</case>
+	<!--verifyUsersAndRolesLayout - Verify the Users&Roles tab layout -->
+	<case name="verifyUsersAndRolesLayout" runmode="Y">
+		<param id="userCurrentRole">Admin</param>
+	</case>
+	<!--validationInCreateUser - verify all the validations while creating new 
+		User -->
+	<case name="validationInCreateUser" runmode="Y">
+		<param id="firstName">Cybage MaasAutomation Test User</param>
+		<param id="lastName">111</param>
+		<param id="invalidEmail">abc</param>
+		<param id="email">validationincreateuser@cybage.com</param>
+		<param id="invalidPassword">pass</param>
+		<param id="password">password</param>
+		<param id="countryDropdown">Asia</param>
+		<param id="timeZone">Asia/Kolkata</param>
+		<param id="userDropdown">Cybage Low Role</param>
+		<param id="statusDropdown">Active</param>
+	</case>
+	<!--createUser - Creating new User -->
+	<case name="createUser" runmode="Y">
+		<param id="firstName">Cybage MaasAutomation Test User</param>
+		<param id="lastName">111</param>
+		<param id="email">createUser@cybage.com</param>
+		<param id="password">password</param>
+		<param id="countryDropdown">Asia</param>
+		<param id="timeZone">Asia/Kolkata</param>
+		<param id="userDropdown">Cybage Low Role</param>
+		<param id="statusDropdown">Active</param>
+	</case>
+	<!--editUser - Editing User -->
+	<case name="editUser" runmode="Y">
+		<param id="username">Cybage MaasAutomation Test User 111</param>
+		<param id="firstName">Cybage MaasAutomation Test User</param>
+		<param id="lastName">113</param>
+		<param id="email">editUser@cybage.com</param>
+		<param id="password">password</param>
+		<param id="countryDropdown">Asia</param>
+		<param id="timeZone">Asia/Kolkata</param>
+		<param id="userDropdown">Cybage Low Role</param>
+		<param id="statusDropdown">Active</param>
+	</case>
+	<!--deleteUser - Deleting User -->
+	<case name="deleteUser" runmode="Y">
+		<param id="username">Cybage MaasAutomation Test User 113</param>
+	</case>
+	<!--validationInCreateRole - verify all the validations while creating new 
+		Role -->
+	<case name="validationInCreateRole" runmode="Y">
+	</case>
+	<!--createRole - Creating new Role -->
+	<case name="createRole" runmode="Y">
+		<param id="name">Cybage MaasAutomation Test Role</param>
+		<param id="alertsPermissions1">Overview</param>
+		<param id="orgPermissions1">View Application Keys</param>
+		<param id="CMEPermissions1">Read Content</param>
+	</case>
+	<!--editRole - Editing Role -->
+	<case name="editRole" runmode="Y">
+		<param id="name">Cybage MaasAutomation Test Role</param>
+		<param id="newName">Cybage MaasAutomation Test Role</param>
+		<param id="alertsPermissions1">Configure</param>
+	</case>
+	<!--deleteRole - deleting Role -->
+	<case name="deleteRole" runmode="Y">
+		<param id="name">Cybage MaasAutomation Test Role</param>
+	</case>
+	<!--Low Level User Permissions -->
+	<case name="verifyLowLevelUserAccessPermissions" runmode="Y">
+		<param id="RestrictedRoleName">Cybage Low Role</param>
+		<param id="orgPermissions1">View Application Keys</param>
+		<param id="fn1">Cybage Low</param>
+		<param id="ln1">User</param>
+		<param id="email1">abc@cybage.com</param>
+		<param id="password1">password</param>
+		<param id="userDropdown">Cybage Low Role</param>
+		<param id="statusDropdown">Active</param>
+		<param id="loginUserName1">abc@cybage.com</param>
+		<param id="loginPassword1">password</param>
+		<param id="loginUserNamevalid">bhargavas@cybage.com</param>
+		<param id="loginPasswordvalid">password</param>
+		<param id="organization">cybage</param>
+	</case>
+	<!--verifyDownloadsLayout - To verify the Downloads tab -->
+	<case name="verifyDownloadsLayout" runmode="Y">
+	</case>
+	<!--verifyMaaSCoreSDK - To verify the MaaS Core SDK element -->
+	<case name="verifyMaaSCoreSDK" runmode="Y">
+	</case>
+	<!--verifyS3Layout - Verify the S3 tab layout -->
+	<case name="verifyS3Layout" runmode="Y">
+	</case>
+	<!--logOut - To Logout from the application -->
+	<case name="logOut" runmode="Y">
+	</case>
+</testcase>

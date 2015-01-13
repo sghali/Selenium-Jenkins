@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OR>
+
+	<!--Phunware - Login Page Objects -->
+
+	<element name="SignInWithGoogle" locatortype="xpath"
+		locatorvalue=".//button[text()='Sign in with Google']" />
+
+	<element name="ForgotPasswordLink" locatortype="xpath"
+		locatorvalue=".//div[@id='login-footer-links-container']/span/a"
+		exptext="Forgot Password?" />
+	<element name="DontRememberYourPasswordHeader" locatortype="xpath"
+		locatorvalue=".//div[@id='forgot-password-msg-container']/h4" exptext="Don't remember your password?" />
+	<element name="DontRememberYourPasswordBody" locatortype="xpath"
+		locatorvalue=".//div[@id='forgot-password-msg-container']/p"
+		exptext="Enter your e-mail address associated with your Phunware account and we'll send you instructions on how to retrieve your password." />
+
+	<element name="ForgotPasswordEmail" locatortype="xpath"
+		locatorvalue=".//input[@id='email']" exptext="" />
+	<element name="ForgotPasswordSubmitButton" locatortype="xpath"
+		locatorvalue=".//button[@class='button button-login']" exptext="" />
+
+
+	<element name="CheckOnYourEmailHeader" locatortype="xpath"
+		locatorvalue=".//div[@id='forgot-password-msg-container']/h4" exptext="Check your email" />
+	<element name="CheckOnYourEmailParagraph" locatortype="xpath"
+		locatorvalue=".//div[@id='forgot-password-msg-container']/p"
+		exptext="You will receive an email soon with instructions on how to reset your password." />
+
+
+	<element name="GoogleHomePageSignIn" locatortype="xpath"
+		locatorvalue=".//a[@id='gmail-sign-in']" exptext="" />
+
+	<element name="GmailHeaderElement" locatortype="xpath"
+		locatorvalue=".//div[@class='main content clearfix']/div[@class='banner']/h2"
+		exptext="Sign in to continue to Gmail" />
+	<element name="CurrentEmail" locatortype="xpath"
+		locatorvalue=".//form[@id='gaia_loginform']/span[@id='reauthEmail']"
+		exptext="maasbhargavas@gmail.com" />
+
+	<element name="SignInWithDifferentAct" locatortype="xpath"
+		locatorvalue=".//a[@id='account-chooser-link']" exptext="" />
+
+	<element name="AddAccountLink" locatortype="xpath"
+		locatorvalue=".//a[@id='account-chooser-add-account']" exptext="" />
+
+	<element name="GmailUserName" locatortype="xpath"
+		locatorvalue=".//input[@id='Email']" exptext="" />
+	<element name="GmailPassword" locatortype="xpath"
+		locatorvalue=".//input[@id='Passwd']" exptext="" />
+	<element name="GmailSignin" locatortype="xpath"
+		locatorvalue=".//input[@id='signIn']" exptext="" />
+
+	<element name="GmailInboxTable" locatortype="xpath"
+		locatorvalue=".//table[@id=':37']/tbody" exptext="" />
+
+	<element name="GmailInboxResetYourPasswordLink" locatortype="xpath"
+		locatorvalue=".//a[text()='Reset Your Password']" exptext="" />
+
+	<element name="EnterNewPasswordHeader" locatortype="xpath"
+		locatorvalue=".//div[@id='forgot-password-msg-container']/h4" exptext="Enter a New Password" />
+
+	<element name="EnterNewPassword_password1" locatortype="xpath"
+		locatorvalue=".//input[@id='forgot-password-change1']" exptext="" />
+
+	<element name="EnterNewPassword_password2" locatortype="xpath"
+		locatorvalue=".//input[@id='forgot-password-change2']" exptext="" />
+
+	<element name="EnterNewPassword_submit" locatortype="xpath"
+		locatorvalue=".//button[@class='button button-login']" exptext="" />
+
+
+	<element name="SignInGmail_HeaderElement" locatortype="xpath"
+		locatorvalue=".//div[@class='main content clearfix']/div[@class='banner']/h2"
+		exptext="Sign in with your Google Account" />
+
+
+	<element name="AccountInactiveHeader" locatortype="xpath"
+		locatorvalue=".//div[@id='forgot-password-msg-container']/h4" exptext="Account Inactive" />
+
+	<element name="AccountInactiveParagraph" locatortype="xpath"
+		locatorvalue=".//div[@id='forgot-password-msg-container']/p"
+		exptext="Your account is current awaiting activation by an admin." />
+		
+	<element name="UserInactiveStatusDropdown" locatortype="xpath"
+		locatorvalue=".//select[@id='user_save_isActive']"
+		exptext="" />
+
+
+
+
+
+
+
+
+
+</OR>

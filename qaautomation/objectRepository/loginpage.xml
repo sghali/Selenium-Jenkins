@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OR>
+	<element name="UserNameTextbox" locatortype="id" locatorvalue="email" />
+	
+	<element name="PasswordTextbox" locatortype="id" locatorvalue="password" />
+	
+	<element name="SigninButton" locatortype="xpath"
+		locatorvalue=".//div[@id='login-submit-container']/button" />
+		
+	<element name="ErrorMessage_Invalid" locatortype="xpath"
+		locatorvalue=".//div[@class='alert alert-error']" errortext="×&#10;Invalid credentials." />
+		
+	<element name="SignoutButton" locatortype="xpath"
+		locatorvalue=".//i[@class='icon-signout']" />
+</OR>
